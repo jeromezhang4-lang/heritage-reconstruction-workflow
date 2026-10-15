@@ -1,0 +1,142 @@
+[
+  {
+    "id": "T01",
+    "claim": "约430BCE作为本次同步快照",
+    "source": "S01/S02",
+    "reconstruction_tier": "C",
+    "boundary": "制作选择；主建筑已存在，局部阶段仍不确定"
+  },
+  {
+    "id": "T02",
+    "claim": "完整宫殿高台约12.5–13公顷；概略包络约300×455m",
+    "source": "S02/S03",
+    "reconstruction_tier": "B",
+    "boundary": "不把包络长宽相乘当精确面积；本模型边界为人工近似"
+  },
+  {
+    "id": "T03",
+    "claim": "西北入口、西侧阿帕达纳、东侧百柱厅、东南库房、南侧王宫",
+    "source": "S01 Figure5 / S02 Figure2",
+    "reconstruction_tier": "A/B",
+    "boundary": "平面相对关系直接可见；数值坐标是近似注册"
+  },
+  {
+    "id": "T04",
+    "claim": "西北双折返阶梯；万国门四柱厅",
+    "source": "S01/S02",
+    "reconstruction_tier": "A/B",
+    "boundary": "模型保留每侧111阶的简化形制；AI不保证每级可逐一计数"
+  },
+  {
+    "id": "T05",
+    "claim": "万国门柱高约16.5m及木梁屋顶",
+    "source": "S02",
+    "reconstruction_tier": "B/C",
+    "boundary": "保存构件支持尺度；完整屋顶构造为推定"
+  },
+  {
+    "id": "T06",
+    "claim": "阿帕达纳60×60m主厅、6×6柱阵、三面各12柱门廊",
+    "source": "S01/S02",
+    "reconstruction_tier": "A/B",
+    "boundary": "模型明确36+36柱；生成图只审宏观关系，不认证可见柱总数"
+  },
+  {
+    "id": "T07",
+    "claim": "阿帕达纳柱高约19.5m、抬高台基",
+    "source": "S02/S03",
+    "reconstruction_tier": "B",
+    "boundary": "人物1.75m比例；不加虚构超高层"
+  },
+  {
+    "id": "T08",
+    "claim": "百柱厅68.5×68.5m、10×10柱阵、北门廊2×8柱",
+    "source": "S01 printedp2 / S02",
+    "reconstruction_tier": "A/B",
+    "boundary": "主厅与库房中的另一座100柱库厅严格区分"
+  },
+  {
+    "id": "T09",
+    "claim": "百柱厅柱约14m，比阿帕达纳低",
+    "source": "S02",
+    "reconstruction_tier": "B",
+    "boundary": "屋顶高度与墙体细节仍为C"
+  },
+  {
+    "id": "T10",
+    "claim": "塔查拉位于阿帕达纳南侧、12柱主厅与南侧门廊",
+    "source": "S01/S02",
+    "reconstruction_tier": "A/B",
+    "boundary": "早期木柱方案；精确高度与漆饰C"
+  },
+  {
+    "id": "T11",
+    "claim": "哈迪什王宫36柱主厅与北侧12柱门廊",
+    "source": "S01/S02",
+    "reconstruction_tier": "A/B",
+    "boundary": "墙高、屋顶C"
+  },
+  {
+    "id": "T12",
+    "claim": "中央门厅Tripylon四柱，约15.46m见方",
+    "source": "S02",
+    "reconstruction_tier": "A/B",
+    "boundary": "早期报告功能/年代不同；采用后续ArtaxerxesI完成判断"
+  },
+  {
+    "id": "T13",
+    "claim": "库房大型封闭多室区与内部庭院",
+    "source": "S01 Figure5 / S02 Figure2",
+    "reconstruction_tier": "A/B/C",
+    "boundary": "只锁定大体区块；未逐室数字化，各屋顶及分隔为C"
+  },
+  {
+    "id": "T14",
+    "claim": "南部住宅区传统名Harem，具体功能不能等同现代含义",
+    "source": "S01/S02",
+    "reconstruction_tier": "B/C",
+    "boundary": "几何只表示房间带，不绘虚构后宫仪式"
+  },
+  {
+    "id": "T15",
+    "claim": "PalaceH的430BCE具体阶段有分歧",
+    "source": "S01 printedp3 / S02",
+    "reconstruction_tier": "C",
+    "boundary": "本模型仅保留假设早期体块，不复制ArtaxerxesIII后加阶梯"
+  },
+  {
+    "id": "T16",
+    "claim": "彩绘与彩色砖存在，但整套配色不完整",
+    "source": "S01/S02",
+    "reconstruction_tier": "B/C",
+    "boundary": "有色局部作为推定；不把现存灰白石材等同古代全貌"
+  },
+  {
+    "id": "T17",
+    "claim": "木梁、灰石构件、泥砖墙与抹灰组合",
+    "source": "S01/S02",
+    "reconstruction_tier": "B/C",
+    "boundary": "屋顶做低坡/近水平木梁系统，禁止穹顶与希腊山花"
+  },
+  {
+    "id": "T18",
+    "claim": "东面山体、城防关系",
+    "source": "S01 Figure5 / S02",
+    "reconstruction_tier": "B/C",
+    "boundary": "未取得DEM；山形与完整防御线高度是示意"
+  },
+  {
+    "id": "T19",
+    "claim": "礼仪来宾与侍从可用浮雕作服饰比较",
+    "source": "S05/S01",
+    "reconstruction_tier": "B/D",
+    "boundary": "不标成已证实的诺鲁孜或具体朝贡事件；人数D"
+  },
+  {
+    "id": "T20",
+    "claim": "排除ArtaxerxesII/III山坡王陵、完成状态的晚期未完成门及后世建筑",
+    "source": "S01/S02/S06",
+    "reconstruction_tier": "B",
+    "boundary": "古图是多期累积，先过滤再建模"
+  }
+]

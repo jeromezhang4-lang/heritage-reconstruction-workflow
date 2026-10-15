@@ -1,0 +1,114 @@
+{
+  "id": "PP11",
+  "actual_tool": "built-in image_gen.imagegen",
+  "actual_generated": true,
+  "native_file": "04_Images/Native/PP11.png",
+  "native_dimensions": [
+    1672,
+    941
+  ],
+  "native_sha256": "6742a16ade61c13f650de357364c773e2d280388825684ef74ce98a921afc1fd",
+  "final_file": "04_Images/PP11_4K.png",
+  "final_dimensions": [
+    3840,
+    2160
+  ],
+  "final_sha256": "8cc254285ccc326d0e3592550681d40629908a9fc9f28f830db62e61096a062d",
+  "upscaling": {
+    "algorithm": "FSRCNN x3 pretrained TensorFlow graph via OpenCV dnn_superres, followed by area downsampling to 3840x2160",
+    "model_source": "https://github.com/Saafke/FSRCNN_Tensorflow/blob/master/models/FSRCNN_x3.pb",
+    "model_sha256": "efd38655a815908c6c8954db6052f128e76a735f1de657894c477d0dc0b64481",
+    "opencv_version": "4.12.0",
+    "native_size": [
+      1672,
+      941
+    ],
+    "network_output_size": [
+      5016,
+      2823
+    ],
+    "exact_aspect_crop_size": [
+      5008,
+      2817
+    ],
+    "final_size": [
+      3840,
+      2160
+    ],
+    "downsample": "OpenCV INTER_AREA from learned 3x prediction",
+    "crop_pixels": {
+      "left": 4,
+      "right": 4,
+      "top": 3,
+      "bottom": 3
+    },
+    "source_sha256": "6742a16ade61c13f650de357364c773e2d280388825684ef74ce98a921afc1fd",
+    "output_sha256": "8cc254285ccc326d0e3592550681d40629908a9fc9f28f830db62e61096a062d",
+    "elapsed_seconds": 1.81,
+    "native_4k": false,
+    "note": "学习型3倍超分辨率后面积缩减到3840×2160；原生尺寸与裁切如实记录。最终文件为4K尺寸，不是原生4K，放大不增加考古证据。",
+    "cpu_threads": 2,
+    "gpu_used": false
+  },
+  "sharing_derivative": {
+    "file": "04_Images/PP11_Share_4K.jpg",
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "lossy": true,
+    "sha256": "95f3de9019e236d4aa32c44cae86608a123447e267cf1ebda23341fc52d6e5c8"
+  },
+  "camera": {
+    "id": "PP11",
+    "title_zh": "主要活动区域 · 区域全景",
+    "title_en": "Regional panorama of the principal activity areas",
+    "position_m": [
+      -7100,
+      -6300,
+      6800
+    ],
+    "look_at_m": [
+      -1000,
+      2150,
+      0
+    ],
+    "focal_mm": 36,
+    "tags": [
+      "all"
+    ],
+    "kind": "regional",
+    "camera_reconstruction_tier": "D",
+    "coordinate_frame": "same local building axes as core; approximate true-north rotation15deg",
+    "scope": "multi-kilometre Achaemenid settlement landscape, no claim of every known/unknown activity or synchronous430BCE occupancy"
+  },
+  "prompt": {
+    "id": "PP11",
+    "prompt_path": "04_Images/Native/PP11.prompt.txt",
+    "prompt_sha256": "12842c3aa7ecf8530ec42e2dbc74df8c0bca9c876ee1bb6ceda0554e7f63f5fd",
+    "references": [
+      "03_References/PP11_Structure.png",
+      "01_Maps_Plans/Regional_Sectors_Source.jpg"
+    ],
+    "reference_roles": [
+      "actual regional context mesh/camera",
+      "research map positions only; modern layers excluded"
+    ]
+  },
+  "input_reference_sha256": "3f877e34cf9382cf1f25c7794cac3ed77d0bc39f04442812e34c220ca4a2ec42",
+  "geometry_version": "regional context layer reuses final core",
+  "provider_model": "UNVERIFIED_NOT_EXPOSED",
+  "seed": "UNVERIFIED_NOT_EXPOSED",
+  "strict_pixel_mesh_fit": "UNVERIFIED",
+  "independent_archaeological_review": "NOT_PERFORMED",
+  "second_input_sha256": "92689d23e1f106c5f325e2db02765aeac12785a1de663546eb0fa4ddbeea93de",
+  "regional_obj_sha256": "0a527080f7252bab7961078b6a94ff1f13dcb82be22d823dc9617c93ab4de707",
+  "region_occupancy_and_density": "HYPOTHETICAL_NOT_A_CENSUS",
+  "distant_necropolis_detail": "Geographic context; facade count and exact430BCE appearance unverified",
+  "actual_prompt_chain": [
+    {
+      "path": "04_Images/Native/PP11.prompt.txt",
+      "sha256": "12842c3aa7ecf8530ec42e2dbc74df8c0bca9c876ee1bb6ceda0554e7f63f5fd"
+    }
+  ]
+}

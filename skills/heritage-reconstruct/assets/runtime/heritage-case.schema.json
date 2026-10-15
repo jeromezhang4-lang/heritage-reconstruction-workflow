@@ -1,0 +1,231 @@
+{
+  "type": "object",
+  "required": [
+    "schema_version",
+    "id",
+    "title",
+    "release_kind",
+    "sources",
+    "claims",
+    "components",
+    "scenes",
+    "geometry",
+    "limitations"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]{0,63}$"
+    },
+    "title": {
+      "type": "string"
+    },
+    "release_kind": {
+      "enum": [
+        "documented_case_study",
+        "reconstruction_draft"
+      ]
+    },
+    "geometry": {
+      "type": "object"
+    },
+    "limitations": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "url",
+          "access"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "access": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "claims": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "text",
+          "source_ids",
+          "certainty",
+          "limitation"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          },
+          "source_ids": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          },
+          "certainty": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "enum": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "UNKNOWN"
+              ]
+            }
+          },
+          "limitation": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "components": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "dimensions_m",
+          "claim_ids"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "dimensions_m": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": {
+              "type": "number"
+            }
+          },
+          "claim_ids": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "scenes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title_zh",
+          "title_en",
+          "kind",
+          "claim_ids",
+          "component_ids",
+          "camera"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "title_zh": {
+            "type": "string"
+          },
+          "title_en": {
+            "type": "string"
+          },
+          "kind": {
+            "type": "string"
+          },
+          "claim_ids": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          },
+          "component_ids": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          },
+          "camera": {
+            "type": "object",
+            "required": [
+              "id",
+              "position_m",
+              "look_at_m",
+              "focal_mm"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "position_m": {
+                "type": "array",
+                "minItems": 3,
+                "maxItems": 3,
+                "items": {
+                  "type": "number"
+                }
+              },
+              "look_at_m": {
+                "type": "array",
+                "minItems": 3,
+                "maxItems": 3,
+                "items": {
+                  "type": "number"
+                }
+              },
+              "focal_mm": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              }
+            }
+          },
+          "native_4k": {
+            "type": "boolean"
+          }
+        }
+      }
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Heritage case v1",
+  "description": "Structural format; CLI adds cross-reference, file, image-dimension and review gates. Does not validate historical truth."
+}

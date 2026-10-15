@@ -1,0 +1,20 @@
+[
+  {
+    "file": "OIP68.pdf",
+    "url": "https://isac-assets.s3.amazonaws.com/isac-publications/oip68.pdf",
+    "status": "FAILED",
+    "error": "TimeoutError"
+  },
+  {
+    "file": "Iranica_Persepolis.html",
+    "url": "https://www.iranicaonline.org/articles/persepolis/",
+    "reused": true,
+    "sha256": "2c8cf3b82a959d58999cb37fae9effb29ceb9de1f82e307befa95123c9db17c5"
+  },
+  {
+    "file": "UNESCO_Persepolis.html",
+    "url": "https://whc.unesco.org/en/list/114",
+    "reused": true,
+    "sha256": "a56aba90e1a2aee577fc7e9dcc100c64a8b3b4dd6187c3f26e7392e7a0cb7ee0"
+  }
+]

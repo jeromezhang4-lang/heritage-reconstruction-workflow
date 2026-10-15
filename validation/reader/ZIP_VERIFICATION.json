@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "archive_sha256": "8362f8c7d4bbfd634c1c62abea738f85fc95c3c1c029d803b2d0cb7127126593",
+  "members": 22,
+  "member_sha256": {
+    ".heritage-build.json": "f4c545c1ce4d334498e2e5a7eb759ac3c5b32864436b7385831b47a8a956f6ba",
+    "BUILD_MANIFEST.json": "5bcd6f8a6b320997a1c1bf8b09bc056670466a095972c27b0ab1f8b639357ea8",
+    "GALLERY_SCOPE.json": "ce1d8e6c4551c54ced8c055d22a82d18f4b08040089159ec16ef0458fee3b029",
+    "gallery.html": "12739dab4ac72a6434e957243ec5a766076e3e212d1a27a263db756f1ba48fb2",
+    "model/cameras.json": "72b310efdec484c003f400250ea5f7d97b5acf7cc09632869d8f1d8e9dad6a1c",
+    "model/context.json": "8f7473cfb0431efffcc418a7756b750dc61b68f0afd9770f49ed14e272c7c706",
+    "model/context.obj": "4ae9603301de0c2c8952f52700cc47283529f1038d6de2928a039429cfc6440e",
+    "model/core.json": "c04fe8be5be1f7375ee9d65419b6fb911e4d4a8a3b9075a2d8d93b752a07ec56",
+    "model/core.obj": "1124885e01038307b5195256a12cd2ed501b0fe05275cb5e40325eca1f3a6aaf",
+    "model/regions.json": "6d6eccd74183c6702affba2408b6dd1394d803e2a2ef504917ce406bcd3f234f",
+    "references/PP01.svg": "05908661b97973ad09eec330e57d605410b2d418d15426375770d9a55ceb5022",
+    "references/PP02.svg": "18ca6a2cc55f6ce194a46e4a7273fd1ddc54dc583138d4752812ded6f347db8f",
+    "references/PP03.svg": "474d6ffd7f756e48f8f909950f7fe94f962c2d9a9ee15260e0758443a70555ad",
+    "references/PP04.svg": "0e237f417bcd06b14b67730f3aa616b5d461225072daaf81a57ec4f2f4c3bbf6",
+    "references/PP05.svg": "b28d4a438551815fe9974ddbb4639e64e734fd6bf12daa6a564af17527157f37",
+    "references/PP06.svg": "f34e49cb7b53a8c353651cd4245f982ff16a0280dd989ced0c4bc946d70c4eb3",
+    "references/PP07.svg": "a983287e1d0f8750a7c69b12a914a3af04ea49260dd39a0618775e5e7e5fdc10",
+    "references/PP08.svg": "08c82a0bfa8ea4a24739bd673f28a770965a2a35e33614e7195b5e018f7ff926",
+    "references/PP09.svg": "3c3001bd917741dbc4872a080f1583aec9508c2502d4d5ecca4a446e16d3db06",
+    "references/PP10.svg": "3ed4aa75d6bc7267ea9edabef3574247bf6d3738811334e359b3f7b47846c512",
+    "references/PP11.svg": "d106d6f36c718053d1b10d1f08a324d3da1752d57653be4faba01d9d2d46cfd1",
+    "technical-report.json": "43a6235b10fd358c0fb476cf06877d06fb91372c5a3366320c7b2bc83cff7c17"
+  },
+  "scope": "CRC, member hashes and same-build-file readback"
+}

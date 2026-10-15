@@ -1,0 +1,23 @@
+{
+  "id": "PP11",
+  "title_zh": "主要活动区域 · 区域全景",
+  "title_en": "Regional panorama of the principal activity areas",
+  "position_m": [
+    -7100,
+    -6300,
+    6800
+  ],
+  "look_at_m": [
+    -1000,
+    2150,
+    0
+  ],
+  "focal_mm": 36,
+  "tags": [
+    "all"
+  ],
+  "kind": "regional",
+  "camera_reconstruction_tier": "D",
+  "coordinate_frame": "same local building axes as core; approximate true-north rotation15deg",
+  "scope": "multi-kilometre Achaemenid settlement landscape, no claim of every known/unknown activity or synchronous430BCE occupancy"
+}

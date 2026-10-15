@@ -1,0 +1,36 @@
+{
+  "algorithm": "FSRCNN x3 pretrained TensorFlow graph via OpenCV dnn_superres, followed by area downsampling to 3840x2160",
+  "model_source": "https://github.com/Saafke/FSRCNN_Tensorflow/blob/master/models/FSRCNN_x3.pb",
+  "model_sha256": "efd38655a815908c6c8954db6052f128e76a735f1de657894c477d0dc0b64481",
+  "opencv_version": "4.12.0",
+  "native_size": [
+    1672,
+    941
+  ],
+  "network_output_size": [
+    5016,
+    2823
+  ],
+  "exact_aspect_crop_size": [
+    5008,
+    2817
+  ],
+  "final_size": [
+    3840,
+    2160
+  ],
+  "downsample": "OpenCV INTER_AREA from learned 3x prediction",
+  "crop_pixels": {
+    "left": 4,
+    "right": 4,
+    "top": 3,
+    "bottom": 3
+  },
+  "source_sha256": "f25e44319555c941f27f26d7c508018b4747597bc73acff998759859385756a0",
+  "output_sha256": "05eba4af48f86fa30ae99813634550626255966f8e698b218e423456d7b18e6d",
+  "elapsed_seconds": 2.095,
+  "native_4k": false,
+  "note": "学习型3倍超分辨率后面积缩减到3840×2160；原生尺寸与裁切如实记录。最终文件为4K尺寸，不是原生4K，放大不增加考古证据。",
+  "cpu_threads": 2,
+  "gpu_used": false
+}

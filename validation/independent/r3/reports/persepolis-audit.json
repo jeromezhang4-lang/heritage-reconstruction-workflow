@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "scope": "case structure, references, file integrity and declared dimensions",
+  "historical_accuracy": "UNVERIFIED",
+  "fresh_ai_generation": "NOT_RUN",
+  "errors": [],
+  "warnings": [
+    "PP01: independent archaeological review not confirmed",
+    "PP01: strict image/mesh agreement not confirmed",
+    "PP02: independent archaeological review not confirmed",
+    "PP02: strict image/mesh agreement not confirmed",
+    "PP03: independent archaeological review not confirmed",
+    "PP03: strict image/mesh agreement not confirmed",
+    "PP04: independent archaeological review not confirmed",
+    "PP04: strict image/mesh agreement not confirmed",
+    "PP04: 原先“人头改牛头”的过程叙述缺乏保留图像支持，已作勘误；两版都有牛头特征。门兽姿态和雕刻细部仍有生成失真，仅作门厅体量示意。",
+    "PP05: independent archaeological review not confirmed",
+    "PP05: strict image/mesh agreement not confirmed",
+    "PP06: independent archaeological review not confirmed",
+    "PP06: strict image/mesh agreement not confirmed",
+    "PP07: independent archaeological review not confirmed",
+    "PP07: strict image/mesh agreement not confirmed",
+    "PP08: independent archaeological review not confirmed",
+    "PP08: strict image/mesh agreement not confirmed",
+    "PP09: independent archaeological review not confirmed",
+    "PP09: strict image/mesh agreement not confirmed",
+    "PP10: independent archaeological review not confirmed",
+    "PP10: strict image/mesh agreement not confirmed",
+    "PP11: independent archaeological review not confirmed",
+    "PP11: strict image/mesh agreement not confirmed",
+    "external research asset excluded: Iranica_Figure2_Persepolis_Plan.jpg",
+    "external research asset excluded: OIC21_Figure5_1937_Terrace_Plan.png",
+    "external research asset excluded: Regional_Sectors_Source.jpg",
+    "external research asset excluded: Royal_Precinct_Source.jpg"
+  ],
+  "counts": {
+    "sources": 9,
+    "claims": 23,
+    "components": 9,
+    "scenes": 11
+  },
+  "manual_review_required": [
+    "source interpretation and chronology",
+    "generated image geometry and guardian anatomy",
+    "modern intrusions, human scale and density",
+    "rights of any newly introduced external input"
+  ],
+  "overall_historical_certification": "NOT_PROVIDED"
+}

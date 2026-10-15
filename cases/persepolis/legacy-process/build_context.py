@@ -1,0 +1,64 @@
+from pathlib import Path
+import json,math,hashlib,random
+from model_engine import Model
+R=Path(__file__).resolve().parent;O=R.parents[1]/'outputs/Persepolis';M=Model();core=json.loads((O/'02_Model/mesh.json').read_text())
+for m in core['objects']:
+ if m['id'] not in ['Marvdasht_plain','Eastern_Royal_Hill']:M.mesh(m['id'],m['vertices'],m['faces'],m['color'])
+a=math.radians(15)
+def loc(x,y):return (x*math.cos(a)+y*math.sin(a),-x*math.sin(a)+y*math.cos(a))
+def boxtrue(id,x,y,z,w,d,h,color):
+ lx,ly=loc(x,y);M.box(id,(lx,ly,z+h/2),(w,d,h),color,rotation_deg=-15)
+M.ground('Regional_plain',(-5500,-2400,2900,8200),color=(152,157,112),n=9)
+M.ground('Kuh_Rahmat_context',(140,-1000,1600,6800),fn=lambda x,y:max(0,x-140)*(.24+.14*math.cos(y/650)),color=(137,120,91),n=20)
+M.ground('Naqsh_Rustam_cliff_context',(-2600,6100,-600,7600),fn=lambda x,y:max(0,y-6100)*.35,color=(144,128,96),n=12)
+regions=[{'id':'terrace','name':'宫殿高台','true_xy_m':[0,0],'tier':'A/B','detail':'约13公顷；沿用主模型'}, {'id':'royal_south','name':'台下南部大型建筑区','true_xy_m':[0,-500],'tier':'B/C','detail':'考古发现大型建筑群，示意上部与台下联系'}, {'id':'royal_north','name':'北侧官方建筑区','true_xy_m':[0,700],'tier':'B/C','detail':'约500m以北的探测复合建筑；模型近似位置'}, {'id':'west','name':'西侧居住与工匠活动区','true_xy_m':[-1250,350],'tier':'B/C/D','detail':'区域与沟渠网络有证据；住宅位置、数量和密度均推定'}, {'id':'firuzi','name':'菲鲁齐早期纪念性区','true_xy_m':[-3500,-550],'tier':'B/C','detail':'早期建筑分布区；430BCE具体使用状态未知'}, {'id':'necropolis','name':'北侧王陵地区','true_xy_m':[-1500,5800],'tier':'B/C','detail':'约6km北侧Naqsh-eRustam；只示意早期王陵，不画萨珊浮雕'}, {'id':'agriculture','name':'园地、果园与农田','true_xy_m':[-2000,2400],'tier':'B/C/D','detail':'开敞城市景观有研究依据；作物、分块与人物均推定'}]
+# Ten southern large-building proxies: count derives from sector description, not ten complete measured buildings.
+for i in range(10):
+ x=(i%2-.5)*100;y=-300-(i//2)*85
+ boxtrue(f'Context_south_hall_{i}',x,y,0,54,42,8,(196,178,141));boxtrue(f'Context_south_roof_{i}',x,y,8,58,46,.8,(161,140,102))
+boxtrue('Context_north_complex',0,700,0,92,94,7,(194,179,142))
+# Named urban sectors are evidence-based; every individual residential footprint below is a D-tier illustration.
+rng=random.Random(430)
+for cluster in range(16):
+ cx=-1000-(cluster%4)*180;cy=-50+(cluster//4)*190
+ for j in range(rng.randint(8,15)):
+  x=cx+rng.uniform(-55,55);y=cy+rng.uniform(-55,55);w=rng.uniform(9,17);d=rng.uniform(8,15);h=rng.uniform(3.3,5.4)
+  boxtrue(f'Context_west_house_{cluster}_{j}',x,y,0,w,d,h,(185,162,122));boxtrue(f'Context_west_roof_{cluster}_{j}',x,y,h,w+1,d+1,.45,(161,138,100))
+for i in range(12):
+ x=-3500+(i%4-1.5)*240;y=-550+(i//4-1)*270
+ boxtrue(f'Context_firuzi_early_volume_{i}',x,y,0,38,32,6,(177,155,114));boxtrue(f'Context_firuzi_early_roof_{i}',x,y,6,41,35,.5,(151,134,99))
+for row in range(9):
+ for col in range(8):
+  x=-4400+col*480;y=-900+row*700
+  if -1800<x<-800 and -200<y<850:continue
+  boxtrue(f'Context_field_{row}_{col}',x,y,0,360,510,.1,[(144,153,91),(172,163,103),(133,150,90),(152,159,107)][(row+col)%4])
+  if (row+col)%3==0:
+   for k in range(6):
+    lx,ly=loc(x-140+k*50,y+170);M.cylinder(f'Context_orchard_{row}_{col}_{k}',(lx,ly,.2),7,9,(80,110,65),n=8)
+# A schematic road/drainage network; road alignments and individual parcels are not surveyed here.
+for x in [-250,-850,-1750,-2800,-3900]:
+ pts=[(*loc(x,y),.2) for y in [-1500,1800,4900]];M.wall('Context_track_'+str(x),pts,7,.1,(168,151,109))
+river=[(*loc(x,y),.15) for x,y in [(-4900,800),(-3900,1700),(-3000,2600),(-2400,3600),(-1500,4700),(-650,5650)]];M.wall('Pulvar_river_schematic',river,24,.15,(93,127,134))
+# Only two unobtrusive early facade markers; NOT the later complete royal necropolis or Sasanian reliefs.
+for i in range(2):boxtrue(f'Context_early_tomb_marker_{i}',-1500+i*60,5850,80,12,1,12,(165,151,119))
+camera={'id':'PP11','title_zh':'主要活动区域 · 区域全景','title_en':'Regional panorama of the principal activity areas','position_m':[-7100,-6300,6800],'look_at_m':[-1000,2150,0],'focal_mm':36,'tags':['all'],'kind':'regional','camera_reconstruction_tier':'D','coordinate_frame':'same local building axes as core; approximate true-north rotation15deg','scope':'multi-kilometre Achaemenid settlement landscape, no claim of every known/unknown activity or synchronous430BCE occupancy'}
+sha=M.export_obj(O/'02_Model/Persepolis_Regional_Context.obj')
+mesh={'units':'metres','core_model_sha256':hashlib.sha256((O/'02_Model/Persepolis_430BCE_v1.obj').read_bytes()).hexdigest(),'objects':[{'id':m['id'],'vertices':m['vertices'].round(4).tolist(),'faces':[f.tolist() for f in m['faces']],'color':m['color']} for m in M.meshes]}
+(O/'02_Model/context_mesh.json').write_text(json.dumps(mesh,separators=(',',':')));(O/'02_Model/context_camera.json').write_text(json.dumps(camera,ensure_ascii=False,indent=2));(O/'02_Model/context_regions.json').write_text(json.dumps(regions,ensure_ascii=False,indent=2));rec=M.render(camera,O/'03_References/PP11_Structure.png',width=1280,height=720,deadline=120)
+(O/'06_Quality_Assurance/CONTEXT_RENDER_RECEIPT.json').write_text(json.dumps(rec,indent=2))
+sources=json.loads((O/'00_Research/sources.json').read_text());sources+= [{'id':'S08','title':'Mission irano-française · 法国文化部考古项目: Persépolis','url':'https://archeologie.culture.gouv.fr/fr/persepolis','tier':'A/B','inspected':'完整项目说明，区域地图与王室区地图实际像素','used_for':'台下南北建筑、居住工匠区、开敞园城、Firuzi与北侧王陵位置','scope_limit':'分区是跨期考古综合；住宅上部、具体位置/数量、430BCE各区同步状态未知','rights':'两张不改动的研究地图保留项目版权；灰色村落和道路为现代，未移植'}, {'id':'S09','title':'European Commission CORDIS · SELOPerse reporting','url':'https://cordis.europa.eu/project/id/299665/reporting/es','tier':'B','inspected':'研究总结网页已下载；三类城市区域与园地/建筑交替的组织','used_for':'区域全景的城市形态约束','scope_limit':'未取得完整同期逐宅测绘，不能认证精确城市人口/建筑数量'}]
+(O/'00_Research/sources.json').write_text(json.dumps(sources,ensure_ascii=False,indent=2))
+note='''# 区域全景补充：高台与城市的关系\n\n用户要求补充全部活动区域的全景。PP11覆盖目前研究可辨认的主要分区及北侧王陵背景，不宣称已经发现或复原了所有活动，更不是每座住宅均经考古确认的完整城市图。\n\n高台之外，南侧大型建筑区与北侧官方建筑复合区延展了王室区域。西侧发现居住、工匠活动与沟渠网络；研究支持建筑与园地相间的开敞景观。更西侧Firuzi保留早期纪念性建筑的分布，具体430BCE使用情况未知。[S08,S09]\n\n空间关系采用实际读过的区域地图作近似布置。整个context层复用同一高台主模型；住宅数量、户型、完整上部、田园分块、道路细线、地形、作物与人群都是C/D级。没有取得人口统计、DEM或完整同期街道图。图上灰色村落、现代道路、1971庆典设施以及后世Istakhr和Naqsh-eRajab纪念物不移植入430BCE。北侧王陵只示意早期王陵，排除后来阿尔塔薛西斯二世/三世山坡墓和萨珊浮雕。\n\n全景中高台自然小于区域范围；宏伟宫殿的细部与人尺度仍由PP01–10提供。居民与工匠并非全部住在高台内，也不能由图中房屋总数反推人口。\n\nEnglish: The regional view combines evidence-backed sector locations with hypothetical architecture and occupation density. It is a landscape interpretation, not an exhaustive, synchronous urban survey for430BCE. Older Firuzi monuments may not all have remained active. Modern features visible on source maps are excluded.\n'''
+(O/'00_Research/URBAN_ADDENDUM.md').write_text(note)
+with (O/'01_Maps_Plans/SOURCE_AND_RIGHTS.md').open('a') as f:f.write('\n\n区域图与王室区图：法国文化部网站，©Mission archéologique irano-française Shiraz / Sébastien Gondet。保持原像素完整，灰色为现代村落和道路，不是古代街区。\n')
+prompt='''Use case historical-scene. One photorealistic, very wide elevated regional panorama, landscape16:9, high resolution preferably3840x2160, showing the PRINCIPAL known Achaemenid activity regions around Persepolis at a hypothetical430BCE snapshot. This is a kilometre-scale settlement landscape, NOT just the13-hectare royal terrace.
+Input1 is an actual coarse context mesh incorporating the same palace model; bind its broad camera, relative scale and sector positions. Input2 is a MODERN RESEARCH MAP: use ONLY the red Achaemenid sector positions, green plain, yellow mountains and river; do not copy ANY grey modern villages, modern roads, captions or later monuments. Do not copy map/diagram appearance.
+Show the high royal terrace at the eastern mountain foot as a distinct but geographically small monumental core. Its tall Apadana and lower Hundred Column Hall, Gate and southern royal ranges must remain recognizable with complete low timber-and-earth roofs, grey stone columns and warm plaster. Around its southern foot lies a wider sector of large separate courtyard/columned buildings; a northern official complex stands farther north.
+Across the western plain, show low mud-brick residential and craft clusters INTERSPERSED with orchards, gardens, cultivated fields, open plots and drainage/irrigation tracks. This is an open garden-city pattern, not a dense continuous medieval metropolis. Kilometres farther west, an older sparse monumental sector at Bagh-eFiruzi has several separated low architectural compounds, no invented giant palace or gigantic blue gate; their430BCE status is uncertain, keep them visually subdued. Extend northward to the distant Naqsh-eRustam cliff landscape and the older royal burial area, unobtrusive and remote. No Sasanian rock reliefs or later towns.
+Make the different zones legible through their actual relative distributions: palace and aristocratic buildings at the mountain foot, living/craft clusters amid western gardens, earlier isolated monuments farther west, fields between them, a modest river in the northern/western plain, northern cliff area. Realistic natural terrain and afternoon sunlight, distant atmosphere but sharp foreground. True kilometre scale: do NOT enlarge the palace terrace to several kilometres or pack every empty field with houses. Roof heights outside the palace mostly3–6m. Thousands of inhabitants cannot be counted in this panorama; no giant foreground people. Depict a plausibly occupied landscape without pretending that each house, parcel or number is known.
+ONE coherent documentary reconstruction photograph, no collage, no modern writing, no labels, no arrows, no watermark. No electricity, paved highways, modern villages, vehicles,1971 tents, minarets, domes, Greek pediments, Roman arches, fantasy towers or free-standing giant animal statues. All major palace roofs intact. Earth, stone, timber and restrained Achaemenid colour. Do not add a continuous ring of high city walls: no such complete wall circuit is established here.'''
+p=O/'04_Images/Native/PP11.prompt.txt';p.write_text(prompt)
+pr=json.loads((O/'04_Images/PROMPT_MANIFEST.json').read_text());pr.append({'id':'PP11','prompt_path':str(p.relative_to(O)),'prompt_sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'references':['03_References/PP11_Structure.png','01_Maps_Plans/Regional_Sectors_Source.jpg'],'reference_roles':['actual regional context mesh/camera','research map positions only; modern layers excluded']});(O/'04_Images/PROMPT_MANIFEST.json').write_text(json.dumps(pr,indent=2))
+scenes=json.loads((O/'05_Metadata/SCENES.json').read_text());s={'id':'PP11','title':camera['title_zh'],'en_title':camera['title_en'],'kind':'regional','zh':['区域全景将宫殿高台放回更广的聚落景观：台下大型建筑向南北延展，西侧居住与工匠活动区分布在园地之间，菲鲁齐早期建筑区位于更远的西侧。北侧王陵与河流、农田提供区域背景，高台内外承担着不同活动。','区域位置和开敞形态有研究依据，住宅数量、上部建筑、田园分块及具体人口均未被本作确认。菲鲁齐较早的建筑是否在430BCE全部使用也未知。这是主要区域的解释性全景，不能视为所有活动已知、每座房屋均已测绘的完整城市图。'],'en':['The regional panorama places the royal terrace within a wider settlement landscape: large buildings extend below it, western living and craft clusters alternate with gardens, and older Firuzi monuments lie farther west. Northern cliffs and cultivated land provide the broader setting.','Sector locations and open landscape organisation have research support. Individual houses, density, complete upper structures and430BCE occupancy remain hypothetical. This is a panorama of principal regions, not an exhaustive contemporary city survey.'],'claims':['U01 regional sectors','U02 low-density garden landscape','U03 uncertain synchronous occupation'],'camera':camera,'evidence':'区域B；个体建筑/密度/田园C/D','exact_AI_mesh_fit':'UNVERIFIED'};scenes.append(s);(O/'05_Metadata/SCENES.json').write_text(json.dumps(scenes,ensure_ascii=False,indent=2));(O/'05_Metadata/PP11_Bilingual_Guide.md').write_text('# '+s['title']+'\n\n'+'\n\n'.join(s['zh'])+'\n\n'+'\n\n'.join(s['en']))
+files=[O/'02_Model/Persepolis_Regional_Context.obj',O/'02_Model/context_mesh.json',O/'02_Model/context_camera.json',O/'02_Model/context_regions.json',O/'03_References/PP11_Structure.png',O/'00_Research/URBAN_ADDENDUM.md',O/'00_Research/sources.json',O/'01_Maps_Plans/Regional_Sectors_Source.jpg',O/'01_Maps_Plans/Royal_Precinct_Source.jpg',O/'01_Maps_Plans/SOURCE_AND_RIGHTS.md']
+freeze={'stage':'urban_addendum','status':'PASS_WITH_EXPLICIT_HYPOTHESES','user_scope':'add principal activity-area panorama','core_geometry_unchanged_sha256':mesh['core_model_sha256'],'context_obj_sha256':sha,'context_objects':len(M.meshes),'outputs':[{'path':str(p.relative_to(O)),'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in files],'original_collection_record_retained':True,'supersedes_original_paths':['00_Research/sources.json','01_Maps_Plans/SOURCE_AND_RIGHTS.md']};(O/'06_Quality_Assurance/URBAN_ADDENDUM_FREEZE.json').write_text(json.dumps(freeze,ensure_ascii=False,indent=2));assert all(hashlib.sha256((O/r['path']).read_bytes()).hexdigest()==r['sha256'] for r in freeze['outputs']);print('Regional model',len(M.meshes),'objects; additive evidence freeze readback PASS')

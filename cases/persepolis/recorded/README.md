@@ -1,0 +1,5 @@
+# 波斯波利斯 · 11景复原
+
+打开同包的Persepolis_Single_File.html即可离线浏览。4K PNG与原生图在04_Images，逐图双语导览在05_Metadata，证据与原始图在00_Research/01_Maps_Plans，实际网格与摄像机在02_Model。模型脚本是原执行记录，路径指向本任务布局；OBJ不依赖脚本即可查看。
+
+主体约430BCE，区域全景含明确标注的跨期/密度未知。图像生成使用内置image_gen；完整提示词在04_Images/Native。PNG为学习型超分至4K，分享JPEG有损。全部限制与验收见FINAL_REPORT及06_Quality_Assurance。

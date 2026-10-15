@@ -1,0 +1,15 @@
+{
+  "status": "ACTUAL_MESH_RENDER",
+  "dimensions": [
+    1280,
+    720
+  ],
+  "objects": 2530,
+  "triangles": 42625,
+  "elapsed_seconds": 1.405,
+  "visible_pixels": 524027,
+  "not_final_ai_image": true,
+  "structure_sha256": "3f877e34cf9382cf1f25c7794cac3ed77d0bc39f04442812e34c220ca4a2ec42",
+  "depth": "<SOURCE_PROJECT>/outputs/Persepolis/03_References/PP11_Depth.png",
+  "edges": "<SOURCE_PROJECT>/outputs/Persepolis/03_References/PP11_Edges.png"
+}

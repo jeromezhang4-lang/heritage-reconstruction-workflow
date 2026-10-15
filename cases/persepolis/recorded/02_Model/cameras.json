@@ -1,0 +1,222 @@
+[
+  {
+    "id": "PP01",
+    "title_zh": "完整宫殿群 · 西北鸟瞰",
+    "title_en": "Complete terrace from the northwest",
+    "position_m": [
+      -480,
+      440,
+      390
+    ],
+    "look_at_m": [
+      -40,
+      -25,
+      16
+    ],
+    "focal_mm": 26,
+    "tags": [
+      "all"
+    ],
+    "kind": "overall",
+    "camera_reconstruction_tier": "D",
+    "coordinate_frame": "local building axes, metre units; not georeferenced"
+  },
+  {
+    "id": "PP02",
+    "title_zh": "完整宫殿群 · 西南鸟瞰",
+    "title_en": "Complete terrace from the southwest",
+    "position_m": [
+      -465,
+      -485,
+      345
+    ],
+    "look_at_m": [
+      -35,
+      -10,
+      16
+    ],
+    "focal_mm": 30,
+    "tags": [
+      "all"
+    ],
+    "kind": "overall",
+    "camera_reconstruction_tier": "D",
+    "coordinate_frame": "local building axes, metre units; not georeferenced"
+  },
+  {
+    "id": "PP03",
+    "title_zh": "登上帝国高台",
+    "title_en": "Ascending the monumental terrace",
+    "position_m": [
+      -261.1,
+      200.1,
+      1.75
+    ],
+    "look_at_m": [
+      -194.1,
+      142.1,
+      15
+    ],
+    "focal_mm": 24,
+    "tags": [
+      "all"
+    ],
+    "kind": "entrance",
+    "camera_reconstruction_tier": "D",
+    "coordinate_frame": "local building axes, metre units; not georeferenced"
+  },
+  {
+    "id": "PP04",
+    "title_zh": "万国门的巨型门廊",
+    "title_en": "The monumental Gate of All Lands",
+    "position_m": [
+      -196.1,
+      130.1,
+      13.75
+    ],
+    "look_at_m": [
+      -148.1,
+      143.1,
+      25
+    ],
+    "focal_mm": 24,
+    "tags": [
+      "all"
+    ],
+    "kind": "entrance",
+    "camera_reconstruction_tier": "D",
+    "coordinate_frame": "local building axes, metre units; not georeferenced"
+  },
+  {
+    "id": "PP05",
+    "title_zh": "阿帕达纳与朝见庭院",
+    "title_en": "Apadana and its audience court",
+    "position_m": [
+      -113.80000000000001,
+      132.7,
+      13.75
+    ],
+    "look_at_m": [
+      -133.8,
+      24.7,
+      26
+    ],
+    "focal_mm": 24,
+    "tags": [
+      "all"
+    ],
+    "kind": "hall",
+    "camera_reconstruction_tier": "D",
+    "coordinate_frame": "local building axes, metre units; not georeferenced"
+  },
+  {
+    "id": "PP06",
+    "title_zh": "阿帕达纳 · 柱林内部",
+    "title_en": "Inside the Apadana",
+    "position_m": [
+      -156.8,
+      5.699999999999999,
+      16.75
+    ],
+    "look_at_m": [
+      -113.80000000000001,
+      48.7,
+      25
+    ],
+    "focal_mm": 21,
+    "tags": [
+      "all"
+    ],
+    "kind": "interior",
+    "camera_reconstruction_tier": "D",
+    "coordinate_frame": "local building axes, metre units; not georeferenced"
+  },
+  {
+    "id": "PP07",
+    "title_zh": "百柱厅与北侧门廊",
+    "title_en": "Hundred Column Hall and north portico",
+    "position_m": [
+      48,
+      118,
+      13.75
+    ],
+    "look_at_m": [
+      0,
+      10,
+      23
+    ],
+    "focal_mm": 24,
+    "tags": [
+      "all"
+    ],
+    "kind": "hall",
+    "camera_reconstruction_tier": "D",
+    "coordinate_frame": "local building axes, metre units; not georeferenced"
+  },
+  {
+    "id": "PP08",
+    "title_zh": "百柱厅 · 深处的秩序",
+    "title_en": "Within the Hundred Column Hall",
+    "position_m": [
+      -28,
+      -28,
+      13.75
+    ],
+    "look_at_m": [
+      25,
+      25,
+      19
+    ],
+    "focal_mm": 21,
+    "tags": [
+      "all"
+    ],
+    "kind": "interior",
+    "camera_reconstruction_tier": "D",
+    "coordinate_frame": "local building axes, metre units; not georeferenced"
+  },
+  {
+    "id": "PP09",
+    "title_zh": "王宫台基与私庭",
+    "title_en": "Royal palaces and raised courts",
+    "position_m": [
+      -211.9,
+      -146.2,
+      49
+    ],
+    "look_at_m": [
+      -128.9,
+      -68.2,
+      23
+    ],
+    "focal_mm": 30,
+    "tags": [
+      "all"
+    ],
+    "kind": "palaces",
+    "camera_reconstruction_tier": "D",
+    "coordinate_frame": "local building axes, metre units; not georeferenced"
+  },
+  {
+    "id": "PP10",
+    "title_zh": "东侧山坡回望宫殿群",
+    "title_en": "The terrace seen from the eastern hillside",
+    "position_m": [
+      365,
+      30,
+      230
+    ],
+    "look_at_m": [
+      -50,
+      -10,
+      19
+    ],
+    "focal_mm": 26,
+    "tags": [
+      "all"
+    ],
+    "kind": "overall",
+    "camera_reconstruction_tier": "D",
+    "coordinate_frame": "local building axes, metre units; not georeferenced"
+  }
+]

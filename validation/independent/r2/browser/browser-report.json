@@ -1,0 +1,248 @@
+{
+  "browser": "Playwright bundled Chromium",
+  "network": "offline; HTTP(S) requests blocked",
+  "requests": [],
+  "errors": [],
+  "checks": [
+    {
+      "name": "eleven cards",
+      "pass": true,
+      "detail": 11
+    },
+    {
+      "name": "visible boundary notice",
+      "pass": true
+    },
+    {
+      "name": "all eleven images decoded",
+      "pass": true
+    },
+    {
+      "name": "entrance filter",
+      "pass": true,
+      "detail": [
+        {
+          "title": "PP11 · 主要活动区域 · 区域全景",
+          "kind": "regional",
+          "hidden": true,
+          "display": "none"
+        },
+        {
+          "title": "PP01 · 完整宫殿群 · 西北鸟瞰",
+          "kind": "overall",
+          "hidden": true,
+          "display": "none"
+        },
+        {
+          "title": "PP02 · 完整宫殿群 · 西南鸟瞰",
+          "kind": "overall",
+          "hidden": true,
+          "display": "none"
+        },
+        {
+          "title": "PP03 · 登上帝国高台",
+          "kind": "entrance",
+          "hidden": false,
+          "display": "block"
+        },
+        {
+          "title": "PP04 · 万国门的巨型门廊",
+          "kind": "entrance",
+          "hidden": false,
+          "display": "block"
+        },
+        {
+          "title": "PP05 · 阿帕达纳与朝见庭院",
+          "kind": "hall",
+          "hidden": true,
+          "display": "none"
+        },
+        {
+          "title": "PP06 · 阿帕达纳 · 柱林内部",
+          "kind": "interior",
+          "hidden": true,
+          "display": "none"
+        },
+        {
+          "title": "PP07 · 百柱厅与北侧门廊",
+          "kind": "hall",
+          "hidden": true,
+          "display": "none"
+        },
+        {
+          "title": "PP08 · 百柱厅 · 深处的秩序",
+          "kind": "interior",
+          "hidden": true,
+          "display": "none"
+        },
+        {
+          "title": "PP09 · 王宫台基与私庭",
+          "kind": "palaces",
+          "hidden": true,
+          "display": "none"
+        },
+        {
+          "title": "PP10 · 东侧山坡回望宫殿群",
+          "kind": "overall",
+          "hidden": true,
+          "display": "none"
+        }
+      ]
+    },
+    {
+      "name": "PP04 modal",
+      "pass": true
+    },
+    {
+      "name": "PP04 residual warning in modal",
+      "pass": true
+    },
+    {
+      "name": "zoom control",
+      "pass": true
+    },
+    {
+      "name": "image download same object",
+      "pass": true
+    },
+    {
+      "name": "next image",
+      "pass": true
+    },
+    {
+      "name": "previous image",
+      "pass": true
+    },
+    {
+      "name": "eight process records",
+      "pass": true
+    },
+    {
+      "name": "four comparison pairs",
+      "pass": true
+    },
+    {
+      "name": "eight comparison images",
+      "pass": true
+    },
+    {
+      "name": "nine source records",
+      "pass": true
+    },
+    {
+      "name": "twenty-three claims",
+      "pass": true
+    },
+    {
+      "name": "WebGL depth testing advertised",
+      "pass": true
+    },
+    {
+      "name": "core model objects",
+      "pass": true
+    },
+    {
+      "name": "idle rendering stopped",
+      "pass": true
+    },
+    {
+      "name": "drag rotates model",
+      "pass": true
+    },
+    {
+      "name": "regional model objects",
+      "pass": true
+    },
+    {
+      "name": "OBJ download same object",
+      "pass": true
+    },
+    {
+      "name": "zero page errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "zero network requests",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "screenshots": [
+    "gallery-results.png",
+    "gallery-process.png",
+    "model-core.png",
+    "model-context.png"
+  ],
+  "browserVersion": "151.0.7922.34",
+  "filterDebug": [
+    {
+      "title": "PP11 · 主要活动区域 · 区域全景",
+      "kind": "regional",
+      "hidden": true,
+      "display": "none"
+    },
+    {
+      "title": "PP01 · 完整宫殿群 · 西北鸟瞰",
+      "kind": "overall",
+      "hidden": true,
+      "display": "none"
+    },
+    {
+      "title": "PP02 · 完整宫殿群 · 西南鸟瞰",
+      "kind": "overall",
+      "hidden": true,
+      "display": "none"
+    },
+    {
+      "title": "PP03 · 登上帝国高台",
+      "kind": "entrance",
+      "hidden": false,
+      "display": "block"
+    },
+    {
+      "title": "PP04 · 万国门的巨型门廊",
+      "kind": "entrance",
+      "hidden": false,
+      "display": "block"
+    },
+    {
+      "title": "PP05 · 阿帕达纳与朝见庭院",
+      "kind": "hall",
+      "hidden": true,
+      "display": "none"
+    },
+    {
+      "title": "PP06 · 阿帕达纳 · 柱林内部",
+      "kind": "interior",
+      "hidden": true,
+      "display": "none"
+    },
+    {
+      "title": "PP07 · 百柱厅与北侧门廊",
+      "kind": "hall",
+      "hidden": true,
+      "display": "none"
+    },
+    {
+      "title": "PP08 · 百柱厅 · 深处的秩序",
+      "kind": "interior",
+      "hidden": true,
+      "display": "none"
+    },
+    {
+      "title": "PP09 · 王宫台基与私庭",
+      "kind": "palaces",
+      "hidden": true,
+      "display": "none"
+    },
+    {
+      "title": "PP10 · 东侧山坡回望宫殿群",
+      "kind": "overall",
+      "hidden": true,
+      "display": "none"
+    }
+  ],
+  "status": "PASS",
+  "browserClosed": true
+}

@@ -1,0 +1,182 @@
+{
+  "stage": "model",
+  "status": "PASS_WITH_DECLARED_LIMITATIONS",
+  "actual_mesh_objects": 1883,
+  "column_readback": {
+    "Apadana": 36,
+    "Apadana_N_portico": 12,
+    "Apadana_E_portico": 12,
+    "Apadana_W_portico": 12,
+    "Hundred": 100,
+    "Hundred_N_portico": 16,
+    "Gate": 4,
+    "Tachara": 12,
+    "Hadish": 36,
+    "Tripylon": 4
+  },
+  "main_roofs_present": true,
+  "images_not_yet_generated": true,
+  "outputs": [
+    {
+      "path": "02_Model/mesh.json",
+      "sha256": "2375d0a9233ec7811d72e389ca0a94e82c5c5a88d4434871dc9640ec4366c5a3"
+    },
+    {
+      "path": "02_Model/model_engine.py",
+      "sha256": "57b27c66dd761ebba8e334e4c88b3e81bdc29f48446456618227aa75073b4e73"
+    },
+    {
+      "path": "02_Model/Persepolis_430BCE_v1.obj",
+      "sha256": "1124885e01038307b5195256a12cd2ed501b0fe05275cb5e40325eca1f3a6aaf"
+    },
+    {
+      "path": "02_Model/build_model.py",
+      "sha256": "101564c8088bc44a4ced8c4e118bfbed871e306630f8e17d12cfdd19a85490d6"
+    },
+    {
+      "path": "02_Model/components.json",
+      "sha256": "879781f6ab72663461220b6ed725cd8a3a9698655fcfdda82449fd5f2d643a6f"
+    },
+    {
+      "path": "02_Model/ARMS.json",
+      "sha256": "d3e31e5bd420a42dabab08bb8451c4aae069920bab7ed8d04d955fa383578e59"
+    },
+    {
+      "path": "02_Model/cameras.json",
+      "sha256": "2671ee905f4dce119a53dcca9114f630ddb777fbed39b080f86511d2a9dc9b61"
+    },
+    {
+      "path": "03_References/PP05_Depth.png",
+      "sha256": "e5046edf411b715f00dd7a4379d646528391c6fd8f7bb06e9afe1e631242d176"
+    },
+    {
+      "path": "03_References/Stair_Detail_Edges.png",
+      "sha256": "57638ea31eea7a72948faa1bbfdedf3f32047e9aa83986f7aa9e4164976c19d5"
+    },
+    {
+      "path": "03_References/PP08_Depth.png",
+      "sha256": "ff2b2769e41289f5d8440a8d69c1c9200130646a072c1e3531a26cd6bb9c2c51"
+    },
+    {
+      "path": "03_References/PP03_Edges.png",
+      "sha256": "ea7a200bb70119ff823006e6ff3d134758d07f81558fa47c2ac18a47a5d8536e"
+    },
+    {
+      "path": "03_References/PP08_Edges.png",
+      "sha256": "b464fc33a7a0f5a65b2bb36b80f376991dd9c3e1f1b73ab36aff09e5ca224198"
+    },
+    {
+      "path": "03_References/PP03_Depth.png",
+      "sha256": "64b97a77745d55b92c4b8c4352801ff016f1928fd3f1715dc24554c187f863f5"
+    },
+    {
+      "path": "03_References/Stair_Detail_Structure.png",
+      "sha256": "0063c68ba69b1fb2b6cbf0c5111a4b5f7893dae204c94972a445c5426c1d96de"
+    },
+    {
+      "path": "03_References/PP05_Edges.png",
+      "sha256": "55c5beee19af74161e3bbed9f02d3eff50a825f624cf0cf609eaf8c95e059e8e"
+    },
+    {
+      "path": "03_References/PP09_Structure.png",
+      "sha256": "20d66057222329bbf814107f614765c131e89396472206dc7f21402b722dc949"
+    },
+    {
+      "path": "03_References/Stair_Detail_Depth.png",
+      "sha256": "45ca7b3f70821eb1c624aca4999768c8a7337403a975b817a86e6a5744fae43b"
+    },
+    {
+      "path": "03_References/PP10_Depth.png",
+      "sha256": "17d5043f0bd00aa749287ed9e14135837aef35c31240668d15192e20d0eb77ee"
+    },
+    {
+      "path": "03_References/PP10_Structure.png",
+      "sha256": "00f3661f895eea34906772b37cae66b1fb451e036309e290720c958550a35b61"
+    },
+    {
+      "path": "03_References/PP04_Depth.png",
+      "sha256": "b2fd60229d3213fa7c626192555ef657c3ce591383294237d75a7328fcf4cc34"
+    },
+    {
+      "path": "03_References/PP07_Structure.png",
+      "sha256": "4c44c33143d56e7350fd4c2b3918dcc706b288411c6069c2808c5e478f7daeb7"
+    },
+    {
+      "path": "03_References/PP03_Structure.png",
+      "sha256": "ad981a13df3238c074107854f01108ebe9597838d7ec506af922c079e7abcf7e"
+    },
+    {
+      "path": "03_References/PP09_Depth.png",
+      "sha256": "577ccffcba65a6f9e0f59ff019d02ac1687830ed5e13f7524dd5c31e3015a3b8"
+    },
+    {
+      "path": "03_References/PP02_Edges.png",
+      "sha256": "f2cf272c9e19ed4a7282459a4eafedd9b3a290e13ee099931c57035c28807abd"
+    },
+    {
+      "path": "03_References/PP09_Edges.png",
+      "sha256": "7f5d5603f37895d0191c112f1c7cffcc1d16739885705f5bca6121ef0c1b7a89"
+    },
+    {
+      "path": "03_References/PP02_Depth.png",
+      "sha256": "a703d7a795d17806a057a34f4b3f48e58998bb2eb20a61b5e9b895e6a719646a"
+    },
+    {
+      "path": "03_References/PP04_Edges.png",
+      "sha256": "dd851f02ed10d3b994f066e152bb26fcd552e86c3bf3704258f981448afc36ec"
+    },
+    {
+      "path": "03_References/PP04_Structure.png",
+      "sha256": "ba789c8a274f1fb7ec0dab9893c0e35f382ce2217bde21132205ceb0f6a67298"
+    },
+    {
+      "path": "03_References/PP10_Edges.png",
+      "sha256": "516530c2a1377a2a2a4e8b53827b326de7a74dc8fae826a70bc2b342004fca03"
+    },
+    {
+      "path": "03_References/PP07_Depth.png",
+      "sha256": "6750674b5ae89bf02d0945861847c7b05906802b1aef59ab8929e66c286f1ece"
+    },
+    {
+      "path": "03_References/PP01_Structure.png",
+      "sha256": "318c62a65f5712fd5457a63d990eb79bf944b602f9fafbc702fc8e381df4b4a8"
+    },
+    {
+      "path": "03_References/PP01_Edges.png",
+      "sha256": "7b0f30a80309b12b4f8a00040fb65d4eab4dbbad126daba70cd3e9882438ae53"
+    },
+    {
+      "path": "03_References/PP05_Structure.png",
+      "sha256": "da1242a7741bfe742e3ccebe543de531c0d98f94e4738fac080c258ae8392635"
+    },
+    {
+      "path": "03_References/PP02_Structure.png",
+      "sha256": "815b8cbd01ee45443858e4ab603fc90ff039e3dc5f943cdaee2b6ea51fa73a16"
+    },
+    {
+      "path": "03_References/PP01_Depth.png",
+      "sha256": "c316a645552b5ab4340219a5241f6854016e74a5c8e48d307f5969ebbf05e299"
+    },
+    {
+      "path": "03_References/PP06_Structure.png",
+      "sha256": "1f33eb9442c605658549dcf5473b5d24506da3582f5c2439ef3ca0f71f81f0b6"
+    },
+    {
+      "path": "03_References/PP07_Edges.png",
+      "sha256": "794d07a9a60e0a9e7920a09a50a5206afa9bd3426f55f5fd0b6bfadf4a244f86"
+    },
+    {
+      "path": "03_References/PP06_Depth.png",
+      "sha256": "fa2901a1e06835b957434f537f04b010ff8869abe1eb6ddd064123d828790f78"
+    },
+    {
+      "path": "03_References/PP08_Structure.png",
+      "sha256": "cd21aad8ef300d285a5c8a1336b9302ff980458027b6ab68d49ac61d4118d7c6"
+    },
+    {
+      "path": "03_References/PP06_Edges.png",
+      "sha256": "7b62e36392ca2410965b1a8e9fd29cdffbfcf7c63c9d754c450f940e82583ff3"
+    }
+  ],
+  "geometry": "Low-precision reference; not a survey. Consistent broad layout is the image gate, not strict pixel fit."
+}

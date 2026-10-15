@@ -1,0 +1,43 @@
+{
+  "added": [
+    "cases/persepolis/process-support/PP04_DIAGNOSTIC_ERRATUM.md",
+    "docs/ERRATA.md",
+    "validation/ACCEPTANCE.md",
+    "validation/COLD_READER.json",
+    "validation/browser/BROWSER_QA.json",
+    "validation/browser/comparison-PP01.png",
+    "validation/browser/desktop-model-context.png",
+    "validation/browser/desktop-model-core.png",
+    "validation/browser/desktop-process.png",
+    "validation/browser/desktop-results.png",
+    "validation/browser/mobile-results.png",
+    "validation/optional/OPTIONAL_CHECKS.json",
+    "validation/optional/PP01/PP01_Depth.png",
+    "validation/optional/PP01/PP01_Edges.png",
+    "validation/optional/PP01/PP01_Structure.png",
+    "validation/optional/PP01/RASTER_RECEIPT.json",
+    "validation/optional/PP08/PP08_Depth.png",
+    "validation/optional/PP08/PP08_Edges.png",
+    "validation/optional/PP08/PP08_Structure.png",
+    "validation/optional/PP08/RASTER_RECEIPT.json",
+    "validation/reader/BUILD_MANIFEST.json",
+    "validation/reader/GALLERY_SCOPE.json",
+    "validation/reader/ZIP_VERIFICATION.json",
+    "validation/reader/technical-report.json"
+  ],
+  "removed": [],
+  "changed": [
+    "README.md",
+    "cases/persepolis/README.md",
+    "cases/persepolis/assets.sha256.json",
+    "cases/persepolis/case.json",
+    "docs/WORKFLOW.md",
+    "heritage_workflow/cli.py",
+    "heritage_workflow/gallery.py",
+    "skills/heritage-audit/assets/runtime/heritage_workflow/cli.py",
+    "skills/heritage-audit/assets/runtime/heritage_workflow/gallery.py",
+    "skills/heritage-reconstruct/assets/runtime/heritage_workflow/cli.py",
+    "skills/heritage-reconstruct/assets/runtime/heritage_workflow/gallery.py",
+    "skills/heritage-reconstruct/references/workflow.md"
+  ]
+}

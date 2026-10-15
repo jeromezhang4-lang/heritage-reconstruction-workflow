@@ -1,0 +1,377 @@
+{
+  "stage": "synthesis",
+  "status": "FROZEN_WITH_DECLARED_LIMITATIONS",
+  "native_views": 11,
+  "native_versions": 16,
+  "geometry_match": "MACRO_LAYOUT_ONLY_EXACT_FIT_UNVERIFIED",
+  "outputs": [
+    {
+      "path": "02_Model/context_mesh.json",
+      "sha256": "9b7c097cfd8e2a7ff44899e9c01efde9c1aaa5e638c9a8b0be17394f146e125a"
+    },
+    {
+      "path": "02_Model/mesh.json",
+      "sha256": "2375d0a9233ec7811d72e389ca0a94e82c5c5a88d4434871dc9640ec4366c5a3"
+    },
+    {
+      "path": "02_Model/context_camera.json",
+      "sha256": "1e1f5f074c8ed4ccae4fb1deac9762eeac165ac2b8954f3293b8b2a2448f7782"
+    },
+    {
+      "path": "02_Model/model_engine.py",
+      "sha256": "57b27c66dd761ebba8e334e4c88b3e81bdc29f48446456618227aa75073b4e73"
+    },
+    {
+      "path": "02_Model/Persepolis_430BCE_v1.obj",
+      "sha256": "1124885e01038307b5195256a12cd2ed501b0fe05275cb5e40325eca1f3a6aaf"
+    },
+    {
+      "path": "02_Model/build_model.py",
+      "sha256": "101564c8088bc44a4ced8c4e118bfbed871e306630f8e17d12cfdd19a85490d6"
+    },
+    {
+      "path": "02_Model/components.json",
+      "sha256": "879781f6ab72663461220b6ed725cd8a3a9698655fcfdda82449fd5f2d643a6f"
+    },
+    {
+      "path": "02_Model/context_regions.json",
+      "sha256": "6a1e6cd5cac475e5deae6312bcfb4b87c335852aa8717c0d984f6cc57674d731"
+    },
+    {
+      "path": "02_Model/ARMS.json",
+      "sha256": "d3e31e5bd420a42dabab08bb8451c4aae069920bab7ed8d04d955fa383578e59"
+    },
+    {
+      "path": "02_Model/cameras.json",
+      "sha256": "2671ee905f4dce119a53dcca9114f630ddb777fbed39b080f86511d2a9dc9b61"
+    },
+    {
+      "path": "02_Model/Persepolis_Regional_Context.obj",
+      "sha256": "0a527080f7252bab7961078b6a94ff1f13dcb82be22d823dc9617c93ab4de707"
+    },
+    {
+      "path": "03_References/PP05_Depth.png",
+      "sha256": "e5046edf411b715f00dd7a4379d646528391c6fd8f7bb06e9afe1e631242d176"
+    },
+    {
+      "path": "03_References/PP11_Depth.png",
+      "sha256": "7cd4334021fe9f5dd02d1a878c05898e4c3bd28858eb8f3321f3e9ba653bccf1"
+    },
+    {
+      "path": "03_References/Stair_Detail_Edges.png",
+      "sha256": "57638ea31eea7a72948faa1bbfdedf3f32047e9aa83986f7aa9e4164976c19d5"
+    },
+    {
+      "path": "03_References/PP08_Depth.png",
+      "sha256": "ff2b2769e41289f5d8440a8d69c1c9200130646a072c1e3531a26cd6bb9c2c51"
+    },
+    {
+      "path": "03_References/PP03_Edges.png",
+      "sha256": "ea7a200bb70119ff823006e6ff3d134758d07f81558fa47c2ac18a47a5d8536e"
+    },
+    {
+      "path": "03_References/PP08_Edges.png",
+      "sha256": "b464fc33a7a0f5a65b2bb36b80f376991dd9c3e1f1b73ab36aff09e5ca224198"
+    },
+    {
+      "path": "03_References/PP03_Depth.png",
+      "sha256": "64b97a77745d55b92c4b8c4352801ff016f1928fd3f1715dc24554c187f863f5"
+    },
+    {
+      "path": "03_References/Stair_Detail_Structure.png",
+      "sha256": "0063c68ba69b1fb2b6cbf0c5111a4b5f7893dae204c94972a445c5426c1d96de"
+    },
+    {
+      "path": "03_References/PP11_Edges.png",
+      "sha256": "9303951508637129944b450df852924f8084543a5816c8972f4cb96a98f0fac7"
+    },
+    {
+      "path": "03_References/PP05_Edges.png",
+      "sha256": "55c5beee19af74161e3bbed9f02d3eff50a825f624cf0cf609eaf8c95e059e8e"
+    },
+    {
+      "path": "03_References/PP09_Structure.png",
+      "sha256": "20d66057222329bbf814107f614765c131e89396472206dc7f21402b722dc949"
+    },
+    {
+      "path": "03_References/Stair_Detail_Depth.png",
+      "sha256": "45ca7b3f70821eb1c624aca4999768c8a7337403a975b817a86e6a5744fae43b"
+    },
+    {
+      "path": "03_References/PP10_Depth.png",
+      "sha256": "17d5043f0bd00aa749287ed9e14135837aef35c31240668d15192e20d0eb77ee"
+    },
+    {
+      "path": "03_References/PP10_Structure.png",
+      "sha256": "00f3661f895eea34906772b37cae66b1fb451e036309e290720c958550a35b61"
+    },
+    {
+      "path": "03_References/PP04_Depth.png",
+      "sha256": "b2fd60229d3213fa7c626192555ef657c3ce591383294237d75a7328fcf4cc34"
+    },
+    {
+      "path": "03_References/PP07_Structure.png",
+      "sha256": "4c44c33143d56e7350fd4c2b3918dcc706b288411c6069c2808c5e478f7daeb7"
+    },
+    {
+      "path": "03_References/PP03_Structure.png",
+      "sha256": "ad981a13df3238c074107854f01108ebe9597838d7ec506af922c079e7abcf7e"
+    },
+    {
+      "path": "03_References/PP09_Depth.png",
+      "sha256": "577ccffcba65a6f9e0f59ff019d02ac1687830ed5e13f7524dd5c31e3015a3b8"
+    },
+    {
+      "path": "03_References/PP02_Edges.png",
+      "sha256": "f2cf272c9e19ed4a7282459a4eafedd9b3a290e13ee099931c57035c28807abd"
+    },
+    {
+      "path": "03_References/PP09_Edges.png",
+      "sha256": "7f5d5603f37895d0191c112f1c7cffcc1d16739885705f5bca6121ef0c1b7a89"
+    },
+    {
+      "path": "03_References/PP02_Depth.png",
+      "sha256": "a703d7a795d17806a057a34f4b3f48e58998bb2eb20a61b5e9b895e6a719646a"
+    },
+    {
+      "path": "03_References/PP04_Edges.png",
+      "sha256": "dd851f02ed10d3b994f066e152bb26fcd552e86c3bf3704258f981448afc36ec"
+    },
+    {
+      "path": "03_References/PP04_Structure.png",
+      "sha256": "ba789c8a274f1fb7ec0dab9893c0e35f382ce2217bde21132205ceb0f6a67298"
+    },
+    {
+      "path": "03_References/PP10_Edges.png",
+      "sha256": "516530c2a1377a2a2a4e8b53827b326de7a74dc8fae826a70bc2b342004fca03"
+    },
+    {
+      "path": "03_References/PP07_Depth.png",
+      "sha256": "6750674b5ae89bf02d0945861847c7b05906802b1aef59ab8929e66c286f1ece"
+    },
+    {
+      "path": "03_References/PP01_Structure.png",
+      "sha256": "318c62a65f5712fd5457a63d990eb79bf944b602f9fafbc702fc8e381df4b4a8"
+    },
+    {
+      "path": "03_References/PP01_Edges.png",
+      "sha256": "7b0f30a80309b12b4f8a00040fb65d4eab4dbbad126daba70cd3e9882438ae53"
+    },
+    {
+      "path": "03_References/PP05_Structure.png",
+      "sha256": "da1242a7741bfe742e3ccebe543de531c0d98f94e4738fac080c258ae8392635"
+    },
+    {
+      "path": "03_References/PP02_Structure.png",
+      "sha256": "815b8cbd01ee45443858e4ab603fc90ff039e3dc5f943cdaee2b6ea51fa73a16"
+    },
+    {
+      "path": "03_References/PP01_Depth.png",
+      "sha256": "c316a645552b5ab4340219a5241f6854016e74a5c8e48d307f5969ebbf05e299"
+    },
+    {
+      "path": "03_References/PP06_Structure.png",
+      "sha256": "1f33eb9442c605658549dcf5473b5d24506da3582f5c2439ef3ca0f71f81f0b6"
+    },
+    {
+      "path": "03_References/PP11_Structure.png",
+      "sha256": "3f877e34cf9382cf1f25c7794cac3ed77d0bc39f04442812e34c220ca4a2ec42"
+    },
+    {
+      "path": "03_References/PP07_Edges.png",
+      "sha256": "794d07a9a60e0a9e7920a09a50a5206afa9bd3426f55f5fd0b6bfadf4a244f86"
+    },
+    {
+      "path": "03_References/PP06_Depth.png",
+      "sha256": "fa2901a1e06835b957434f537f04b010ff8869abe1eb6ddd064123d828790f78"
+    },
+    {
+      "path": "03_References/PP08_Structure.png",
+      "sha256": "cd21aad8ef300d285a5c8a1336b9302ff980458027b6ab68d49ac61d4118d7c6"
+    },
+    {
+      "path": "03_References/PP06_Edges.png",
+      "sha256": "7b62e36392ca2410965b1a8e9fd29cdffbfcf7c63c9d754c450f940e82583ff3"
+    },
+    {
+      "path": "04_Images/Native/PP05_repair.prompt.txt",
+      "sha256": "ec1c7593f28403907323dbf023f15d44aaeac41c1d31614e7995d7b1d9be814d"
+    },
+    {
+      "path": "04_Images/Native/PP03.png",
+      "sha256": "f25e44319555c941f27f26d7c508018b4747597bc73acff998759859385756a0"
+    },
+    {
+      "path": "04_Images/Native/PP05_initial.png",
+      "sha256": "51bb9d49fdfebf5a40b5dfa31cff30b8f5323e67339b75602db54f6ef5f06190"
+    },
+    {
+      "path": "04_Images/Native/PP02.png",
+      "sha256": "23821a4d9a1232956980f778f5c04af2d0035b446f7cd12dd559a25205095309"
+    },
+    {
+      "path": "04_Images/Native/PP03.prompt.txt",
+      "sha256": "c0d00eb3eeb1d47a06b3a8132850dd817c12d925b8aaca09bcf0e2bdae76006d"
+    },
+    {
+      "path": "04_Images/Native/PP01.png",
+      "sha256": "9a2c091acd2178401d0d0e06a6bdc12c548c6029d39b507a3f04844cfa5bf7fe"
+    },
+    {
+      "path": "04_Images/Native/PP04_repair.prompt.txt",
+      "sha256": "b4bdfb7dbc26b4fdf5bac598301d9ee1479c23e4f52ae5ab9052ec7cf8bbb6f0"
+    },
+    {
+      "path": "04_Images/Native/PP06.prompt.txt",
+      "sha256": "2240e3b82727a4942e2a4ad33a5199198b6e392fc04fdb10c58a0be89990140e"
+    },
+    {
+      "path": "04_Images/Native/PP11.png",
+      "sha256": "6742a16ade61c13f650de357364c773e2d280388825684ef74ce98a921afc1fd"
+    },
+    {
+      "path": "04_Images/Native/PP05.png",
+      "sha256": "410dd1f0494e4c23dd1156faf279a39c975caa5cd0d779457e89ebcb0de6f259"
+    },
+    {
+      "path": "04_Images/Native/PP04.png",
+      "sha256": "3c7ecd22340cb94c4ddc239e84b7061e326b5bbe2fd8575264192f644a2b8ec8"
+    },
+    {
+      "path": "04_Images/Native/PP10.png",
+      "sha256": "f4f1bda713de882af9842ccb9c4d09b8ffc1ec797d768236a6d37d65ac55aebb"
+    },
+    {
+      "path": "04_Images/Native/PP01_repair.prompt.txt",
+      "sha256": "a6c442d08fe357025acbf4da7e85b76f1d22383461d9a27f64898ba74dfd19b0"
+    },
+    {
+      "path": "04_Images/Native/PP06.png",
+      "sha256": "1a35e58a644d873107d2a6d48f40767a8f6fd582d40de1a555f0fe6a3976ed7c"
+    },
+    {
+      "path": "04_Images/Native/PP07.png",
+      "sha256": "6924b8ad2cf0462dd0f5b7e8b41f4985b021bcb8bddeb8202651351adfee0b82"
+    },
+    {
+      "path": "04_Images/Native/PP10.prompt.txt",
+      "sha256": "80eda6bbbd26ef31dc4830075a0c4e64e6d087e04333ce9b5003ab427221b319"
+    },
+    {
+      "path": "04_Images/Native/PP01.prompt.txt",
+      "sha256": "5a2f0e9664c48b781ba3098b7334b6e27beac0fe8283fde06ac44d2a5d1f6b54"
+    },
+    {
+      "path": "04_Images/Native/PP04.prompt.txt",
+      "sha256": "8c43d2d60f7f8927a5746c63b8886963ae71c571c0e264d51d13adee47f69ba2"
+    },
+    {
+      "path": "04_Images/Native/PP09.prompt.txt",
+      "sha256": "4e229b6a73dc9ca65100a118effc41038b577e16725fbd2ba1d985127e807988"
+    },
+    {
+      "path": "04_Images/Native/PP07.prompt.txt",
+      "sha256": "9e5ef1a14d7214705b76c43ca371114069638346ac16c502bf345006cdde5099"
+    },
+    {
+      "path": "04_Images/Native/PP01_initial.png",
+      "sha256": "ff684f12b1caa0bd234dc0d6c6e2aca02f01434b8c4b83842cb01589041e7897"
+    },
+    {
+      "path": "04_Images/Native/PP01_initial.prompt.txt",
+      "sha256": "b6b59c839d7b2de5d8239a6e8dc32a642067e18ebcc5621f37eb087c99310282"
+    },
+    {
+      "path": "04_Images/Native/PP01_repair2.prompt.txt",
+      "sha256": "b6f852ca83df38e669919f6f161a7763b3ca204918bd2b7cab9d85bad5a8981d"
+    },
+    {
+      "path": "04_Images/Native/PP02_initial.prompt.txt",
+      "sha256": "191622765f7c717d6bda8fc752a38d9214d347d910d8d94ecf5630e9dc674a29"
+    },
+    {
+      "path": "04_Images/Native/PP04_initial.png",
+      "sha256": "3d41036cc71fc2488ab8aa8465a080bbc28101398724eb65dc2ff89a8dcc6c38"
+    },
+    {
+      "path": "04_Images/Native/PP02.prompt.txt",
+      "sha256": "831a3ff625783edfb6b35048dcba876834178f06ef106e06fe645be5d99ca6cd"
+    },
+    {
+      "path": "04_Images/Native/PP01_repair1.png",
+      "sha256": "cd6dbb2a0f1b7c393ab0c768143864619b24aa4fdc1d1395b54a1b3e391bda0a"
+    },
+    {
+      "path": "04_Images/Native/PP05.prompt.txt",
+      "sha256": "d667391bbb3d58be5afea7b39f4e86b6cd9bb51d727d330bf6c3d970b4fce08d"
+    },
+    {
+      "path": "04_Images/Native/PP09.png",
+      "sha256": "b051b335f34fa26715414a003f5b94e0eb78329d4227d1e014b7f5f187908a81"
+    },
+    {
+      "path": "04_Images/Native/PP08.png",
+      "sha256": "8b3399692d030b081b687ab73ff26f4b7a37412231d1c211167f1d5b4b337d34"
+    },
+    {
+      "path": "04_Images/Native/PP08.prompt.txt",
+      "sha256": "e5da3c74c1c8672edd935425254f50292c576fa43e14df7c6c65be52da5c6e11"
+    },
+    {
+      "path": "04_Images/Native/PP11.prompt.txt",
+      "sha256": "12842c3aa7ecf8530ec42e2dbc74df8c0bca9c876ee1bb6ceda0554e7f63f5fd"
+    },
+    {
+      "path": "04_Images/Native/PP02_initial.png",
+      "sha256": "8df7f8e262c0dc5d0effbb876c28c934ffee33ab9cdb71597811073c5fdb2892"
+    },
+    {
+      "path": "05_Metadata/SCENES.json",
+      "sha256": "528f88120817b8d94624f98efbfa0243ddbd7c626386ed386c109234aec70b67"
+    },
+    {
+      "path": "05_Metadata/PP02_Bilingual_Guide.md",
+      "sha256": "cf4f8f0f0551af5f9f4242b584cd398bed6bfc4121818a072ec15f5990c2e6ef"
+    },
+    {
+      "path": "05_Metadata/PP11_Bilingual_Guide.md",
+      "sha256": "1a19b2d0d5622a4c821aedb25d0338b35cb92c2e14083bed73263b8ad9ebbfa1"
+    },
+    {
+      "path": "05_Metadata/PP01_Bilingual_Guide.md",
+      "sha256": "f019c73a4dbf96c57b99b93c79d16fa45e083a3bf02bb25886a249043240d734"
+    },
+    {
+      "path": "05_Metadata/PP07_Bilingual_Guide.md",
+      "sha256": "934df29e6dd6ae797132df069bbbfaff0151903ff0f91934010b61e60b158c66"
+    },
+    {
+      "path": "05_Metadata/PP09_Bilingual_Guide.md",
+      "sha256": "b3b6ec545f0d91bbb104d63c088797a398023cd1a161881acd47a0718efc769e"
+    },
+    {
+      "path": "05_Metadata/PP04_Bilingual_Guide.md",
+      "sha256": "b9d3c433a615b39402a29bde00d806eaa0c532c927a08994adb9ef6a6ed67370"
+    },
+    {
+      "path": "05_Metadata/PP08_Bilingual_Guide.md",
+      "sha256": "bdc2771820a262beeef820160064b9a0f02fe68aecbff994e6cf938fa5b5b283"
+    },
+    {
+      "path": "05_Metadata/PP05_Bilingual_Guide.md",
+      "sha256": "94ea56af1f6933996f87d4312ffc1b7df31a004137a6651ed7f8f5163d2e2fee"
+    },
+    {
+      "path": "05_Metadata/PP06_Bilingual_Guide.md",
+      "sha256": "b79aa5861a4adc34cabe3d637fa09338ec9a1bef907a5f4bb0c89ee05163830d"
+    },
+    {
+      "path": "05_Metadata/PP10_Bilingual_Guide.md",
+      "sha256": "dfcdcc5362c2c4f16227c965f02ae43311199491f1e4a9eb936bf7960f327154"
+    },
+    {
+      "path": "05_Metadata/PP03_Bilingual_Guide.md",
+      "sha256": "fb70b1b52994aded45427429c687fd8c02ce2ab1de13a334971f2270ecc3aaef"
+    }
+  ]
+}

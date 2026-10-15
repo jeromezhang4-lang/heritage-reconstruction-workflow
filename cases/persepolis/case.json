@@ -1,0 +1,1777 @@
+{
+  "schema_version": "1.0",
+  "id": "persepolis",
+  "title": "波斯波利斯 · 可审查复原案例",
+  "title_en": "Persepolis: an auditable reconstruction case",
+  "snapshot_bce": 430,
+  "release_kind": "documented_case_study",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Schmidt 1939 · OIC21 原始发掘报告",
+      "url": "https://isac.uchicago.edu/publications/treasury-persepolis-and-other-discoveries-achaemenians",
+      "tier": "A",
+      "inspected": "PDF184pages; printed pp1–3, Fig5 PDFpage35 inspected; relevant indexed architectural passages",
+      "used_for": "原始总平面、南部建筑标签、百柱厅100柱与北门廊16柱、年代分歧",
+      "scope_limit": "1937年发掘状态图；不是公元前430年的同步图。功能与断代部分已被后续研究修订。",
+      "rights": "University of Chicago CC BY-NC-ND4.0; unannotated limited full-page figure reproduced as research reference; full book not redistributed",
+      "access": "PDF184pages; printed pp1–3, Fig5 PDFpage35 inspected; relevant indexed architectural passages",
+      "source_tier": "A"
+    },
+    {
+      "id": "S02",
+      "title": "Shahbazi · Encyclopaedia Iranica: Persepolis",
+      "url": "https://www.iranicaonline.org/articles/persepolis/",
+      "tier": "B",
+      "inspected": "建筑章节与Figure2总平面实际像素",
+      "used_for": "总体尺度、各柱厅与住宅结构、复原时的建筑阶段过滤",
+      "scope_limit": "不是逐室原始测绘；部分细节与早期报告判断有差异。",
+      "rights": "Article and plan copyright retained; one unmodified plan as limited research reference",
+      "access": "建筑章节与Figure2总平面实际像素",
+      "source_tier": "B"
+    },
+    {
+      "id": "S03",
+      "title": "UNESCO · Persepolis",
+      "url": "https://whc.unesco.org/en/list/114",
+      "tier": "B",
+      "inspected": "官方遗产条目",
+      "used_for": "遗址定位、约13公顷纪念性宫殿群、历史与遗产状态",
+      "scope_limit": "遗产简介不等于逐构件尺寸或屋顶依据。",
+      "access": "官方遗产条目",
+      "source_tier": "B"
+    },
+    {
+      "id": "S04",
+      "title": "Schmidt 1953 · OIP68出版目录",
+      "url": "https://isac.uchicago.edu/publications/persepolis-i-structures-reliefs-inscriptions",
+      "tier": "A",
+      "inspected": "官方目录与下载地址；完整PDF下载两次到240秒截止，未完整取得",
+      "used_for": "原始建筑报告的书目信息与后续研究入口",
+      "scope_limit": "本次不将未读完整PDF作为新增几何证据。",
+      "access": "官方目录与下载地址；完整PDF下载两次到240秒截止，未完整取得",
+      "source_tier": "A"
+    },
+    {
+      "id": "S05",
+      "title": "Princeton · 薛西斯宫执杯侍从浮雕 y1949-115",
+      "url": "https://artmuseum.princeton.edu/art/collections/objects/23760",
+      "tier": "A/B",
+      "inspected": "博物馆对象条目，约486–465BCE，原位置推断的说明",
+      "used_for": "侍从服饰、执杯活动的有限比较",
+      "scope_limit": "原位没有已知照片；不复制精确位置，不据此宣称一次具体宴会。",
+      "access": "博物馆对象条目，约486–465BCE，原位置推断的说明",
+      "source_tier": "A/B"
+    },
+    {
+      "id": "S06",
+      "title": "Met · Procession relief 39.133",
+      "url": "https://www.metmuseum.org/art/collection/search/323723",
+      "tier": "A/B",
+      "inspected": "约405–359BCE对象条目",
+      "used_for": "年代排除检查",
+      "scope_limit": "晚于430BCE，不能直接移植其西侧阶梯雕刻到本次目标。",
+      "access": "约405–359BCE对象条目",
+      "source_tier": "A/B"
+    },
+    {
+      "id": "S07",
+      "title": "UChicago ISAC · Persian Gallery",
+      "url": "https://isac.uchicago.edu/persian-gallery",
+      "tier": "B",
+      "inspected": "官方馆藏介绍",
+      "used_for": "1931–39发掘史与来自波斯波利斯的柱头、浮雕背景",
+      "scope_limit": "馆藏介绍不验证整个复原模型。",
+      "access": "官方馆藏介绍",
+      "source_tier": "B"
+    },
+    {
+      "id": "S08",
+      "title": "Mission irano-française · 法国文化部考古项目: Persépolis",
+      "url": "https://archeologie.culture.gouv.fr/fr/persepolis",
+      "tier": "A/B",
+      "inspected": "完整项目说明，区域地图与王室区地图实际像素",
+      "used_for": "台下南北建筑、居住工匠区、开敞园城、Firuzi与北侧王陵位置",
+      "scope_limit": "分区是跨期考古综合；住宅上部、具体位置/数量、430BCE各区同步状态未知",
+      "rights": "两张不改动的研究地图保留项目版权；灰色村落和道路为现代，未移植",
+      "access": "完整项目说明，区域地图与王室区地图实际像素",
+      "source_tier": "A/B"
+    },
+    {
+      "id": "S09",
+      "title": "European Commission CORDIS · SELOPerse reporting",
+      "url": "https://cordis.europa.eu/project/id/299665/reporting/es",
+      "tier": "B",
+      "inspected": "研究总结网页已下载；三类城市区域与园地/建筑交替的组织",
+      "used_for": "区域全景的城市形态约束",
+      "scope_limit": "未取得完整同期逐宅测绘，不能认证精确城市人口/建筑数量",
+      "access": "研究总结网页已下载；三类城市区域与园地/建筑交替的组织",
+      "source_tier": "B"
+    }
+  ],
+  "claims": [
+    {
+      "id": "T01",
+      "text": "约430BCE作为本次同步快照",
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "certainty": [
+        "C"
+      ],
+      "limitation": "制作选择；主建筑已存在，局部阶段仍不确定"
+    },
+    {
+      "id": "T02",
+      "text": "完整宫殿高台约12.5–13公顷；概略包络约300×455m",
+      "source_ids": [
+        "S02",
+        "S03"
+      ],
+      "certainty": [
+        "B"
+      ],
+      "limitation": "不把包络长宽相乘当精确面积；本模型边界为人工近似"
+    },
+    {
+      "id": "T03",
+      "text": "西北入口、西侧阿帕达纳、东侧百柱厅、东南库房、南侧王宫",
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "certainty": [
+        "A",
+        "B"
+      ],
+      "limitation": "平面相对关系直接可见；数值坐标是近似注册"
+    },
+    {
+      "id": "T04",
+      "text": "西北双折返阶梯；万国门四柱厅",
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "certainty": [
+        "A",
+        "B"
+      ],
+      "limitation": "模型保留每侧111阶的简化形制；AI不保证每级可逐一计数"
+    },
+    {
+      "id": "T05",
+      "text": "万国门柱高约16.5m及木梁屋顶",
+      "source_ids": [
+        "S02"
+      ],
+      "certainty": [
+        "B",
+        "C"
+      ],
+      "limitation": "保存构件支持尺度；完整屋顶构造为推定"
+    },
+    {
+      "id": "T06",
+      "text": "阿帕达纳60×60m主厅、6×6柱阵、三面各12柱门廊",
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "certainty": [
+        "A",
+        "B"
+      ],
+      "limitation": "模型明确36+36柱；生成图只审宏观关系，不认证可见柱总数"
+    },
+    {
+      "id": "T07",
+      "text": "阿帕达纳柱高约19.5m、抬高台基",
+      "source_ids": [
+        "S02",
+        "S03"
+      ],
+      "certainty": [
+        "B"
+      ],
+      "limitation": "人物1.75m比例；不加虚构超高层"
+    },
+    {
+      "id": "T08",
+      "text": "百柱厅68.5×68.5m、10×10柱阵、北门廊2×8柱",
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "certainty": [
+        "A",
+        "B"
+      ],
+      "limitation": "主厅与库房中的另一座100柱库厅严格区分"
+    },
+    {
+      "id": "T09",
+      "text": "百柱厅柱约14m，比阿帕达纳低",
+      "source_ids": [
+        "S02"
+      ],
+      "certainty": [
+        "B"
+      ],
+      "limitation": "屋顶高度与墙体细节仍为C"
+    },
+    {
+      "id": "T10",
+      "text": "塔查拉位于阿帕达纳南侧、12柱主厅与南侧门廊",
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "certainty": [
+        "A",
+        "B"
+      ],
+      "limitation": "早期木柱方案；精确高度与漆饰C"
+    },
+    {
+      "id": "T11",
+      "text": "哈迪什王宫36柱主厅与北侧12柱门廊",
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "certainty": [
+        "A",
+        "B"
+      ],
+      "limitation": "墙高、屋顶C"
+    },
+    {
+      "id": "T12",
+      "text": "中央门厅Tripylon四柱，约15.46m见方",
+      "source_ids": [
+        "S02"
+      ],
+      "certainty": [
+        "A",
+        "B"
+      ],
+      "limitation": "早期报告功能/年代不同；采用后续ArtaxerxesI完成判断"
+    },
+    {
+      "id": "T13",
+      "text": "库房大型封闭多室区与内部庭院",
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "certainty": [
+        "A",
+        "B",
+        "C"
+      ],
+      "limitation": "只锁定大体区块；未逐室数字化，各屋顶及分隔为C"
+    },
+    {
+      "id": "T14",
+      "text": "南部住宅区传统名Harem，具体功能不能等同现代含义",
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "certainty": [
+        "B",
+        "C"
+      ],
+      "limitation": "几何只表示房间带，不绘虚构后宫仪式"
+    },
+    {
+      "id": "T15",
+      "text": "PalaceH的430BCE具体阶段有分歧",
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "certainty": [
+        "C"
+      ],
+      "limitation": "本模型仅保留假设早期体块，不复制ArtaxerxesIII后加阶梯"
+    },
+    {
+      "id": "T16",
+      "text": "彩绘与彩色砖存在，但整套配色不完整",
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "certainty": [
+        "B",
+        "C"
+      ],
+      "limitation": "有色局部作为推定；不把现存灰白石材等同古代全貌"
+    },
+    {
+      "id": "T17",
+      "text": "木梁、灰石构件、泥砖墙与抹灰组合",
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "certainty": [
+        "B",
+        "C"
+      ],
+      "limitation": "屋顶做低坡/近水平木梁系统，禁止穹顶与希腊山花"
+    },
+    {
+      "id": "T18",
+      "text": "东面山体、城防关系",
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "certainty": [
+        "B",
+        "C"
+      ],
+      "limitation": "未取得DEM；山形与完整防御线高度是示意"
+    },
+    {
+      "id": "T19",
+      "text": "礼仪来宾与侍从可用浮雕作服饰比较",
+      "source_ids": [
+        "S01",
+        "S05"
+      ],
+      "certainty": [
+        "B",
+        "D"
+      ],
+      "limitation": "不标成已证实的诺鲁孜或具体朝贡事件；人数D"
+    },
+    {
+      "id": "T20",
+      "text": "排除ArtaxerxesII/III山坡王陵、完成状态的晚期未完成门及后世建筑",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S06"
+      ],
+      "certainty": [
+        "B"
+      ],
+      "limitation": "古图是多期累积，先过滤再建模"
+    },
+    {
+      "id": "U01",
+      "text": "The royal terrace belongs to a wider settlement with southern/northern official areas and western activity sectors.",
+      "source_ids": [
+        "S08",
+        "S09"
+      ],
+      "certainty": [
+        "B"
+      ],
+      "limitation": "Sector locations do not establish every building or all contemporary activity."
+    },
+    {
+      "id": "U02",
+      "text": "Western building/activity clusters alternated with gardens, orchards, fields and open parcels.",
+      "source_ids": [
+        "S08",
+        "S09"
+      ],
+      "certainty": [
+        "B",
+        "C"
+      ],
+      "limitation": "Individual footprints, crop species, house numbers and density in the image are hypothetical."
+    },
+    {
+      "id": "U03",
+      "text": "Firuzi is an earlier monumental sector; its complete use at the chosen 430 BCE snapshot is unknown.",
+      "source_ids": [
+        "S08",
+        "S09"
+      ],
+      "certainty": [
+        "C",
+        "D"
+      ],
+      "limitation": "Do not claim a fully synchronous city or infer population from the panorama."
+    }
+  ],
+  "components": [
+    {
+      "id": "Gate_of_All_Lands",
+      "plan_pixel_center": [
+        155,
+        245
+      ],
+      "local_center_m": [
+        -156.1,
+        142.1
+      ],
+      "dimensions_m": [
+        24.7,
+        24.7,
+        16.5
+      ],
+      "sources": [
+        "S02",
+        "S03"
+      ],
+      "reconstruction_tiers": {
+        "footprint_columns": "A/B",
+        "height": "B",
+        "roof": "C"
+      },
+      "position_precision": "approximate manual plan digitisation; not survey",
+      "claim_ids": [
+        "T03",
+        "T04",
+        "T05"
+      ]
+    },
+    {
+      "id": "Apadana",
+      "plan_pixel_center": [
+        246,
+        434
+      ],
+      "local_center_m": [
+        -133.8,
+        24.7
+      ],
+      "dimensions_m": [
+        60,
+        60,
+        19.5
+      ],
+      "sources": [
+        "S02",
+        "S03"
+      ],
+      "reconstruction_tiers": {
+        "main_hall_and_36_columns": "A",
+        "plan_registration": "B",
+        "roof_towers": "C"
+      },
+      "position_precision": "approximate manual plan digitisation; not survey",
+      "claim_ids": [
+        "T03",
+        "T06",
+        "T07"
+      ]
+    },
+    {
+      "id": "Hundred_Column_Hall",
+      "plan_pixel_center": [
+        484,
+        415
+      ],
+      "local_center_m": [
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        68.5,
+        68.5,
+        14
+      ],
+      "sources": [
+        "S02",
+        "S03"
+      ],
+      "reconstruction_tiers": {
+        "100_column_grid": "A",
+        "height": "B",
+        "roof": "C"
+      },
+      "position_precision": "approximate manual plan digitisation; not survey",
+      "claim_ids": [
+        "T03",
+        "T08",
+        "T09"
+      ]
+    },
+    {
+      "id": "Tachara_Darius",
+      "plan_pixel_center": [
+        256,
+        560
+      ],
+      "local_center_m": [
+        -146.9,
+        -46.2
+      ],
+      "dimensions_m": [
+        30,
+        40,
+        8
+      ],
+      "sources": [
+        "S02",
+        "S03"
+      ],
+      "reconstruction_tiers": {
+        "footprint": "A/B",
+        "wood_columns": "B",
+        "height_roof": "C"
+      },
+      "position_precision": "approximate manual plan digitisation; not survey",
+      "claim_ids": [
+        "T03",
+        "T10"
+      ]
+    },
+    {
+      "id": "Tripylon",
+      "plan_pixel_center": [
+        339,
+        491
+      ],
+      "local_center_m": [
+        -91.0,
+        -20.5
+      ],
+      "dimensions_m": [
+        15.46,
+        15.46,
+        9
+      ],
+      "sources": [
+        "S02",
+        "S03"
+      ],
+      "reconstruction_tiers": {
+        "four_columns": "A",
+        "roof_height": "C"
+      },
+      "position_precision": "approximate manual plan digitisation; not survey",
+      "claim_ids": [
+        "T03",
+        "T12"
+      ]
+    },
+    {
+      "id": "Hadish_Xerxes",
+      "plan_pixel_center": [
+        351,
+        682
+      ],
+      "local_center_m": [
+        -112.6,
+        -127.4
+      ],
+      "dimensions_m": [
+        55,
+        40,
+        9
+      ],
+      "sources": [
+        "S02",
+        "S03"
+      ],
+      "reconstruction_tiers": {
+        "36_column_hall": "A/B",
+        "height_roof": "C"
+      },
+      "position_precision": "approximate manual plan digitisation; not survey",
+      "claim_ids": [
+        "T03",
+        "T11"
+      ]
+    },
+    {
+      "id": "Palace_H_early_core",
+      "plan_pixel_center": [
+        256,
+        710
+      ],
+      "local_center_m": [
+        -169.1,
+        -128.8
+      ],
+      "dimensions_m": [
+        34,
+        30,
+        7
+      ],
+      "sources": [
+        "S02",
+        "S03"
+      ],
+      "reconstruction_tiers": {
+        "early_phase": "B/C",
+        "lost_upper_structure": "C"
+      },
+      "position_precision": "approximate manual plan digitisation; not survey",
+      "claim_ids": [
+        "T03"
+      ]
+    },
+    {
+      "id": "Southern_residential_range",
+      "plan_pixel_center": [
+        438,
+        721
+      ],
+      "local_center_m": [
+        -70.5,
+        -161.7
+      ],
+      "dimensions_m": [
+        112,
+        25,
+        7
+      ],
+      "sources": [
+        "S02",
+        "S03"
+      ],
+      "reconstruction_tiers": {
+        "outline": "B",
+        "partition_and_function": "C"
+      },
+      "position_precision": "approximate manual plan digitisation; not survey",
+      "claim_ids": [
+        "T03"
+      ]
+    },
+    {
+      "id": "Treasury",
+      "plan_pixel_center": [
+        608,
+        580
+      ],
+      "local_center_m": [
+        43.9,
+        -109.1
+      ],
+      "dimensions_m": [
+        110,
+        145,
+        7
+      ],
+      "sources": [
+        "S01",
+        "S02",
+        "S03"
+      ],
+      "reconstruction_tiers": {
+        "major_blocks": "A/B",
+        "rooms_roofs": "C"
+      },
+      "position_precision": "approximate manual plan digitisation; not survey",
+      "claim_ids": [
+        "T03",
+        "T13"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "PP01",
+      "title": "完整宫殿群 · 西北鸟瞰",
+      "en_title": "Complete terrace from the northwest",
+      "kind": "overall",
+      "zh": [
+        "西北鸟瞰将完整高台作为一座连续的王宫群呈现：入口位于近处，阿帕达纳与百柱厅分列开阔庭院两侧，南部住宅和库房向山脚延伸。人物只是很小的尺度标记，宏伟来自柱厅跨度、台基与广场的组合。",
+        "主要建筑关系来自实际读过的总平面；模型坐标为人工近似注册。完整屋顶、外墙高度、彩绘、山体和人群是推定，不能据此测算古代人口或宫殿容纳量。入口曾修正不合原址的独立兽像与直阶梯，原始版本保留。"
+      ],
+      "en": [
+        "The northwest aerial presents the terrace as a continuous palace compound, linking the entrance, two great halls, southern palaces and treasury. Small human figures make the architectural scale legible.",
+        "Principal relationships follow inspected plans. Roofs, wall heights, colours, terrain and activity remain hypotheses; the image is not a population estimate or a precision survey."
+      ],
+      "claims": [
+        "T02",
+        "T03",
+        "T04",
+        "T06",
+        "T08",
+        "T18"
+      ],
+      "camera": {
+        "id": "PP01",
+        "title_zh": "完整宫殿群 · 西北鸟瞰",
+        "title_en": "Complete terrace from the northwest",
+        "position_m": [
+          -480,
+          440,
+          390
+        ],
+        "look_at_m": [
+          -40,
+          -25,
+          16
+        ],
+        "focal_mm": 26,
+        "tags": [
+          "all"
+        ],
+        "kind": "overall",
+        "camera_reconstruction_tier": "D",
+        "coordinate_frame": "local building axes, metre units; not georeferenced"
+      },
+      "evidence": "主体平面/柱网A/B；屋顶、上部、色彩C；人物/机位D",
+      "exact_AI_mesh_fit": "UNVERIFIED",
+      "title_zh": "完整宫殿群 · 西北鸟瞰",
+      "title_en": "Complete terrace from the northwest",
+      "claim_ids": [
+        "T02",
+        "T03",
+        "T04",
+        "T06",
+        "T08",
+        "T18"
+      ],
+      "component_ids": [
+        "Gate_of_All_Lands",
+        "Apadana",
+        "Hundred_Column_Hall",
+        "Tachara_Darius",
+        "Tripylon",
+        "Hadish_Xerxes",
+        "Palace_H_early_core",
+        "Southern_residential_range",
+        "Treasury"
+      ],
+      "approval": "illustrative_with_limitations",
+      "native": "recorded/04_Images/Native/PP01.png",
+      "final": "recorded/04_Images/PP01_4K.png",
+      "share": "recorded/04_Images/PP01_Share_4K.jpg",
+      "prompt": "recorded/04_Images/Native/PP01.prompt.txt",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "final_dimensions": [
+        3840,
+        2160
+      ],
+      "native_4k": false,
+      "strict_pixel_mesh_fit": "UNVERIFIED",
+      "expert_review": "NOT_PERFORMED"
+    },
+    {
+      "id": "PP02",
+      "title": "完整宫殿群 · 西南鸟瞰",
+      "en_title": "Complete terrace from the southwest",
+      "kind": "overall",
+      "zh": [
+        "西南方向的第二张总览把南部王宫移到近景，公共柱厅与北部开敞区退向远处。同一高台的另一条对角线揭示了宫殿并非只有正面：平台高差、内院、屋顶与连接空间共同组成其厚度。",
+        "此图必须与西北鸟瞰保持同一建筑群的大体位置与尺度。生成图之间的屋檐、门洞、彩绘和人物并非逐像素锁定；统一模型只保证制作使用了同一套体量参照，不能替代专业测绘复核。"
+      ],
+      "en": [
+        "The southwest aerial reverses the diagonal: royal residences come forward while public halls recede. Platforms, courts and roofs show the compound’s depth rather than only its facade.",
+        "Both aerials use the same reference mesh. Fine roof, doorway and decorative details are generative interpretations, not a promise of pixel-identical reconstruction."
+      ],
+      "claims": [
+        "T02",
+        "T03",
+        "T10",
+        "T11",
+        "T13",
+        "T14"
+      ],
+      "camera": {
+        "id": "PP02",
+        "title_zh": "完整宫殿群 · 西南鸟瞰",
+        "title_en": "Complete terrace from the southwest",
+        "position_m": [
+          -465,
+          -485,
+          345
+        ],
+        "look_at_m": [
+          -35,
+          -10,
+          16
+        ],
+        "focal_mm": 30,
+        "tags": [
+          "all"
+        ],
+        "kind": "overall",
+        "camera_reconstruction_tier": "D",
+        "coordinate_frame": "local building axes, metre units; not georeferenced"
+      },
+      "evidence": "主体平面/柱网A/B；屋顶、上部、色彩C；人物/机位D",
+      "exact_AI_mesh_fit": "UNVERIFIED",
+      "title_zh": "完整宫殿群 · 西南鸟瞰",
+      "title_en": "Complete terrace from the southwest",
+      "claim_ids": [
+        "T02",
+        "T03",
+        "T10",
+        "T11",
+        "T13",
+        "T14"
+      ],
+      "component_ids": [
+        "Gate_of_All_Lands",
+        "Apadana",
+        "Hundred_Column_Hall",
+        "Tachara_Darius",
+        "Tripylon",
+        "Hadish_Xerxes",
+        "Palace_H_early_core",
+        "Southern_residential_range",
+        "Treasury"
+      ],
+      "approval": "illustrative_with_limitations",
+      "native": "recorded/04_Images/Native/PP02.png",
+      "final": "recorded/04_Images/PP02_4K.png",
+      "share": "recorded/04_Images/PP02_Share_4K.jpg",
+      "prompt": "recorded/04_Images/Native/PP02.prompt.txt",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "final_dimensions": [
+        3840,
+        2160
+      ],
+      "native_4k": false,
+      "strict_pixel_mesh_fit": "UNVERIFIED",
+      "expert_review": "NOT_PERFORMED"
+    },
+    {
+      "id": "PP03",
+      "title": "登上帝国高台",
+      "en_title": "Ascending the monumental terrace",
+      "kind": "entrance",
+      "zh": [
+        "从平原接近高台，视线先遇到巨大的石砌挡墙，再沿浅踏步登向入口。人物与墙体的比例说明，进入王宫是一段有距离、有高差的过程，而非跨过一间小屋的门槛。",
+        "双折返阶梯有遗存依据，模型则简化了踏步和转折细部。每侧111级属于结构约束，不能用AI画面逐级计数作验证。地面访客、守卫和服饰是在时代条件下安排的情境。"
+      ],
+      "en": [
+        "At ground level the terrace wall precedes the gate. Shallow stair flights turn the approach into a long ceremonial ascent, with people small beside the masonry.",
+        "The double-reversed arrangement is evidence-based, but individual treads and landings are simplified. The generated image does not certify every step or a documented visiting event."
+      ],
+      "claims": [
+        "T04",
+        "T05",
+        "T17",
+        "T19"
+      ],
+      "camera": {
+        "id": "PP03",
+        "title_zh": "登上帝国高台",
+        "title_en": "Ascending the monumental terrace",
+        "position_m": [
+          -261.1,
+          200.1,
+          1.75
+        ],
+        "look_at_m": [
+          -194.1,
+          142.1,
+          15
+        ],
+        "focal_mm": 24,
+        "tags": [
+          "all"
+        ],
+        "kind": "entrance",
+        "camera_reconstruction_tier": "D",
+        "coordinate_frame": "local building axes, metre units; not georeferenced"
+      },
+      "evidence": "主体平面/柱网A/B；屋顶、上部、色彩C；人物/机位D",
+      "exact_AI_mesh_fit": "UNVERIFIED",
+      "title_zh": "登上帝国高台",
+      "title_en": "Ascending the monumental terrace",
+      "claim_ids": [
+        "T04",
+        "T05",
+        "T17",
+        "T19"
+      ],
+      "component_ids": [
+        "Gate_of_All_Lands",
+        "Apadana",
+        "Hundred_Column_Hall",
+        "Tachara_Darius",
+        "Tripylon",
+        "Hadish_Xerxes",
+        "Palace_H_early_core",
+        "Southern_residential_range",
+        "Treasury"
+      ],
+      "approval": "illustrative_with_limitations",
+      "native": "recorded/04_Images/Native/PP03.png",
+      "final": "recorded/04_Images/PP03_4K.png",
+      "share": "recorded/04_Images/PP03_Share_4K.jpg",
+      "prompt": "recorded/04_Images/Native/PP03.prompt.txt",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "final_dimensions": [
+        3840,
+        2160
+      ],
+      "native_4k": false,
+      "strict_pixel_mesh_fit": "UNVERIFIED",
+      "expert_review": "NOT_PERFORMED"
+    },
+    {
+      "id": "PP04",
+      "title": "万国门的巨型门廊",
+      "en_title": "The monumental Gate of All Lands",
+      "kind": "entrance",
+      "zh": [
+        "万国门的近景强调厚重门框与高大有顶空间。石构守护兽应属于门洞自身的雕刻构件，门内柱列支承木梁，人站在下方才显出其体量。",
+        "四柱厅、矩形门洞和保存柱件提供约束；完整泥砖墙、梁架和配色仍需推定。不能把图中的装饰纹样作为铭文摹本，也不以画面确认全部构件的精确尺寸。"
+      ],
+      "en": [
+        "The gate view stresses massive rectangular portals and the height of the roofed hall. Guardian animals belong to carved doorway elements rather than an invented line of independent statues.",
+        "The four-column plan constrains the scene; complete walls, roof framing and colour remain reconstructed. Decorative marks are not authenticated inscription transcriptions."
+      ],
+      "claims": [
+        "T04",
+        "T05",
+        "T16",
+        "T17"
+      ],
+      "camera": {
+        "id": "PP04",
+        "title_zh": "万国门的巨型门廊",
+        "title_en": "The monumental Gate of All Lands",
+        "position_m": [
+          -196.1,
+          130.1,
+          13.75
+        ],
+        "look_at_m": [
+          -148.1,
+          143.1,
+          25
+        ],
+        "focal_mm": 24,
+        "tags": [
+          "all"
+        ],
+        "kind": "entrance",
+        "camera_reconstruction_tier": "D",
+        "coordinate_frame": "local building axes, metre units; not georeferenced"
+      },
+      "evidence": "主体平面/柱网A/B；屋顶、上部、色彩C；人物/机位D",
+      "exact_AI_mesh_fit": "UNVERIFIED",
+      "title_zh": "万国门的巨型门廊",
+      "title_en": "The monumental Gate of All Lands",
+      "claim_ids": [
+        "T04",
+        "T05",
+        "T16",
+        "T17"
+      ],
+      "component_ids": [
+        "Gate_of_All_Lands",
+        "Apadana",
+        "Hundred_Column_Hall",
+        "Tachara_Darius",
+        "Tripylon",
+        "Hadish_Xerxes",
+        "Palace_H_early_core",
+        "Southern_residential_range",
+        "Treasury"
+      ],
+      "approval": "illustrative_with_limitations",
+      "native": "recorded/04_Images/Native/PP04.png",
+      "final": "recorded/04_Images/PP04_4K.png",
+      "share": "recorded/04_Images/PP04_Share_4K.jpg",
+      "prompt": "recorded/04_Images/Native/PP04.prompt.txt",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "final_dimensions": [
+        3840,
+        2160
+      ],
+      "native_4k": false,
+      "strict_pixel_mesh_fit": "UNVERIFIED",
+      "expert_review": "NOT_PERFORMED",
+      "known_issue": "原先“人头改牛头”的过程叙述缺乏保留图像支持，已作勘误；两版都有牛头特征。门兽姿态和雕刻细部仍有生成失真，仅作门厅体量示意。"
+    },
+    {
+      "id": "PP05",
+      "title": "阿帕达纳与朝见庭院",
+      "en_title": "Apadana and its audience court",
+      "kind": "hall",
+      "zh": [
+        "阿帕达纳前庭保留大面积开敞空间，台阶与北门廊把视线引向巨柱和完整屋顶。它的气势来自柱列与人物间的高差，以及广场为建筑留下的距离。",
+        "模型固定北门廊两排、每排六柱，并让阿帕达纳高于百柱厅。图像保留柱厅类型和尺度感，具体可见柱数、屋顶构造、塔角高度和全部雕刻组合不作精确考古认证。"
+      ],
+      "en": [
+        "The Apadana court remains spacious. A raised podium and north portico lead the eye toward great columns and a complete roof, with people giving scale.",
+        "The mesh fixes a two-by-six north portico and the taller Apadana mass. Visible counts, complete roof construction and reconstructed decorative combinations are not independently certified."
+      ],
+      "claims": [
+        "T06",
+        "T07",
+        "T16",
+        "T17"
+      ],
+      "camera": {
+        "id": "PP05",
+        "title_zh": "阿帕达纳与朝见庭院",
+        "title_en": "Apadana and its audience court",
+        "position_m": [
+          -113.80000000000001,
+          132.7,
+          13.75
+        ],
+        "look_at_m": [
+          -133.8,
+          24.7,
+          26
+        ],
+        "focal_mm": 24,
+        "tags": [
+          "all"
+        ],
+        "kind": "hall",
+        "camera_reconstruction_tier": "D",
+        "coordinate_frame": "local building axes, metre units; not georeferenced"
+      },
+      "evidence": "主体平面/柱网A/B；屋顶、上部、色彩C；人物/机位D",
+      "exact_AI_mesh_fit": "UNVERIFIED",
+      "title_zh": "阿帕达纳与朝见庭院",
+      "title_en": "Apadana and its audience court",
+      "claim_ids": [
+        "T06",
+        "T07",
+        "T16",
+        "T17"
+      ],
+      "component_ids": [
+        "Gate_of_All_Lands",
+        "Apadana",
+        "Hundred_Column_Hall",
+        "Tachara_Darius",
+        "Tripylon",
+        "Hadish_Xerxes",
+        "Palace_H_early_core",
+        "Southern_residential_range",
+        "Treasury"
+      ],
+      "approval": "illustrative_with_limitations",
+      "native": "recorded/04_Images/Native/PP05.png",
+      "final": "recorded/04_Images/PP05_4K.png",
+      "share": "recorded/04_Images/PP05_Share_4K.jpg",
+      "prompt": "recorded/04_Images/Native/PP05.prompt.txt",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "final_dimensions": [
+        3840,
+        2160
+      ],
+      "native_4k": false,
+      "strict_pixel_mesh_fit": "UNVERIFIED",
+      "expert_review": "NOT_PERFORMED"
+    },
+    {
+      "id": "PP06",
+      "title": "阿帕达纳 · 柱林内部",
+      "en_title": "Inside the Apadana",
+      "kind": "interior",
+      "zh": [
+        "阿帕达纳内部把外部的宏伟转为可感的空间深度：高柱、木梁与远处门洞重复出现，人在其中只是很小的一部分。屋顶封闭，日光由建筑开口进入，呈现完整使用中的大厅。",
+        "6×6柱网与主厅尺度由资料约束。全部木顶、涂色、室内明暗和人物活动则属于推定；没有人为增加天窗、现代照明或虚构巨型王座。"
+      ],
+      "en": [
+        "Inside the Apadana, high columns, long timber spans and distant portals turn exterior grandeur into depth. Daylight enters from architectural openings beneath a complete roof.",
+        "The six-by-six grid is fixed in the reference model. Ceiling details, colour, lighting and human activity remain interpretations rather than recovered interior photographs."
+      ],
+      "claims": [
+        "T06",
+        "T07",
+        "T16",
+        "T17",
+        "T19"
+      ],
+      "camera": {
+        "id": "PP06",
+        "title_zh": "阿帕达纳 · 柱林内部",
+        "title_en": "Inside the Apadana",
+        "position_m": [
+          -156.8,
+          5.699999999999999,
+          16.75
+        ],
+        "look_at_m": [
+          -113.80000000000001,
+          48.7,
+          25
+        ],
+        "focal_mm": 21,
+        "tags": [
+          "all"
+        ],
+        "kind": "interior",
+        "camera_reconstruction_tier": "D",
+        "coordinate_frame": "local building axes, metre units; not georeferenced"
+      },
+      "evidence": "主体平面/柱网A/B；屋顶、上部、色彩C；人物/机位D",
+      "exact_AI_mesh_fit": "UNVERIFIED",
+      "title_zh": "阿帕达纳 · 柱林内部",
+      "title_en": "Inside the Apadana",
+      "claim_ids": [
+        "T06",
+        "T07",
+        "T16",
+        "T17",
+        "T19"
+      ],
+      "component_ids": [
+        "Gate_of_All_Lands",
+        "Apadana",
+        "Hundred_Column_Hall",
+        "Tachara_Darius",
+        "Tripylon",
+        "Hadish_Xerxes",
+        "Palace_H_early_core",
+        "Southern_residential_range",
+        "Treasury"
+      ],
+      "approval": "illustrative_with_limitations",
+      "native": "recorded/04_Images/Native/PP06.png",
+      "final": "recorded/04_Images/PP06_4K.png",
+      "share": "recorded/04_Images/PP06_Share_4K.jpg",
+      "prompt": "recorded/04_Images/Native/PP06.prompt.txt",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "final_dimensions": [
+        3840,
+        2160
+      ],
+      "native_4k": false,
+      "strict_pixel_mesh_fit": "UNVERIFIED",
+      "expert_review": "NOT_PERFORMED"
+    },
+    {
+      "id": "PP07",
+      "title": "百柱厅与北侧门廊",
+      "en_title": "Hundred Column Hall and north portico",
+      "kind": "hall",
+      "zh": [
+        "百柱厅北侧门廊展示另一种宏伟：较低的屋顶覆盖更密集、更宽广的柱列。庭院与门廊的连续关系使其成为整座宫殿群中的大型空间，而非孤立亭子。",
+        "主厅10×10柱网与北廊2×8柱网必须分开。这里的百柱厅也不等同库房内另一座百柱库厅。模型固定这些区别，生成图的细部可见计数仍有局限。"
+      ],
+      "en": [
+        "The north portico introduces the Hundred Column Hall as a broad, lower mass linked to its forecourt. Its grandeur differs from the taller Apadana.",
+        "The main ten-by-ten grid and north two-by-eight portico are separate. This public hall is not the other hundred-column storage hall in the treasury."
+      ],
+      "claims": [
+        "T08",
+        "T09",
+        "T13",
+        "T17"
+      ],
+      "camera": {
+        "id": "PP07",
+        "title_zh": "百柱厅与北侧门廊",
+        "title_en": "Hundred Column Hall and north portico",
+        "position_m": [
+          48,
+          118,
+          13.75
+        ],
+        "look_at_m": [
+          0,
+          10,
+          23
+        ],
+        "focal_mm": 24,
+        "tags": [
+          "all"
+        ],
+        "kind": "hall",
+        "camera_reconstruction_tier": "D",
+        "coordinate_frame": "local building axes, metre units; not georeferenced"
+      },
+      "evidence": "主体平面/柱网A/B；屋顶、上部、色彩C；人物/机位D",
+      "exact_AI_mesh_fit": "UNVERIFIED",
+      "title_zh": "百柱厅与北侧门廊",
+      "title_en": "Hundred Column Hall and north portico",
+      "claim_ids": [
+        "T08",
+        "T09",
+        "T13",
+        "T17"
+      ],
+      "component_ids": [
+        "Gate_of_All_Lands",
+        "Apadana",
+        "Hundred_Column_Hall",
+        "Tachara_Darius",
+        "Tripylon",
+        "Hadish_Xerxes",
+        "Palace_H_early_core",
+        "Southern_residential_range",
+        "Treasury"
+      ],
+      "approval": "illustrative_with_limitations",
+      "native": "recorded/04_Images/Native/PP07.png",
+      "final": "recorded/04_Images/PP07_4K.png",
+      "share": "recorded/04_Images/PP07_Share_4K.jpg",
+      "prompt": "recorded/04_Images/Native/PP07.prompt.txt",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "final_dimensions": [
+        3840,
+        2160
+      ],
+      "native_4k": false,
+      "strict_pixel_mesh_fit": "UNVERIFIED",
+      "expert_review": "NOT_PERFORMED"
+    },
+    {
+      "id": "PP08",
+      "title": "百柱厅 · 深处的秩序",
+      "en_title": "Within the Hundred Column Hall",
+      "kind": "interior",
+      "zh": [
+        "百柱厅内部以更密集的柱阵展开长距离视线。宽大的地面与有顶空间共同表现其秩序，少量远处人物让柱间距和屋顶高度更容易感知。",
+        "参考模型包含100根主厅柱，但一个透视画面无法同时看清全部柱子。完整梁架与墙面仍是复原方案，人物不被认定为某位国王或某次真实朝会。"
+      ],
+      "en": [
+        "Long diagonals through a dense column grid reveal the scale of the roofed Hundred Column Hall. A few distant figures clarify spacing and height.",
+        "The mesh contains one hundred main columns, but no single perspective reveals them all. Roof framing, surfaces and activity remain hypotheses."
+      ],
+      "claims": [
+        "T08",
+        "T09",
+        "T17",
+        "T19"
+      ],
+      "camera": {
+        "id": "PP08",
+        "title_zh": "百柱厅 · 深处的秩序",
+        "title_en": "Within the Hundred Column Hall",
+        "position_m": [
+          -28,
+          -28,
+          13.75
+        ],
+        "look_at_m": [
+          25,
+          25,
+          19
+        ],
+        "focal_mm": 21,
+        "tags": [
+          "all"
+        ],
+        "kind": "interior",
+        "camera_reconstruction_tier": "D",
+        "coordinate_frame": "local building axes, metre units; not georeferenced"
+      },
+      "evidence": "主体平面/柱网A/B；屋顶、上部、色彩C；人物/机位D",
+      "exact_AI_mesh_fit": "UNVERIFIED",
+      "title_zh": "百柱厅 · 深处的秩序",
+      "title_en": "Within the Hundred Column Hall",
+      "claim_ids": [
+        "T08",
+        "T09",
+        "T17",
+        "T19"
+      ],
+      "component_ids": [
+        "Gate_of_All_Lands",
+        "Apadana",
+        "Hundred_Column_Hall",
+        "Tachara_Darius",
+        "Tripylon",
+        "Hadish_Xerxes",
+        "Palace_H_early_core",
+        "Southern_residential_range",
+        "Treasury"
+      ],
+      "approval": "illustrative_with_limitations",
+      "native": "recorded/04_Images/Native/PP08.png",
+      "final": "recorded/04_Images/PP08_4K.png",
+      "share": "recorded/04_Images/PP08_Share_4K.jpg",
+      "prompt": "recorded/04_Images/Native/PP08.prompt.txt",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "final_dimensions": [
+        3840,
+        2160
+      ],
+      "native_4k": false,
+      "strict_pixel_mesh_fit": "UNVERIFIED",
+      "expert_review": "NOT_PERFORMED"
+    },
+    {
+      "id": "PP09",
+      "title": "王宫台基与私庭",
+      "en_title": "Royal palaces and raised courts",
+      "kind": "palaces",
+      "zh": [
+        "南部王宫从公共柱厅转向多层台基、较小门廊和内院。塔查拉、哈迪什与中央连接空间形成一组可相互辨认的体量，远处仍能看到大型柱厅的背景。",
+        "已知位置和柱网与失去的上部建筑分开处理。PalaceH的早期阶段存在争议，本作只采用假设体块，不复制后来王朝加建的雕刻阶梯。侍从执杯或携物只是使用情境，不能证明一次具体宴饮。"
+      ],
+      "en": [
+        "Southern royal palaces use separate podiums, smaller porticoes and courts, while the public halls remain in the background. Tachara, Hadish and the central connection are distinct masses.",
+        "Lost upper structures and disputed early Palace H phases remain explicit hypotheses. Attendants carrying vessels illustrate use rather than establish a particular feast."
+      ],
+      "claims": [
+        "T10",
+        "T11",
+        "T12",
+        "T14",
+        "T15",
+        "T19"
+      ],
+      "camera": {
+        "id": "PP09",
+        "title_zh": "王宫台基与私庭",
+        "title_en": "Royal palaces and raised courts",
+        "position_m": [
+          -211.9,
+          -146.2,
+          49
+        ],
+        "look_at_m": [
+          -128.9,
+          -68.2,
+          23
+        ],
+        "focal_mm": 30,
+        "tags": [
+          "all"
+        ],
+        "kind": "palaces",
+        "camera_reconstruction_tier": "D",
+        "coordinate_frame": "local building axes, metre units; not georeferenced"
+      },
+      "evidence": "主体平面/柱网A/B；屋顶、上部、色彩C；人物/机位D",
+      "exact_AI_mesh_fit": "UNVERIFIED",
+      "title_zh": "王宫台基与私庭",
+      "title_en": "Royal palaces and raised courts",
+      "claim_ids": [
+        "T10",
+        "T11",
+        "T12",
+        "T14",
+        "T15",
+        "T19"
+      ],
+      "component_ids": [
+        "Gate_of_All_Lands",
+        "Apadana",
+        "Hundred_Column_Hall",
+        "Tachara_Darius",
+        "Tripylon",
+        "Hadish_Xerxes",
+        "Palace_H_early_core",
+        "Southern_residential_range",
+        "Treasury"
+      ],
+      "approval": "illustrative_with_limitations",
+      "native": "recorded/04_Images/Native/PP09.png",
+      "final": "recorded/04_Images/PP09_4K.png",
+      "share": "recorded/04_Images/PP09_Share_4K.jpg",
+      "prompt": "recorded/04_Images/Native/PP09.prompt.txt",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "final_dimensions": [
+        3840,
+        2160
+      ],
+      "native_4k": false,
+      "strict_pixel_mesh_fit": "UNVERIFIED",
+      "expert_review": "NOT_PERFORMED"
+    },
+    {
+      "id": "PP10",
+      "title": "东侧山坡回望宫殿群",
+      "en_title": "The terrace seen from the eastern hillside",
+      "kind": "overall",
+      "zh": [
+        "东侧山坡回望把库房和百柱厅置于近处，较高的阿帕达纳、入口与南部宫殿延伸到远侧。第三个总览方向把王宫、山体与平原联系起来，进一步说明高台的完整范围。",
+        "山形没有使用实测DEM，平原上的田地与远景只作背景解释。后期山坡王陵被排除；图像不是整个古代城市的复原，不能由远景房屋推断巴尔萨的实际面积或人口。"
+      ],
+      "en": [
+        "The eastern hillside view places treasury and the Hundred Column Hall nearer the observer, with Apadana and the rest of the terrace beyond. It connects palace, hill and plain.",
+        "Terrain is schematic without a surveyed DEM. Later hillside tombs are excluded; distant fields or settlement hints do not constitute a reconstruction of the whole city."
+      ],
+      "claims": [
+        "T02",
+        "T03",
+        "T13",
+        "T18",
+        "T20"
+      ],
+      "camera": {
+        "id": "PP10",
+        "title_zh": "东侧山坡回望宫殿群",
+        "title_en": "The terrace seen from the eastern hillside",
+        "position_m": [
+          365,
+          30,
+          230
+        ],
+        "look_at_m": [
+          -50,
+          -10,
+          19
+        ],
+        "focal_mm": 26,
+        "tags": [
+          "all"
+        ],
+        "kind": "overall",
+        "camera_reconstruction_tier": "D",
+        "coordinate_frame": "local building axes, metre units; not georeferenced"
+      },
+      "evidence": "主体平面/柱网A/B；屋顶、上部、色彩C；人物/机位D",
+      "exact_AI_mesh_fit": "UNVERIFIED",
+      "title_zh": "东侧山坡回望宫殿群",
+      "title_en": "The terrace seen from the eastern hillside",
+      "claim_ids": [
+        "T02",
+        "T03",
+        "T13",
+        "T18",
+        "T20"
+      ],
+      "component_ids": [
+        "Gate_of_All_Lands",
+        "Apadana",
+        "Hundred_Column_Hall",
+        "Tachara_Darius",
+        "Tripylon",
+        "Hadish_Xerxes",
+        "Palace_H_early_core",
+        "Southern_residential_range",
+        "Treasury"
+      ],
+      "approval": "illustrative_with_limitations",
+      "native": "recorded/04_Images/Native/PP10.png",
+      "final": "recorded/04_Images/PP10_4K.png",
+      "share": "recorded/04_Images/PP10_Share_4K.jpg",
+      "prompt": "recorded/04_Images/Native/PP10.prompt.txt",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "final_dimensions": [
+        3840,
+        2160
+      ],
+      "native_4k": false,
+      "strict_pixel_mesh_fit": "UNVERIFIED",
+      "expert_review": "NOT_PERFORMED"
+    },
+    {
+      "id": "PP11",
+      "title": "主要活动区域 · 区域全景",
+      "en_title": "Regional panorama of the principal activity areas",
+      "kind": "regional",
+      "zh": [
+        "区域全景将宫殿高台放回更广的聚落景观：台下大型建筑向南北延展，西侧居住与工匠活动区分布在园地之间，菲鲁齐早期建筑区位于更远的西侧。北侧王陵与河流、农田提供区域背景，高台内外承担着不同活动。",
+        "区域位置和开敞形态有研究依据，住宅数量、上部建筑、田园分块及具体人口均未被本作确认。菲鲁齐较早的建筑是否在430BCE全部使用也未知。这是主要区域的解释性全景，不能视为所有活动已知、每座房屋均已测绘的完整城市图。"
+      ],
+      "en": [
+        "The regional panorama places the royal terrace within a wider settlement landscape: large buildings extend below it, western living and craft clusters alternate with gardens, and older Firuzi monuments lie farther west. Northern cliffs and cultivated land provide the broader setting.",
+        "Sector locations and open landscape organisation have research support. Individual houses, density, complete upper structures and430BCE occupancy remain hypothetical. This is a panorama of principal regions, not an exhaustive contemporary city survey."
+      ],
+      "claims": [
+        "U01 regional sectors",
+        "U02 low-density garden landscape",
+        "U03 uncertain synchronous occupation"
+      ],
+      "camera": {
+        "id": "PP11",
+        "title_zh": "主要活动区域 · 区域全景",
+        "title_en": "Regional panorama of the principal activity areas",
+        "position_m": [
+          -7100,
+          -6300,
+          6800
+        ],
+        "look_at_m": [
+          -1000,
+          2150,
+          0
+        ],
+        "focal_mm": 36,
+        "tags": [
+          "all"
+        ],
+        "kind": "regional",
+        "camera_reconstruction_tier": "D",
+        "coordinate_frame": "same local building axes as core; approximate true-north rotation15deg",
+        "scope": "multi-kilometre Achaemenid settlement landscape, no claim of every known/unknown activity or synchronous430BCE occupancy"
+      },
+      "evidence": "区域B；个体建筑/密度/田园C/D",
+      "exact_AI_mesh_fit": "UNVERIFIED",
+      "title_zh": "主要活动区域 · 区域全景",
+      "title_en": "Regional panorama of the principal activity areas",
+      "claim_ids": [
+        "U01",
+        "U02",
+        "U03"
+      ],
+      "component_ids": [
+        "Gate_of_All_Lands",
+        "Apadana",
+        "Hundred_Column_Hall",
+        "Tachara_Darius",
+        "Tripylon",
+        "Hadish_Xerxes",
+        "Palace_H_early_core",
+        "Southern_residential_range",
+        "Treasury"
+      ],
+      "approval": "illustrative_with_limitations",
+      "native": "recorded/04_Images/Native/PP11.png",
+      "final": "recorded/04_Images/PP11_4K.png",
+      "share": "recorded/04_Images/PP11_Share_4K.jpg",
+      "prompt": "recorded/04_Images/Native/PP11.prompt.txt",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "final_dimensions": [
+        3840,
+        2160
+      ],
+      "native_4k": false,
+      "strict_pixel_mesh_fit": "UNVERIFIED",
+      "expert_review": "NOT_PERFORMED"
+    }
+  ],
+  "failures": [
+    {
+      "id": "F01",
+      "topic": "Scope and scale",
+      "observed": "A small guessed compound did not communicate institutional or urban extent.",
+      "action": "Separate the evidence-backed palace core from the wider activity landscape.",
+      "lesson": "Unknown plan or population does not justify a small footprint.",
+      "status": "SCOPE_REVISED",
+      "evidence": [
+        "recorded/00_Research/URBAN_ADDENDUM.md"
+      ],
+      "topic_zh": "范围与规模（前序项目经验）",
+      "observed_zh": "前序智慧宫练习中，缺乏尺度证据的狭小院落未能表达用户期待的机构和活动范围。",
+      "action_zh": "波斯波利斯案例分别表达完整宫殿高台与外围主要活动区。",
+      "lesson_zh": "平面或人口未知，既不能推出“小院子”，也不能授权创造巨大城市。",
+      "record_type": "curated_process_summary_with_evidence_links",
+      "origin": "predecessor Baghdad exercise; retrospective lesson, not an initial Persepolis image",
+      "evidence_scope": "Current regional addendum documents the response; predecessor output/raw conversation are not bundled."
+    },
+    {
+      "id": "F02",
+      "topic": "PP01 geometry",
+      "observed": "Freestanding beasts, retaining-wall figures and a straight stair appeared in the first generated aerial.",
+      "action": "Two targeted image edits using the revised stair structure reference.",
+      "lesson": "Review the actual result against named constraints; a supplied structure image is not a guarantee.",
+      "status": "REPAIRED_WITH_LIMITATIONS",
+      "before": "recorded/04_Images/Native/PP01_initial.png",
+      "after": "recorded/04_Images/PP01_Share_4K.jpg",
+      "evidence": [
+        "recorded/04_Images/Native/PP01_repair.prompt.txt",
+        "recorded/04_Images/Native/PP01_repair2.prompt.txt"
+      ],
+      "topic_zh": "PP01：入口与全景几何",
+      "observed_zh": "初次全景出现独立巨兽、挡墙人物带与直线阶梯。",
+      "action_zh": "实际执行两次定向修改，并加入修订后的阶梯结构参考。",
+      "lesson_zh": "提供结构图不等于成图服从模型，仍须检查实际结果；细部台阶与柱数仍有边界。",
+      "record_type": "curated_process_summary_with_evidence_links"
+    },
+    {
+      "id": "F03",
+      "topic": "PP02 camera",
+      "observed": "A photographic style master dominated the requested reverse viewpoint.",
+      "action": "Regenerate from the mesh view and source plan without the photographic style master.",
+      "lesson": "Reference roles can compete; use geometry/camera evidence independently from style.",
+      "status": "REGENERATED",
+      "before": "recorded/04_Images/Native/PP02_initial.png",
+      "after": "recorded/04_Images/PP02_Share_4K.jpg",
+      "evidence": [
+        "recorded/04_Images/Native/PP02_initial.prompt.txt",
+        "recorded/04_Images/Native/PP02.prompt.txt"
+      ],
+      "topic_zh": "PP02：反向机位未生效",
+      "observed_zh": "风格参考图压过了所要求的反向视角。",
+      "action_zh": "改用模型机位与考古平面重新生成，不再输入摄影风格主图。",
+      "lesson_zh": "不同参考图会竞争，空间与机位输入应和风格角色分开。",
+      "record_type": "curated_process_summary_with_evidence_links"
+    },
+    {
+      "id": "F04",
+      "topic": "PP04: unsupported head diagnosis and residual anatomy",
+      "observed": "The edit prompt diagnosed human heads, but independent inspection of the preserved before/after images found bovine attributes in both; the original diagnosis is not demonstrated.",
+      "action": "Retain the actual edit, input/output and original QA, and correct the public interpretation rather than presenting the instruction as proof.",
+      "lesson": "An edit request and a historical PASS do not establish the original defect or its repair. Inspect both images; residual body/pose/detail remains illustrative.",
+      "status": "DIAGNOSIS_CORRECTED_RESIDUAL_DETAIL_UNVERIFIED",
+      "before": "recorded/04_Images/Native/PP04_initial.png",
+      "after": "recorded/04_Images/PP04_Share_4K.jpg",
+      "evidence": [
+        "recorded/04_Images/Native/PP04_repair.prompt.txt",
+        "recorded/06_Quality_Assurance/IMAGE_VISUAL_QA.json",
+        "process-support/PP04_DIAGNOSTIC_ERRATUM.md"
+      ],
+      "topic_zh": "PP04：守护兽误诊与未解决细部",
+      "observed_zh": "原编辑指令将守护兽诊断为人头，但独立复核发现保留的前后两版都已有牛头特征，原诊断缺乏图像支持。",
+      "action_zh": "保留实际编辑、两版图、提示词与旧审核，同时公开更正解释，不再把指令当成修复成功的证据。",
+      "lesson_zh": "想修什么、调用过工具、旧记录写了 PASS，都不能证明原图确有该问题或已被修复；身体姿态和雕刻细部仍仅作示意。",
+      "record_type": "curated_process_summary_with_evidence_links"
+    },
+    {
+      "id": "F05",
+      "topic": "PP05 columns",
+      "observed": "The portico column sequence was excessive or ambiguous.",
+      "action": "A targeted edit changed the spacing/sequence.",
+      "lesson": "The mesh invariant can pass while visible AI column counts remain unverified.",
+      "status": "REPAIRED_COUNTS_UNVERIFIED",
+      "before": "recorded/04_Images/Native/PP05_initial.png",
+      "after": "recorded/04_Images/PP05_Share_4K.jpg",
+      "evidence": [
+        "recorded/04_Images/Native/PP05_repair.prompt.txt"
+      ],
+      "topic_zh": "PP05：门廊柱序",
+      "observed_zh": "生成图的柱序过多或不清楚。",
+      "action_zh": "定向调整柱序与间距。",
+      "lesson_zh": "模型柱网检查与照片中的可见柱数是两项检查，后者仍未独立精确核验。",
+      "record_type": "curated_process_summary_with_evidence_links"
+    },
+    {
+      "id": "F06",
+      "topic": "Regional completeness",
+      "observed": "The terrace could be mistaken for the entire inhabited city.",
+      "action": "Add PP11 and regional evidence; label individual houses and synchronous occupation as hypotheses.",
+      "lesson": "A principal-sector panorama is not an exhaustive city survey or census.",
+      "status": "CONTEXT_ADDED",
+      "evidence": [
+        "recorded/00_Research/URBAN_ADDENDUM.md",
+        "recorded/05_Metadata/PP11_Bilingual_Guide.md"
+      ],
+      "topic_zh": "城市与高台的范围混淆",
+      "observed_zh": "仅展示高台，容易让读者把王室核心误认为全部城市。",
+      "action_zh": "增加 PP11、区域研究与外围活动区模型，明确住宅和同期使用状态的推定。",
+      "lesson_zh": "主要分区全景不是完整同期城市测绘，更不能反推人口。",
+      "record_type": "curated_process_summary_with_evidence_links"
+    },
+    {
+      "id": "F07",
+      "topic": "Viewer depth",
+      "observed": "A former painter-style viewer could hide roofs despite passing functional UI checks.",
+      "action": "Replace it with depth-tested rendering and inspect screenshots.",
+      "lesson": "Functional interaction tests and visible model correctness are separate checks.",
+      "status": "TECHNICAL_REPAIR",
+      "evidence": [
+        "legacy-process/depth_viewer.js",
+        "recorded/06_Quality_Assurance/SINGLE_FILE_QA.json",
+        "process-support/BROWSER_ENVIRONMENT.json"
+      ],
+      "topic_zh": "网页模型的遮挡显示",
+      "observed_zh": "旧版绘制顺序可能把屋顶遮住，即使按钮等交互已经通过检查。",
+      "action_zh": "改用有深度测试的模型显示，并检查实际截图。",
+      "lesson_zh": "功能测试和视觉正确性必须分别验证。原平台曾有浏览器沙箱启动失败，环境缺口与模型缺陷分开记录。",
+      "record_type": "curated_process_summary_with_evidence_links"
+    },
+    {
+      "id": "F08",
+      "topic": "Unavailable primary volume",
+      "observed": "The large OIP68 download did not complete within the bounded attempts.",
+      "action": "Use the acquired OIC21 report and catalogue evidence; preserve the access gap.",
+      "lesson": "A catalogue or partial transfer is not a read full book. Retry only for a named gap and a justified bounded method.",
+      "status": "ACCESS_GAP_RETAINED",
+      "evidence": [
+        "recorded/00_Research/sources.json",
+        "process-support/DOWNLOAD_RECEIPT.json"
+      ],
+      "topic_zh": "原始报告下载未完成",
+      "observed_zh": "大体积 OIP68 未在有界尝试内下载完成。",
+      "action_zh": "使用实际取得的 OIC21、已读图版与目录信息，并保留访问缺口。",
+      "lesson_zh": "目录或部分传输不能算全文已读；只有明确的新证据缺口与有界方法才支持重试。",
+      "record_type": "curated_process_summary_with_evidence_links"
+    }
+  ],
+  "external_assets": [
+    {
+      "id": "Iranica_Figure2_Persepolis_Plan.jpg",
+      "path": "recorded/01_Maps_Plans/Iranica_Figure2_Persepolis_Plan.jpg",
+      "sha256": "17fb63b4570fe31129b8c6c1e76f7e4e02794333f82c015793a9594ef6ed3a5b",
+      "source_id": "S02",
+      "availability": "NOT_BUNDLED_RIGHTS",
+      "required_for_offline_replay": false,
+      "reason": "Third-party research plan/map; not included in the public distribution."
+    },
+    {
+      "id": "OIC21_Figure5_1937_Terrace_Plan.png",
+      "path": "recorded/01_Maps_Plans/OIC21_Figure5_1937_Terrace_Plan.png",
+      "sha256": "9250b51702c4fc664fa11562cdae2648c3bf77ec0d5ad489f23538cb6a036d13",
+      "source_id": "S01",
+      "availability": "NOT_BUNDLED_RIGHTS",
+      "required_for_offline_replay": false,
+      "reason": "Third-party research plan/map; not included in the public distribution."
+    },
+    {
+      "id": "Regional_Sectors_Source.jpg",
+      "path": "recorded/01_Maps_Plans/Regional_Sectors_Source.jpg",
+      "sha256": "92689d23e1f106c5f325e2db02765aeac12785a1de663546eb0fa4ddbeea93de",
+      "source_id": "S08",
+      "availability": "NOT_BUNDLED_RIGHTS",
+      "required_for_offline_replay": false,
+      "reason": "Third-party research plan/map; not included in the public distribution."
+    },
+    {
+      "id": "Royal_Precinct_Source.jpg",
+      "path": "recorded/01_Maps_Plans/Royal_Precinct_Source.jpg",
+      "sha256": "98776f1ff3da69769b1b60c8e8980e39ca0d4e9260e13427e172c1fd31987820",
+      "source_id": "S08",
+      "availability": "NOT_BUNDLED_RIGHTS",
+      "required_for_offline_replay": false,
+      "reason": "Third-party research plan/map; not included in the public distribution."
+    }
+  ],
+  "geometry": {
+    "recipe": "model_recipe.py",
+    "context_recipe": "context_recipe.py",
+    "expected_objects": {
+      "core": 1883,
+      "context": 2530
+    },
+    "column_invariants": {
+      "Apadana_main": 36,
+      "Apadana_three_porticoes": 36,
+      "Hundred_main": 100,
+      "Hundred_north_portico": 16,
+      "Gate": 4,
+      "Tachara_main": 12,
+      "Hadish_main": 36,
+      "Tripylon": 4
+    }
+  },
+  "limitations": [
+    "Approximate plan registration, not a survey or DEM.",
+    "Roofs, complete heights, palette, population and regional occupation contain hypotheses.",
+    "PP04 head-correction diagnosis is unsupported by preserved images and corrected in ERRATA; guardian anatomy/pose remains illustrative.",
+    "Strict AI image-to-mesh agreement and visible column counts are UNVERIFIED.",
+    "No independent archaeological certification; technical replay is not historical validation.",
+    "Fresh image generation and identical AI reproduction are not part of offline replay.",
+    "Recorded 4K PNGs are learned upscales from 1672x941 originals."
+  ],
+  "manifest": "assets.sha256.json",
+  "generation_history": "recorded/06_Quality_Assurance/GENERATION_PROVENANCE.json",
+  "reviews": []
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "历史建筑复原"
+  short_description: "从史料与不确定性开始，准备模型、生图输入、修正记录和可审查案例"
+  default_prompt: "使用 $heritage-reconstruct 为指定历史建筑建立有来源和明确推定边界的复原案例。"

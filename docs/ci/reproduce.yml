@@ -1,0 +1,46 @@
+name: Reproduce case and skills
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  reproduce:
+    name: ${{ matrix.os }} / Python ${{ matrix.python }}
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: ubuntu-latest
+            python: '3.9'
+          - os: macos-latest
+            python: '3.12'
+          - os: windows-latest
+            python: '3.12'
+    runs-on: ${{ matrix.os }}
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUTF8: '1'
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-python@v7.0.0
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Verify complete case
+        run: python scripts/heritage.py verify --case cases/persepolis
+      - name: Rebuild model, gallery and archive
+        run: python scripts/heritage.py reproduce --case cases/persepolis --out build/persepolis
+      - name: Standalone reconstruct skill
+        run: |
+          python skills/heritage-reconstruct/scripts/heritage.py init --out work/ci-demo --id ci-demo --demo
+          python skills/heritage-reconstruct/scripts/heritage.py reproduce --case work/ci-demo --out build/ci-demo
+      - name: Standalone audit skill
+        run: python skills/heritage-audit/scripts/heritage.py audit --case cases/persepolis --report build/ci-audit.json

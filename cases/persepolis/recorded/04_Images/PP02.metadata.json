@@ -1,0 +1,115 @@
+{
+  "id": "PP02",
+  "actual_tool": "built-in image_gen.imagegen",
+  "actual_generated": true,
+  "native_file": "04_Images/Native/PP02.png",
+  "native_dimensions": [
+    1672,
+    941
+  ],
+  "native_sha256": "23821a4d9a1232956980f778f5c04af2d0035b446f7cd12dd559a25205095309",
+  "final_file": "04_Images/PP02_4K.png",
+  "final_dimensions": [
+    3840,
+    2160
+  ],
+  "final_sha256": "84337758b4b192d5d87a5cb2bc466b76a3ab26b146324bd1ac1ad2149db85634",
+  "upscaling": {
+    "algorithm": "FSRCNN x3 pretrained TensorFlow graph via OpenCV dnn_superres, followed by area downsampling to 3840x2160",
+    "model_source": "https://github.com/Saafke/FSRCNN_Tensorflow/blob/master/models/FSRCNN_x3.pb",
+    "model_sha256": "efd38655a815908c6c8954db6052f128e76a735f1de657894c477d0dc0b64481",
+    "opencv_version": "4.12.0",
+    "native_size": [
+      1672,
+      941
+    ],
+    "network_output_size": [
+      5016,
+      2823
+    ],
+    "exact_aspect_crop_size": [
+      5008,
+      2817
+    ],
+    "final_size": [
+      3840,
+      2160
+    ],
+    "downsample": "OpenCV INTER_AREA from learned 3x prediction",
+    "crop_pixels": {
+      "left": 4,
+      "right": 4,
+      "top": 3,
+      "bottom": 3
+    },
+    "source_sha256": "23821a4d9a1232956980f778f5c04af2d0035b446f7cd12dd559a25205095309",
+    "output_sha256": "84337758b4b192d5d87a5cb2bc466b76a3ab26b146324bd1ac1ad2149db85634",
+    "elapsed_seconds": 2.123,
+    "native_4k": false,
+    "note": "学习型3倍超分辨率后面积缩减到3840×2160；原生尺寸与裁切如实记录。最终文件为4K尺寸，不是原生4K，放大不增加考古证据。",
+    "cpu_threads": 2,
+    "gpu_used": false
+  },
+  "sharing_derivative": {
+    "file": "04_Images/PP02_Share_4K.jpg",
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "lossy": true,
+    "sha256": "feeca0f69a24146cc89794ebc25f6e5a948e9d19fcff7f486d402098d9a018ac"
+  },
+  "camera": {
+    "id": "PP02",
+    "title_zh": "完整宫殿群 · 西南鸟瞰",
+    "title_en": "Complete terrace from the southwest",
+    "position_m": [
+      -465,
+      -485,
+      345
+    ],
+    "look_at_m": [
+      -35,
+      -10,
+      16
+    ],
+    "focal_mm": 30,
+    "tags": [
+      "all"
+    ],
+    "kind": "overall",
+    "camera_reconstruction_tier": "D",
+    "coordinate_frame": "local building axes, metre units; not georeferenced"
+  },
+  "prompt": {
+    "id": "PP02",
+    "prompt_path": "04_Images/Native/PP02.prompt.txt",
+    "prompt_sha256": "831a3ff625783edfb6b35048dcba876834178f06ef106e06fe645be5d99ca6cd",
+    "references": [
+      "03_References/PP02_Structure.png",
+      "01_Maps_Plans/Iranica_Figure2_Persepolis_Plan.jpg"
+    ],
+    "reference_roles": [
+      "geometry/camera",
+      "source plan, no photographic style image"
+    ]
+  },
+  "input_reference_sha256": "815b8cbd01ee45443858e4ab603fc90ff039e3dc5f943cdaee2b6ea51fa73a16",
+  "geometry_version": "final-stair-revision",
+  "provider_model": "UNVERIFIED_NOT_EXPOSED",
+  "seed": "UNVERIFIED_NOT_EXPOSED",
+  "strict_pixel_mesh_fit": "UNVERIFIED",
+  "independent_archaeological_review": "NOT_PERFORMED",
+  "second_input_sha256": "17fb63b4570fe31129b8c6c1e76f7e4e02794333f82c015793a9594ef6ed3a5b",
+  "rejected_initial_reason": "Wrong aerial direction repeated master camera",
+  "actual_prompt_chain": [
+    {
+      "path": "04_Images/Native/PP02_initial.prompt.txt",
+      "sha256": "191622765f7c717d6bda8fc752a38d9214d347d910d8d94ecf5630e9dc674a29"
+    },
+    {
+      "path": "04_Images/Native/PP02.prompt.txt",
+      "sha256": "831a3ff625783edfb6b35048dcba876834178f06ef106e06fe645be5d99ca6cd"
+    }
+  ]
+}

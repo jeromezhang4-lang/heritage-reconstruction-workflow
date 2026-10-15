@@ -1,0 +1,194 @@
+{
+  "candidate_sha256": "8761f700cac82a119a60da0a2622ae9123df261df6c4b07a46929c2b2552a420",
+  "candidate": "<AUTHOR_WORKSPACE>/work/open-source-v1/candidate-v0.1.0.zip",
+  "version_scope": "original candidate-v0.1.0.zip only; superseded by R2 for final decision",
+  "technical_replay": "PASS",
+  "historical_certification": "UNVERIFIED",
+  "fresh_ai_generation": "NOT_RUN",
+  "standalone_skills": {
+    "heritage-reconstruct": "demo + full-case guarded replay PASS",
+    "heritage-audit": "demo + full-case audit PASS"
+  },
+  "documented_tests": {
+    "count": 15,
+    "status": "PASS"
+  },
+  "browser": {
+    "status": "PASS",
+    "checks": 23,
+    "closed": true,
+    "network_requests": 0
+  },
+  "findings": [
+    {
+      "id": "R1-F01",
+      "status": "FAIL",
+      "scope": "documentation completeness",
+      "detail": "README/docs reference validation/ACCEPTANCE.md but candidate ZIP lacks validation directory"
+    },
+    {
+      "id": "R1-F02",
+      "status": "UNVERIFIED",
+      "scope": "PP04 narrative",
+      "detail": "Before image already shows long animal muzzle and curved horns; supplied before/after pair alone does not clearly establish the human-head failure described in F04"
+    },
+    {
+      "id": "R1-F03",
+      "status": "UNVERIFIED",
+      "scope": "history",
+      "detail": "Third-party archaeological plans and full primary studies not bundled; source truth/chronology cannot be independently certified offline"
+    }
+  ],
+  "manual_image_scope": [
+    "all 11 final views in contact sheet",
+    "PP01 initial/final native",
+    "PP02 initial/final native",
+    "PP04 initial/final native",
+    "PP05 initial/final native",
+    "core and regional browser screenshots"
+  ],
+  "processes": [
+    {
+      "label": "create_clean_stdlib_venv",
+      "pid": 10006,
+      "exit_code": 0,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    },
+    {
+      "label": "clean_interpreter",
+      "pid": 10007,
+      "exit_code": 0,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    },
+    {
+      "label": "readme_verify",
+      "pid": 10008,
+      "exit_code": 0,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    },
+    {
+      "label": "readme_reproduce",
+      "pid": 10010,
+      "exit_code": 0,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    },
+    {
+      "label": "repository_tests",
+      "pid": 10051,
+      "exit_code": 1,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    },
+    {
+      "label": "repository_tests_documented",
+      "pid": 10094,
+      "exit_code": 0,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    },
+    {
+      "label": "heritage-reconstruct_demo_init",
+      "pid": 10100,
+      "exit_code": 0,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    },
+    {
+      "label": "heritage-reconstruct_demo_verify",
+      "pid": 10105,
+      "exit_code": 0,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    },
+    {
+      "label": "heritage-reconstruct_demo_reproduce",
+      "pid": 10107,
+      "exit_code": 0,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    },
+    {
+      "label": "heritage-reconstruct_demo_audit",
+      "pid": 10112,
+      "exit_code": 0,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    },
+    {
+      "label": "heritage-audit_demo_init",
+      "pid": 10124,
+      "exit_code": 0,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    },
+    {
+      "label": "heritage-audit_demo_verify",
+      "pid": 10125,
+      "exit_code": 0,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    },
+    {
+      "label": "heritage-audit_demo_reproduce",
+      "pid": 10136,
+      "exit_code": 0,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    },
+    {
+      "label": "heritage-audit_demo_audit",
+      "pid": 10141,
+      "exit_code": 0,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    },
+    {
+      "label": "standalone_audit_full_persepolis",
+      "pid": 10144,
+      "exit_code": 0,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    },
+    {
+      "label": "browser_runtime_available",
+      "pid": 10351,
+      "exit_code": 0,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    },
+    {
+      "label": "offline_browser_qa",
+      "pid": 10448,
+      "exit_code": 1,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    },
+    {
+      "label": "offline_browser_qa_macos_renderer_permission",
+      "pid": 10566,
+      "exit_code": 1,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    },
+    {
+      "label": "offline_browser_qa_macos_renderer_permission",
+      "pid": 10607,
+      "exit_code": 0,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    },
+    {
+      "label": "standalone_reconstruct_full_guarded",
+      "pid": 10683,
+      "exit_code": 0,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    }
+  ],
+  "source_mutation_check": "256 ZIP entries byte-hash identical",
+  "report": "ACCEPTANCE.md"
+}

@@ -1,0 +1,129 @@
+{
+  "id": "PP01",
+  "actual_tool": "built-in image_gen.imagegen",
+  "actual_generated": true,
+  "native_file": "04_Images/Native/PP01.png",
+  "native_dimensions": [
+    1672,
+    941
+  ],
+  "native_sha256": "9a2c091acd2178401d0d0e06a6bdc12c548c6029d39b507a3f04844cfa5bf7fe",
+  "final_file": "04_Images/PP01_4K.png",
+  "final_dimensions": [
+    3840,
+    2160
+  ],
+  "final_sha256": "ad7ec7b549208da1a5c59c1a1524b89c9e9c71315bdfc1fde39cfe666aeac828",
+  "upscaling": {
+    "algorithm": "FSRCNN x3 pretrained TensorFlow graph via OpenCV dnn_superres, followed by area downsampling to 3840x2160",
+    "model_source": "https://github.com/Saafke/FSRCNN_Tensorflow/blob/master/models/FSRCNN_x3.pb",
+    "model_sha256": "efd38655a815908c6c8954db6052f128e76a735f1de657894c477d0dc0b64481",
+    "opencv_version": "4.12.0",
+    "native_size": [
+      1672,
+      941
+    ],
+    "network_output_size": [
+      5016,
+      2823
+    ],
+    "exact_aspect_crop_size": [
+      5008,
+      2817
+    ],
+    "final_size": [
+      3840,
+      2160
+    ],
+    "downsample": "OpenCV INTER_AREA from learned 3x prediction",
+    "crop_pixels": {
+      "left": 4,
+      "right": 4,
+      "top": 3,
+      "bottom": 3
+    },
+    "source_sha256": "9a2c091acd2178401d0d0e06a6bdc12c548c6029d39b507a3f04844cfa5bf7fe",
+    "output_sha256": "ad7ec7b549208da1a5c59c1a1524b89c9e9c71315bdfc1fde39cfe666aeac828",
+    "elapsed_seconds": 2.361,
+    "native_4k": false,
+    "note": "学习型3倍超分辨率后面积缩减到3840×2160；原生尺寸与裁切如实记录。最终文件为4K尺寸，不是原生4K，放大不增加考古证据。",
+    "cpu_threads": 2,
+    "gpu_used": false
+  },
+  "sharing_derivative": {
+    "file": "04_Images/PP01_Share_4K.jpg",
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "lossy": true,
+    "sha256": "41d3a846c701006ce9f8aceb6c45c9ae4a30450933156e29463c9d04680ed4f1"
+  },
+  "camera": {
+    "id": "PP01",
+    "title_zh": "完整宫殿群 · 西北鸟瞰",
+    "title_en": "Complete terrace from the northwest",
+    "position_m": [
+      -480,
+      440,
+      390
+    ],
+    "look_at_m": [
+      -40,
+      -25,
+      16
+    ],
+    "focal_mm": 26,
+    "tags": [
+      "all"
+    ],
+    "kind": "overall",
+    "camera_reconstruction_tier": "D",
+    "coordinate_frame": "local building axes, metre units; not georeferenced"
+  },
+  "prompt": {
+    "id": "PP01",
+    "prompt_path": "04_Images/Native/PP01.prompt.txt",
+    "prompt_sha256": "5a2f0e9664c48b781ba3098b7334b6e27beac0fe8283fde06ac44d2a5d1f6b54",
+    "references": [
+      "03_References/PP01_Structure.png",
+      "01_Maps_Plans/Iranica_Figure2_Persepolis_Plan.jpg"
+    ],
+    "reference_roles": [
+      "geometry/camera",
+      "source plan"
+    ]
+  },
+  "input_reference_sha256": "a6fcaf8b44865ca406adf7e5c32ea6dae29e509d9c359e2dc1a5bbb98d5ba1af",
+  "geometry_version": "initial main mesh with final stair-reference targeted edits",
+  "provider_model": "UNVERIFIED_NOT_EXPOSED",
+  "seed": "UNVERIFIED_NOT_EXPOSED",
+  "strict_pixel_mesh_fit": "UNVERIFIED",
+  "independent_archaeological_review": "NOT_PERFORMED",
+  "second_input_sha256": "17fb63b4570fe31129b8c6c1e76f7e4e02794333f82c015793a9594ef6ed3a5b",
+  "initial_model_sha256": "8a27be8eebf31d105fea98918d721a75cd93b0d934e9545de90ca206c50deda4",
+  "final_edit_inputs": [
+    {
+      "file": "04_Images/Native/PP01_repair1.png",
+      "sha256": "cd6dbb2a0f1b7c393ab0c768143864619b24aa4fdc1d1395b54a1b3e391bda0a"
+    },
+    {
+      "file": "03_References/Stair_Detail_Structure.png",
+      "sha256": "0063c68ba69b1fb2b6cbf0c5111a4b5f7893dae204c94972a445c5426c1d96de"
+    }
+  ],
+  "actual_prompt_chain": [
+    {
+      "path": "04_Images/Native/PP01_initial.prompt.txt",
+      "sha256": "b6b59c839d7b2de5d8239a6e8dc32a642067e18ebcc5621f37eb087c99310282"
+    },
+    {
+      "path": "04_Images/Native/PP01_repair.prompt.txt",
+      "sha256": "a6c442d08fe357025acbf4da7e85b76f1d22383461d9a27f64898ba74dfd19b0"
+    },
+    {
+      "path": "04_Images/Native/PP01_repair2.prompt.txt",
+      "sha256": "b6f852ca83df38e669919f6f161a7763b3ca204918bd2b7cab9d85bad5a8981d"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "历史复原案例审查"
+  short_description: "核查复原案例的来源、模型、生成记录与文件，明确仍需人工判断的部分"
+  default_prompt: "使用 $heritage-audit 审查这个历史复原案例，分别报告技术检查、图像问题与历史不确定性。"

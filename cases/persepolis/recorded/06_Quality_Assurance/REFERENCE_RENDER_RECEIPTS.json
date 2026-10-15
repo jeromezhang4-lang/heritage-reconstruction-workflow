@@ -1,0 +1,162 @@
+[
+  {
+    "status": "ACTUAL_MESH_RENDER",
+    "dimensions": [
+      1280,
+      720
+    ],
+    "objects": 1883,
+    "triangles": 31993,
+    "elapsed_seconds": 1.141,
+    "visible_pixels": 769290,
+    "not_final_ai_image": true,
+    "structure_sha256": "318c62a65f5712fd5457a63d990eb79bf944b602f9fafbc702fc8e381df4b4a8",
+    "depth": "<SOURCE_PROJECT>/outputs/Persepolis/03_References/PP01_Depth.png",
+    "edges": "<SOURCE_PROJECT>/outputs/Persepolis/03_References/PP01_Edges.png",
+    "id": "PP01"
+  },
+  {
+    "status": "ACTUAL_MESH_RENDER",
+    "dimensions": [
+      1280,
+      720
+    ],
+    "objects": 1883,
+    "triangles": 31962,
+    "elapsed_seconds": 1.151,
+    "visible_pixels": 812467,
+    "not_final_ai_image": true,
+    "structure_sha256": "815b8cbd01ee45443858e4ab603fc90ff039e3dc5f943cdaee2b6ea51fa73a16",
+    "depth": "<SOURCE_PROJECT>/outputs/Persepolis/03_References/PP02_Depth.png",
+    "edges": "<SOURCE_PROJECT>/outputs/Persepolis/03_References/PP02_Edges.png",
+    "id": "PP02"
+  },
+  {
+    "status": "ACTUAL_MESH_RENDER",
+    "dimensions": [
+      1280,
+      720
+    ],
+    "objects": 1883,
+    "triangles": 31364,
+    "elapsed_seconds": 1.192,
+    "visible_pixels": 536920,
+    "not_final_ai_image": true,
+    "structure_sha256": "ad981a13df3238c074107854f01108ebe9597838d7ec506af922c079e7abcf7e",
+    "depth": "<SOURCE_PROJECT>/outputs/Persepolis/03_References/PP03_Depth.png",
+    "edges": "<SOURCE_PROJECT>/outputs/Persepolis/03_References/PP03_Edges.png",
+    "id": "PP03"
+  },
+  {
+    "status": "ACTUAL_MESH_RENDER",
+    "dimensions": [
+      1280,
+      720
+    ],
+    "objects": 1883,
+    "triangles": 2137,
+    "elapsed_seconds": 0.564,
+    "visible_pixels": 610086,
+    "not_final_ai_image": true,
+    "structure_sha256": "ba789c8a274f1fb7ec0dab9893c0e35f382ce2217bde21132205ceb0f6a67298",
+    "depth": "<SOURCE_PROJECT>/outputs/Persepolis/03_References/PP04_Depth.png",
+    "edges": "<SOURCE_PROJECT>/outputs/Persepolis/03_References/PP04_Edges.png",
+    "id": "PP04"
+  },
+  {
+    "status": "ACTUAL_MESH_RENDER",
+    "dimensions": [
+      1280,
+      720
+    ],
+    "objects": 1883,
+    "triangles": 16330,
+    "elapsed_seconds": 0.896,
+    "visible_pixels": 743753,
+    "not_final_ai_image": true,
+    "structure_sha256": "da1242a7741bfe742e3ccebe543de531c0d98f94e4738fac080c258ae8392635",
+    "depth": "<SOURCE_PROJECT>/outputs/Persepolis/03_References/PP05_Depth.png",
+    "edges": "<SOURCE_PROJECT>/outputs/Persepolis/03_References/PP05_Edges.png",
+    "id": "PP05"
+  },
+  {
+    "status": "ACTUAL_MESH_RENDER",
+    "dimensions": [
+      1280,
+      720
+    ],
+    "objects": 1883,
+    "triangles": 8787,
+    "elapsed_seconds": 0.872,
+    "visible_pixels": 913794,
+    "not_final_ai_image": true,
+    "structure_sha256": "1f33eb9442c605658549dcf5473b5d24506da3582f5c2439ef3ca0f71f81f0b6",
+    "depth": "<SOURCE_PROJECT>/outputs/Persepolis/03_References/PP06_Depth.png",
+    "edges": "<SOURCE_PROJECT>/outputs/Persepolis/03_References/PP06_Edges.png",
+    "id": "PP06"
+  },
+  {
+    "status": "ACTUAL_MESH_RENDER",
+    "dimensions": [
+      1280,
+      720
+    ],
+    "objects": 1883,
+    "triangles": 22238,
+    "elapsed_seconds": 0.982,
+    "visible_pixels": 542941,
+    "not_final_ai_image": true,
+    "structure_sha256": "4c44c33143d56e7350fd4c2b3918dcc706b288411c6069c2808c5e478f7daeb7",
+    "depth": "<SOURCE_PROJECT>/outputs/Persepolis/03_References/PP07_Depth.png",
+    "edges": "<SOURCE_PROJECT>/outputs/Persepolis/03_References/PP07_Edges.png",
+    "id": "PP07"
+  },
+  {
+    "status": "ACTUAL_MESH_RENDER",
+    "dimensions": [
+      1280,
+      720
+    ],
+    "objects": 1883,
+    "triangles": 8567,
+    "elapsed_seconds": 0.773,
+    "visible_pixels": 921113,
+    "not_final_ai_image": true,
+    "structure_sha256": "cd21aad8ef300d285a5c8a1336b9302ff980458027b6ab68d49ac61d4118d7c6",
+    "depth": "<SOURCE_PROJECT>/outputs/Persepolis/03_References/PP08_Depth.png",
+    "edges": "<SOURCE_PROJECT>/outputs/Persepolis/03_References/PP08_Edges.png",
+    "id": "PP08"
+  },
+  {
+    "status": "ACTUAL_MESH_RENDER",
+    "dimensions": [
+      1280,
+      720
+    ],
+    "objects": 1883,
+    "triangles": 23298,
+    "elapsed_seconds": 1.15,
+    "visible_pixels": 793255,
+    "not_final_ai_image": true,
+    "structure_sha256": "20d66057222329bbf814107f614765c131e89396472206dc7f21402b722dc949",
+    "depth": "<SOURCE_PROJECT>/outputs/Persepolis/03_References/PP09_Depth.png",
+    "edges": "<SOURCE_PROJECT>/outputs/Persepolis/03_References/PP09_Edges.png",
+    "id": "PP09"
+  },
+  {
+    "status": "ACTUAL_MESH_RENDER",
+    "dimensions": [
+      1280,
+      720
+    ],
+    "objects": 1883,
+    "triangles": 31681,
+    "elapsed_seconds": 1.118,
+    "visible_pixels": 768660,
+    "not_final_ai_image": true,
+    "structure_sha256": "00f3661f895eea34906772b37cae66b1fb451e036309e290720c958550a35b61",
+    "depth": "<SOURCE_PROJECT>/outputs/Persepolis/03_References/PP10_Depth.png",
+    "edges": "<SOURCE_PROJECT>/outputs/Persepolis/03_References/PP10_Edges.png",
+    "id": "PP10"
+  }
+]

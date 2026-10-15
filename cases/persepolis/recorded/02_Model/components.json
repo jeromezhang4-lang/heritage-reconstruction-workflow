@@ -1,0 +1,232 @@
+[
+  {
+    "id": "Gate_of_All_Lands",
+    "plan_pixel_center": [
+      155,
+      245
+    ],
+    "local_center_m": [
+      -156.1,
+      142.1
+    ],
+    "dimensions_m": [
+      24.7,
+      24.7,
+      16.5
+    ],
+    "sources": [
+      "S02",
+      "S03"
+    ],
+    "reconstruction_tiers": {
+      "footprint_columns": "A/B",
+      "height": "B",
+      "roof": "C"
+    },
+    "position_precision": "approximate manual plan digitisation; not survey"
+  },
+  {
+    "id": "Apadana",
+    "plan_pixel_center": [
+      246,
+      434
+    ],
+    "local_center_m": [
+      -133.8,
+      24.7
+    ],
+    "dimensions_m": [
+      60,
+      60,
+      19.5
+    ],
+    "sources": [
+      "S02",
+      "S03"
+    ],
+    "reconstruction_tiers": {
+      "main_hall_and_36_columns": "A",
+      "plan_registration": "B",
+      "roof_towers": "C"
+    },
+    "position_precision": "approximate manual plan digitisation; not survey"
+  },
+  {
+    "id": "Hundred_Column_Hall",
+    "plan_pixel_center": [
+      484,
+      415
+    ],
+    "local_center_m": [
+      0.0,
+      0.0
+    ],
+    "dimensions_m": [
+      68.5,
+      68.5,
+      14
+    ],
+    "sources": [
+      "S02",
+      "S03"
+    ],
+    "reconstruction_tiers": {
+      "100_column_grid": "A",
+      "height": "B",
+      "roof": "C"
+    },
+    "position_precision": "approximate manual plan digitisation; not survey"
+  },
+  {
+    "id": "Tachara_Darius",
+    "plan_pixel_center": [
+      256,
+      560
+    ],
+    "local_center_m": [
+      -146.9,
+      -46.2
+    ],
+    "dimensions_m": [
+      30,
+      40,
+      8
+    ],
+    "sources": [
+      "S02",
+      "S03"
+    ],
+    "reconstruction_tiers": {
+      "footprint": "A/B",
+      "wood_columns": "B",
+      "height_roof": "C"
+    },
+    "position_precision": "approximate manual plan digitisation; not survey"
+  },
+  {
+    "id": "Tripylon",
+    "plan_pixel_center": [
+      339,
+      491
+    ],
+    "local_center_m": [
+      -91.0,
+      -20.5
+    ],
+    "dimensions_m": [
+      15.46,
+      15.46,
+      9
+    ],
+    "sources": [
+      "S02",
+      "S03"
+    ],
+    "reconstruction_tiers": {
+      "four_columns": "A",
+      "roof_height": "C"
+    },
+    "position_precision": "approximate manual plan digitisation; not survey"
+  },
+  {
+    "id": "Hadish_Xerxes",
+    "plan_pixel_center": [
+      351,
+      682
+    ],
+    "local_center_m": [
+      -112.6,
+      -127.4
+    ],
+    "dimensions_m": [
+      55,
+      40,
+      9
+    ],
+    "sources": [
+      "S02",
+      "S03"
+    ],
+    "reconstruction_tiers": {
+      "36_column_hall": "A/B",
+      "height_roof": "C"
+    },
+    "position_precision": "approximate manual plan digitisation; not survey"
+  },
+  {
+    "id": "Palace_H_early_core",
+    "plan_pixel_center": [
+      256,
+      710
+    ],
+    "local_center_m": [
+      -169.1,
+      -128.8
+    ],
+    "dimensions_m": [
+      34,
+      30,
+      7
+    ],
+    "sources": [
+      "S02",
+      "S03"
+    ],
+    "reconstruction_tiers": {
+      "early_phase": "B/C",
+      "lost_upper_structure": "C"
+    },
+    "position_precision": "approximate manual plan digitisation; not survey"
+  },
+  {
+    "id": "Southern_residential_range",
+    "plan_pixel_center": [
+      438,
+      721
+    ],
+    "local_center_m": [
+      -70.5,
+      -161.7
+    ],
+    "dimensions_m": [
+      112,
+      25,
+      7
+    ],
+    "sources": [
+      "S02",
+      "S03"
+    ],
+    "reconstruction_tiers": {
+      "outline": "B",
+      "partition_and_function": "C"
+    },
+    "position_precision": "approximate manual plan digitisation; not survey"
+  },
+  {
+    "id": "Treasury",
+    "plan_pixel_center": [
+      608,
+      580
+    ],
+    "local_center_m": [
+      43.9,
+      -109.1
+    ],
+    "dimensions_m": [
+      110,
+      145,
+      7
+    ],
+    "sources": [
+      "S01",
+      "S02",
+      "S03"
+    ],
+    "reconstruction_tiers": {
+      "major_blocks": "A/B",
+      "rooms_roofs": "C"
+    },
+    "position_precision": "approximate manual plan digitisation; not survey"
+  }
+]

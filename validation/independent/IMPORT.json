@@ -1,0 +1,175 @@
+{
+  "scope": "independent-reader reports and execution receipts; local absolute paths redacted only",
+  "records": [
+    {
+      "file": "r1/ACCEPTANCE.md",
+      "source_sha256": "f3f12ab8b2e416d41021ed28518e986f407a3f850609a8bbed3010e43105560c",
+      "distributed_sha256": "f3f12ab8b2e416d41021ed28518e986f407a3f850609a8bbed3010e43105560c",
+      "redacted": false
+    },
+    {
+      "file": "r1/execution-summary.json",
+      "source_sha256": "629aeef2e9eb2ead534b80f74901f8a62bfd49fdbfe1f05fee6a7ecbf0ea5cc2",
+      "distributed_sha256": "2d17519adc191e12c574d5f642b598bb8c01e1a9894ebf4ce5556e1c30003229",
+      "redacted": true
+    },
+    {
+      "file": "r1/session.json",
+      "source_sha256": "8d045bfe0d4acb79b0afa8861f1f598ad0f8d27dfe96f0e4e32371bec5a3085a",
+      "distributed_sha256": "eb792b332914859070e4f4c4ea8a600cfaccac9e071f37d19fd6174d6eb28fa9",
+      "redacted": true
+    },
+    {
+      "file": "r1/execution.jsonl",
+      "source_sha256": "8660cf176f8b8358c28a0ac8adc30098a0627eea292d189c6b16fe5d08bbf970",
+      "distributed_sha256": "bfa38b2ec5d69321927221549d1c8ed77fe6779d4d82b8271a1ef3079d3480a0",
+      "redacted": true
+    },
+    {
+      "file": "r1/reports/document-entry-check.json",
+      "source_sha256": "2e68c33d89f4627172140fe6626ac143fa0767207a555f7ea6ea2e6527ad0ea2",
+      "distributed_sha256": "2e68c33d89f4627172140fe6626ac143fa0767207a555f7ea6ea2e6527ad0ea2",
+      "redacted": false
+    },
+    {
+      "file": "r1/reports/generation-chain-check.json",
+      "source_sha256": "0f54275a73ad0e69e362c3d769e6a8d70362b1ef5312fa4ee43c65786563b78a",
+      "distributed_sha256": "0f54275a73ad0e69e362c3d769e6a8d70362b1ef5312fa4ee43c65786563b78a",
+      "redacted": false
+    },
+    {
+      "file": "r1/reports/heritage-audit-demo-audit.json",
+      "source_sha256": "87dbb23e4a9c1cf3d95ca5a41c1e166ba0689bc7f0eda2b38cb80212708a3763",
+      "distributed_sha256": "87dbb23e4a9c1cf3d95ca5a41c1e166ba0689bc7f0eda2b38cb80212708a3763",
+      "redacted": false
+    },
+    {
+      "file": "r1/reports/heritage-reconstruct-demo-audit.json",
+      "source_sha256": "87dbb23e4a9c1cf3d95ca5a41c1e166ba0689bc7f0eda2b38cb80212708a3763",
+      "distributed_sha256": "87dbb23e4a9c1cf3d95ca5a41c1e166ba0689bc7f0eda2b38cb80212708a3763",
+      "redacted": false
+    },
+    {
+      "file": "r1/reports/independent-integrity.json",
+      "source_sha256": "980a91bb15c024ad2f2d83ca99a4c02441589b06149a095b95b4ca493f29e780",
+      "distributed_sha256": "980a91bb15c024ad2f2d83ca99a4c02441589b06149a095b95b4ca493f29e780",
+      "redacted": false
+    },
+    {
+      "file": "r1/reports/persepolis-audit.json",
+      "source_sha256": "7aa9fb36a77a8dcaed2958cc2fa84e93e369b5e08502de8f8649dea14345b059",
+      "distributed_sha256": "7aa9fb36a77a8dcaed2958cc2fa84e93e369b5e08502de8f8649dea14345b059",
+      "redacted": false
+    },
+    {
+      "file": "r1/reports/portable-file-access.json",
+      "source_sha256": "f577775fa91b1e1cf221aad9da15699f37ea1059ba8627e859b182a471c59a75",
+      "distributed_sha256": "df765ff3d22e67f156bf924e6ea9f813d194a5ed846c0aebf64928081997cf96",
+      "redacted": true
+    },
+    {
+      "file": "r1/browser/browser-report.json",
+      "source_sha256": "0b64b7f87e6cf6459e92e5bd957cdc86d95d797c3db3fe8a03f44cee88972342",
+      "distributed_sha256": "0b64b7f87e6cf6459e92e5bd957cdc86d95d797c3db3fe8a03f44cee88972342",
+      "redacted": false
+    },
+    {
+      "file": "r2/ACCEPTANCE.md",
+      "source_sha256": "5c55c289850daf7910af24a18f361a4881f8229b655b6b48a8fb39c04a560284",
+      "distributed_sha256": "5c55c289850daf7910af24a18f361a4881f8229b655b6b48a8fb39c04a560284",
+      "redacted": false
+    },
+    {
+      "file": "r2/execution-summary.json",
+      "source_sha256": "d6b4ced8b8daef68b020857392522e6d166e15ee7f90b9de9e5ac7f0ff0bf9b0",
+      "distributed_sha256": "d6b4ced8b8daef68b020857392522e6d166e15ee7f90b9de9e5ac7f0ff0bf9b0",
+      "redacted": false
+    },
+    {
+      "file": "r2/session.json",
+      "source_sha256": "b753d510283119af9cedc1a11e8428556ff06366bd7d5de59af8be892acb4a63",
+      "distributed_sha256": "303df41be7d03eddab9afcbe5c7b9e3ed3bb988b4dac694cba2332baab6bfe7b",
+      "redacted": true
+    },
+    {
+      "file": "r2/execution.jsonl",
+      "source_sha256": "d0f834edf94a65ce071bb29728cc964b5b45acdc81db750860192f9a31934cc9",
+      "distributed_sha256": "e6218a0d36e8ad4190f740fde629af08bfae774b26c77c880e66e20fed60d123",
+      "redacted": true
+    },
+    {
+      "file": "r2/reports/heritage-audit-demo-audit.json",
+      "source_sha256": "87dbb23e4a9c1cf3d95ca5a41c1e166ba0689bc7f0eda2b38cb80212708a3763",
+      "distributed_sha256": "87dbb23e4a9c1cf3d95ca5a41c1e166ba0689bc7f0eda2b38cb80212708a3763",
+      "redacted": false
+    },
+    {
+      "file": "r2/reports/heritage-reconstruct-demo-audit.json",
+      "source_sha256": "87dbb23e4a9c1cf3d95ca5a41c1e166ba0689bc7f0eda2b38cb80212708a3763",
+      "distributed_sha256": "87dbb23e4a9c1cf3d95ca5a41c1e166ba0689bc7f0eda2b38cb80212708a3763",
+      "redacted": false
+    },
+    {
+      "file": "r2/reports/persepolis-audit.json",
+      "source_sha256": "7aa9fb36a77a8dcaed2958cc2fa84e93e369b5e08502de8f8649dea14345b059",
+      "distributed_sha256": "7aa9fb36a77a8dcaed2958cc2fa84e93e369b5e08502de8f8649dea14345b059",
+      "redacted": false
+    },
+    {
+      "file": "r2/reports/portable-file-access.json",
+      "source_sha256": "49c2407776631ec2bdb4ee4330f498bda8dfa691b28796807ab9d95c328bd7d6",
+      "distributed_sha256": "5f02a680dfee6d0a7ad24664b198cf55356f240279361039a1c141159b2713dd",
+      "redacted": true
+    },
+    {
+      "file": "r2/candidate-delta.json",
+      "source_sha256": "27190b9992b60475dfa9ac23dc4e2a38a842897cf912b5b61f8578e32e2cae61",
+      "distributed_sha256": "27190b9992b60475dfa9ac23dc4e2a38a842897cf912b5b61f8578e32e2cae61",
+      "redacted": false
+    },
+    {
+      "file": "r2/browser/browser-report.json",
+      "source_sha256": "0b64b7f87e6cf6459e92e5bd957cdc86d95d797c3db3fe8a03f44cee88972342",
+      "distributed_sha256": "0b64b7f87e6cf6459e92e5bd957cdc86d95d797c3db3fe8a03f44cee88972342",
+      "redacted": false
+    },
+    {
+      "file": "r3/ACCEPTANCE.md",
+      "source_sha256": "2455c649ab7ac55f18895cd2d0182e7b458d217585c1deaee077333e9e1e6b1d",
+      "distributed_sha256": "2455c649ab7ac55f18895cd2d0182e7b458d217585c1deaee077333e9e1e6b1d",
+      "redacted": false
+    },
+    {
+      "file": "r3/execution-summary.json",
+      "source_sha256": "488d4c246b5cbd59814383387a6802bcb700240f840b22650c64c70592b15a92",
+      "distributed_sha256": "da0313f736e19624730b200811a1b1abbc42b3cea5b34621e75fce54cb0f9d33",
+      "redacted": true
+    },
+    {
+      "file": "r3/session.json",
+      "source_sha256": "b5a3953e90b56a1ecbc7670852aa27dbfa11af727af6db11e89ee9780dc0c2ce",
+      "distributed_sha256": "4e0c9012f64d6827e1483bbf0562c026e5ce7509d8611fbe296e701e9844001a",
+      "redacted": true
+    },
+    {
+      "file": "r3/execution.jsonl",
+      "source_sha256": "b2b950588f406c93748200a45ca6845ec50c62350d04bcbbe33bcf79c5f4b855",
+      "distributed_sha256": "59271ee8336475588b6e1a07f8f50daff52493175e2e9b757f7f99300f402e6e",
+      "redacted": true
+    },
+    {
+      "file": "r3/reports/persepolis-audit.json",
+      "source_sha256": "fac89c76296e7dc9b7b0898d2bb814b4750a33139a64641f03e81f20c55a7086",
+      "distributed_sha256": "fac89c76296e7dc9b7b0898d2bb814b4750a33139a64641f03e81f20c55a7086",
+      "redacted": false
+    },
+    {
+      "file": "r3/candidate-delta.json",
+      "source_sha256": "417dc8eace603f503c2d16e68c5643e977ee17abc9b02994d5ec04ecbb337120",
+      "distributed_sha256": "417dc8eace603f503c2d16e68c5643e977ee17abc9b02994d5ec04ecbb337120",
+      "redacted": false
+    }
+  ],
+  "full_private_build_directories_bundled": false,
+  "final_stage": "r3"
+}

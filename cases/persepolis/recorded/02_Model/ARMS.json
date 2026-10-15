@@ -1,0 +1,35 @@
+{
+  "snapshot_bce": 430,
+  "scope": "complete terrace and main completed monumental palace groups; not a room-exact city reconstruction",
+  "base_plan": "Iranica Figure2, manually registered; original source map includes later phases which are filtered",
+  "obj_sha256": "1124885e01038307b5195256a12cd2ed501b0fe05275cb5e40325eca1f3a6aaf",
+  "objects": 1883,
+  "column_invariants": {
+    "Apadana_main": 36,
+    "Apadana_three_porticoes": 36,
+    "Hundred_main": 100,
+    "Hundred_north_portico": 16,
+    "Gate": 4,
+    "Tachara_main": 12,
+    "Hadish_main": 36,
+    "Tripylon": 4
+  },
+  "unknowns": [
+    "exact ancient roof construction and profiles",
+    "complete wall heights",
+    "all original colours",
+    "subsidiary room partitions",
+    "exact 430 BCE subsidiary phases",
+    "terrain DEM",
+    "exact registration to modern coordinates"
+  ],
+  "excluded": [
+    "ArtaxerxesII and III royal hill tombs",
+    "late unfinished gate as completed monument",
+    "modern museum rebuilding",
+    "later visitor graffiti",
+    "Islamic and Sasanian additions"
+  ],
+  "fit": "coarse volume reconstruction; no claim of exact archaeological survey or strict AI pixel matching",
+  "stair_simplification": "reference step runs preserve 111 count per flight but positions/landings simplified; AI not required to render each step exactly"
+}

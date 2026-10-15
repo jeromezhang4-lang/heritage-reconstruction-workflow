@@ -1,0 +1,565 @@
+{
+  "declared_calls": 16,
+  "stages": 16,
+  "total_file_references": 62,
+  "matched": 58,
+  "mismatched": 0,
+  "not_bundled": 4,
+  "rows": [
+    {
+      "stage_index": 1,
+      "scene": "PP01",
+      "role": "prompt",
+      "path": "04_Images/Native/PP01_initial.prompt.txt",
+      "declared_sha256": "b6b59c839d7b2de5d8239a6e8dc32a642067e18ebcc5621f37eb087c99310282",
+      "actual_sha256": "b6b59c839d7b2de5d8239a6e8dc32a642067e18ebcc5621f37eb087c99310282",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 1,
+      "scene": "PP01",
+      "role": "actual_local_input",
+      "path": "06_Quality_Assurance/PP01_Input_Structure_v1.png",
+      "declared_sha256": "a6fcaf8b44865ca406adf7e5c32ea6dae29e509d9c359e2dc1a5bbb98d5ba1af",
+      "actual_sha256": "a6fcaf8b44865ca406adf7e5c32ea6dae29e509d9c359e2dc1a5bbb98d5ba1af",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 1,
+      "scene": "PP01",
+      "role": "actual_local_input",
+      "path": "01_Maps_Plans/Iranica_Figure2_Persepolis_Plan.jpg",
+      "declared_sha256": "17fb63b4570fe31129b8c6c1e76f7e4e02794333f82c015793a9594ef6ed3a5b",
+      "status": "NOT_BUNDLED"
+    },
+    {
+      "stage_index": 1,
+      "scene": "PP01",
+      "role": "actual_native_output",
+      "path": "04_Images/Native/PP01_initial.png",
+      "declared_sha256": "ff684f12b1caa0bd234dc0d6c6e2aca02f01434b8c4b83842cb01589041e7897",
+      "actual_sha256": "ff684f12b1caa0bd234dc0d6c6e2aca02f01434b8c4b83842cb01589041e7897",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 2,
+      "scene": "PP01",
+      "role": "prompt",
+      "path": "04_Images/Native/PP01_repair.prompt.txt",
+      "declared_sha256": "a6c442d08fe357025acbf4da7e85b76f1d22383461d9a27f64898ba74dfd19b0",
+      "actual_sha256": "a6c442d08fe357025acbf4da7e85b76f1d22383461d9a27f64898ba74dfd19b0",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 2,
+      "scene": "PP01",
+      "role": "actual_local_input",
+      "path": "04_Images/Native/PP01_initial.png",
+      "declared_sha256": "ff684f12b1caa0bd234dc0d6c6e2aca02f01434b8c4b83842cb01589041e7897",
+      "actual_sha256": "ff684f12b1caa0bd234dc0d6c6e2aca02f01434b8c4b83842cb01589041e7897",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 2,
+      "scene": "PP01",
+      "role": "actual_native_output",
+      "path": "04_Images/Native/PP01_repair1.png",
+      "declared_sha256": "cd6dbb2a0f1b7c393ab0c768143864619b24aa4fdc1d1395b54a1b3e391bda0a",
+      "actual_sha256": "cd6dbb2a0f1b7c393ab0c768143864619b24aa4fdc1d1395b54a1b3e391bda0a",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 3,
+      "scene": "PP01",
+      "role": "prompt",
+      "path": "04_Images/Native/PP01_repair2.prompt.txt",
+      "declared_sha256": "b6f852ca83df38e669919f6f161a7763b3ca204918bd2b7cab9d85bad5a8981d",
+      "actual_sha256": "b6f852ca83df38e669919f6f161a7763b3ca204918bd2b7cab9d85bad5a8981d",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 3,
+      "scene": "PP01",
+      "role": "actual_local_input",
+      "path": "04_Images/Native/PP01_repair1.png",
+      "declared_sha256": "cd6dbb2a0f1b7c393ab0c768143864619b24aa4fdc1d1395b54a1b3e391bda0a",
+      "actual_sha256": "cd6dbb2a0f1b7c393ab0c768143864619b24aa4fdc1d1395b54a1b3e391bda0a",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 3,
+      "scene": "PP01",
+      "role": "actual_local_input",
+      "path": "03_References/Stair_Detail_Structure.png",
+      "declared_sha256": "0063c68ba69b1fb2b6cbf0c5111a4b5f7893dae204c94972a445c5426c1d96de",
+      "actual_sha256": "0063c68ba69b1fb2b6cbf0c5111a4b5f7893dae204c94972a445c5426c1d96de",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 3,
+      "scene": "PP01",
+      "role": "actual_native_output",
+      "path": "04_Images/Native/PP01.png",
+      "declared_sha256": "9a2c091acd2178401d0d0e06a6bdc12c548c6029d39b507a3f04844cfa5bf7fe",
+      "actual_sha256": "9a2c091acd2178401d0d0e06a6bdc12c548c6029d39b507a3f04844cfa5bf7fe",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 4,
+      "scene": "PP02",
+      "role": "prompt",
+      "path": "04_Images/Native/PP02_initial.prompt.txt",
+      "declared_sha256": "191622765f7c717d6bda8fc752a38d9214d347d910d8d94ecf5630e9dc674a29",
+      "actual_sha256": "191622765f7c717d6bda8fc752a38d9214d347d910d8d94ecf5630e9dc674a29",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 4,
+      "scene": "PP02",
+      "role": "actual_local_input",
+      "path": "03_References/PP02_Structure.png",
+      "declared_sha256": "815b8cbd01ee45443858e4ab603fc90ff039e3dc5f943cdaee2b6ea51fa73a16",
+      "actual_sha256": "815b8cbd01ee45443858e4ab603fc90ff039e3dc5f943cdaee2b6ea51fa73a16",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 4,
+      "scene": "PP02",
+      "role": "actual_local_input",
+      "path": "04_Images/Native/PP01.png",
+      "declared_sha256": "9a2c091acd2178401d0d0e06a6bdc12c548c6029d39b507a3f04844cfa5bf7fe",
+      "actual_sha256": "9a2c091acd2178401d0d0e06a6bdc12c548c6029d39b507a3f04844cfa5bf7fe",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 4,
+      "scene": "PP02",
+      "role": "actual_native_output",
+      "path": "04_Images/Native/PP02_initial.png",
+      "declared_sha256": "8df7f8e262c0dc5d0effbb876c28c934ffee33ab9cdb71597811073c5fdb2892",
+      "actual_sha256": "8df7f8e262c0dc5d0effbb876c28c934ffee33ab9cdb71597811073c5fdb2892",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 5,
+      "scene": "PP02",
+      "role": "prompt",
+      "path": "04_Images/Native/PP02.prompt.txt",
+      "declared_sha256": "831a3ff625783edfb6b35048dcba876834178f06ef106e06fe645be5d99ca6cd",
+      "actual_sha256": "831a3ff625783edfb6b35048dcba876834178f06ef106e06fe645be5d99ca6cd",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 5,
+      "scene": "PP02",
+      "role": "actual_local_input",
+      "path": "03_References/PP02_Structure.png",
+      "declared_sha256": "815b8cbd01ee45443858e4ab603fc90ff039e3dc5f943cdaee2b6ea51fa73a16",
+      "actual_sha256": "815b8cbd01ee45443858e4ab603fc90ff039e3dc5f943cdaee2b6ea51fa73a16",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 5,
+      "scene": "PP02",
+      "role": "actual_local_input",
+      "path": "01_Maps_Plans/Iranica_Figure2_Persepolis_Plan.jpg",
+      "declared_sha256": "17fb63b4570fe31129b8c6c1e76f7e4e02794333f82c015793a9594ef6ed3a5b",
+      "status": "NOT_BUNDLED"
+    },
+    {
+      "stage_index": 5,
+      "scene": "PP02",
+      "role": "actual_native_output",
+      "path": "04_Images/Native/PP02.png",
+      "declared_sha256": "23821a4d9a1232956980f778f5c04af2d0035b446f7cd12dd559a25205095309",
+      "actual_sha256": "23821a4d9a1232956980f778f5c04af2d0035b446f7cd12dd559a25205095309",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 6,
+      "scene": "PP03",
+      "role": "prompt",
+      "path": "04_Images/Native/PP03.prompt.txt",
+      "declared_sha256": "c0d00eb3eeb1d47a06b3a8132850dd817c12d925b8aaca09bcf0e2bdae76006d",
+      "actual_sha256": "c0d00eb3eeb1d47a06b3a8132850dd817c12d925b8aaca09bcf0e2bdae76006d",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 6,
+      "scene": "PP03",
+      "role": "actual_local_input",
+      "path": "03_References/PP03_Structure.png",
+      "declared_sha256": "ad981a13df3238c074107854f01108ebe9597838d7ec506af922c079e7abcf7e",
+      "actual_sha256": "ad981a13df3238c074107854f01108ebe9597838d7ec506af922c079e7abcf7e",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 6,
+      "scene": "PP03",
+      "role": "actual_local_input",
+      "path": "04_Images/Native/PP01.png",
+      "declared_sha256": "9a2c091acd2178401d0d0e06a6bdc12c548c6029d39b507a3f04844cfa5bf7fe",
+      "actual_sha256": "9a2c091acd2178401d0d0e06a6bdc12c548c6029d39b507a3f04844cfa5bf7fe",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 6,
+      "scene": "PP03",
+      "role": "actual_native_output",
+      "path": "04_Images/Native/PP03.png",
+      "declared_sha256": "f25e44319555c941f27f26d7c508018b4747597bc73acff998759859385756a0",
+      "actual_sha256": "f25e44319555c941f27f26d7c508018b4747597bc73acff998759859385756a0",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 7,
+      "scene": "PP04",
+      "role": "prompt",
+      "path": "04_Images/Native/PP04.prompt.txt",
+      "declared_sha256": "8c43d2d60f7f8927a5746c63b8886963ae71c571c0e264d51d13adee47f69ba2",
+      "actual_sha256": "8c43d2d60f7f8927a5746c63b8886963ae71c571c0e264d51d13adee47f69ba2",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 7,
+      "scene": "PP04",
+      "role": "actual_local_input",
+      "path": "03_References/PP04_Structure.png",
+      "declared_sha256": "ba789c8a274f1fb7ec0dab9893c0e35f382ce2217bde21132205ceb0f6a67298",
+      "actual_sha256": "ba789c8a274f1fb7ec0dab9893c0e35f382ce2217bde21132205ceb0f6a67298",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 7,
+      "scene": "PP04",
+      "role": "actual_local_input",
+      "path": "04_Images/Native/PP01.png",
+      "declared_sha256": "9a2c091acd2178401d0d0e06a6bdc12c548c6029d39b507a3f04844cfa5bf7fe",
+      "actual_sha256": "9a2c091acd2178401d0d0e06a6bdc12c548c6029d39b507a3f04844cfa5bf7fe",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 7,
+      "scene": "PP04",
+      "role": "actual_native_output",
+      "path": "04_Images/Native/PP04_initial.png",
+      "declared_sha256": "3d41036cc71fc2488ab8aa8465a080bbc28101398724eb65dc2ff89a8dcc6c38",
+      "actual_sha256": "3d41036cc71fc2488ab8aa8465a080bbc28101398724eb65dc2ff89a8dcc6c38",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 8,
+      "scene": "PP04",
+      "role": "prompt",
+      "path": "04_Images/Native/PP04_repair.prompt.txt",
+      "declared_sha256": "b4bdfb7dbc26b4fdf5bac598301d9ee1479c23e4f52ae5ab9052ec7cf8bbb6f0",
+      "actual_sha256": "b4bdfb7dbc26b4fdf5bac598301d9ee1479c23e4f52ae5ab9052ec7cf8bbb6f0",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 8,
+      "scene": "PP04",
+      "role": "actual_local_input",
+      "path": "04_Images/Native/PP04_initial.png",
+      "declared_sha256": "3d41036cc71fc2488ab8aa8465a080bbc28101398724eb65dc2ff89a8dcc6c38",
+      "actual_sha256": "3d41036cc71fc2488ab8aa8465a080bbc28101398724eb65dc2ff89a8dcc6c38",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 8,
+      "scene": "PP04",
+      "role": "actual_native_output",
+      "path": "04_Images/Native/PP04.png",
+      "declared_sha256": "3c7ecd22340cb94c4ddc239e84b7061e326b5bbe2fd8575264192f644a2b8ec8",
+      "actual_sha256": "3c7ecd22340cb94c4ddc239e84b7061e326b5bbe2fd8575264192f644a2b8ec8",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 9,
+      "scene": "PP05",
+      "role": "prompt",
+      "path": "04_Images/Native/PP05.prompt.txt",
+      "declared_sha256": "d667391bbb3d58be5afea7b39f4e86b6cd9bb51d727d330bf6c3d970b4fce08d",
+      "actual_sha256": "d667391bbb3d58be5afea7b39f4e86b6cd9bb51d727d330bf6c3d970b4fce08d",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 9,
+      "scene": "PP05",
+      "role": "actual_local_input",
+      "path": "03_References/PP05_Structure.png",
+      "declared_sha256": "da1242a7741bfe742e3ccebe543de531c0d98f94e4738fac080c258ae8392635",
+      "actual_sha256": "da1242a7741bfe742e3ccebe543de531c0d98f94e4738fac080c258ae8392635",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 9,
+      "scene": "PP05",
+      "role": "actual_local_input",
+      "path": "04_Images/Native/PP01.png",
+      "declared_sha256": "9a2c091acd2178401d0d0e06a6bdc12c548c6029d39b507a3f04844cfa5bf7fe",
+      "actual_sha256": "9a2c091acd2178401d0d0e06a6bdc12c548c6029d39b507a3f04844cfa5bf7fe",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 9,
+      "scene": "PP05",
+      "role": "actual_native_output",
+      "path": "04_Images/Native/PP05_initial.png",
+      "declared_sha256": "51bb9d49fdfebf5a40b5dfa31cff30b8f5323e67339b75602db54f6ef5f06190",
+      "actual_sha256": "51bb9d49fdfebf5a40b5dfa31cff30b8f5323e67339b75602db54f6ef5f06190",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 10,
+      "scene": "PP05",
+      "role": "prompt",
+      "path": "04_Images/Native/PP05_repair.prompt.txt",
+      "declared_sha256": "ec1c7593f28403907323dbf023f15d44aaeac41c1d31614e7995d7b1d9be814d",
+      "actual_sha256": "ec1c7593f28403907323dbf023f15d44aaeac41c1d31614e7995d7b1d9be814d",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 10,
+      "scene": "PP05",
+      "role": "actual_local_input",
+      "path": "04_Images/Native/PP05_initial.png",
+      "declared_sha256": "51bb9d49fdfebf5a40b5dfa31cff30b8f5323e67339b75602db54f6ef5f06190",
+      "actual_sha256": "51bb9d49fdfebf5a40b5dfa31cff30b8f5323e67339b75602db54f6ef5f06190",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 10,
+      "scene": "PP05",
+      "role": "actual_local_input",
+      "path": "03_References/PP05_Structure.png",
+      "declared_sha256": "da1242a7741bfe742e3ccebe543de531c0d98f94e4738fac080c258ae8392635",
+      "actual_sha256": "da1242a7741bfe742e3ccebe543de531c0d98f94e4738fac080c258ae8392635",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 10,
+      "scene": "PP05",
+      "role": "actual_native_output",
+      "path": "04_Images/Native/PP05.png",
+      "declared_sha256": "410dd1f0494e4c23dd1156faf279a39c975caa5cd0d779457e89ebcb0de6f259",
+      "actual_sha256": "410dd1f0494e4c23dd1156faf279a39c975caa5cd0d779457e89ebcb0de6f259",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 11,
+      "scene": "PP06",
+      "role": "prompt",
+      "path": "04_Images/Native/PP06.prompt.txt",
+      "declared_sha256": "2240e3b82727a4942e2a4ad33a5199198b6e392fc04fdb10c58a0be89990140e",
+      "actual_sha256": "2240e3b82727a4942e2a4ad33a5199198b6e392fc04fdb10c58a0be89990140e",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 11,
+      "scene": "PP06",
+      "role": "actual_local_input",
+      "path": "03_References/PP06_Structure.png",
+      "declared_sha256": "1f33eb9442c605658549dcf5473b5d24506da3582f5c2439ef3ca0f71f81f0b6",
+      "actual_sha256": "1f33eb9442c605658549dcf5473b5d24506da3582f5c2439ef3ca0f71f81f0b6",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 11,
+      "scene": "PP06",
+      "role": "actual_local_input",
+      "path": "04_Images/Native/PP01.png",
+      "declared_sha256": "9a2c091acd2178401d0d0e06a6bdc12c548c6029d39b507a3f04844cfa5bf7fe",
+      "actual_sha256": "9a2c091acd2178401d0d0e06a6bdc12c548c6029d39b507a3f04844cfa5bf7fe",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 11,
+      "scene": "PP06",
+      "role": "actual_native_output",
+      "path": "04_Images/Native/PP06.png",
+      "declared_sha256": "1a35e58a644d873107d2a6d48f40767a8f6fd582d40de1a555f0fe6a3976ed7c",
+      "actual_sha256": "1a35e58a644d873107d2a6d48f40767a8f6fd582d40de1a555f0fe6a3976ed7c",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 12,
+      "scene": "PP07",
+      "role": "prompt",
+      "path": "04_Images/Native/PP07.prompt.txt",
+      "declared_sha256": "9e5ef1a14d7214705b76c43ca371114069638346ac16c502bf345006cdde5099",
+      "actual_sha256": "9e5ef1a14d7214705b76c43ca371114069638346ac16c502bf345006cdde5099",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 12,
+      "scene": "PP07",
+      "role": "actual_local_input",
+      "path": "03_References/PP07_Structure.png",
+      "declared_sha256": "4c44c33143d56e7350fd4c2b3918dcc706b288411c6069c2808c5e478f7daeb7",
+      "actual_sha256": "4c44c33143d56e7350fd4c2b3918dcc706b288411c6069c2808c5e478f7daeb7",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 12,
+      "scene": "PP07",
+      "role": "actual_local_input",
+      "path": "04_Images/Native/PP01.png",
+      "declared_sha256": "9a2c091acd2178401d0d0e06a6bdc12c548c6029d39b507a3f04844cfa5bf7fe",
+      "actual_sha256": "9a2c091acd2178401d0d0e06a6bdc12c548c6029d39b507a3f04844cfa5bf7fe",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 12,
+      "scene": "PP07",
+      "role": "actual_native_output",
+      "path": "04_Images/Native/PP07.png",
+      "declared_sha256": "6924b8ad2cf0462dd0f5b7e8b41f4985b021bcb8bddeb8202651351adfee0b82",
+      "actual_sha256": "6924b8ad2cf0462dd0f5b7e8b41f4985b021bcb8bddeb8202651351adfee0b82",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 13,
+      "scene": "PP08",
+      "role": "prompt",
+      "path": "04_Images/Native/PP08.prompt.txt",
+      "declared_sha256": "e5da3c74c1c8672edd935425254f50292c576fa43e14df7c6c65be52da5c6e11",
+      "actual_sha256": "e5da3c74c1c8672edd935425254f50292c576fa43e14df7c6c65be52da5c6e11",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 13,
+      "scene": "PP08",
+      "role": "actual_local_input",
+      "path": "03_References/PP08_Structure.png",
+      "declared_sha256": "cd21aad8ef300d285a5c8a1336b9302ff980458027b6ab68d49ac61d4118d7c6",
+      "actual_sha256": "cd21aad8ef300d285a5c8a1336b9302ff980458027b6ab68d49ac61d4118d7c6",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 13,
+      "scene": "PP08",
+      "role": "actual_local_input",
+      "path": "04_Images/Native/PP01.png",
+      "declared_sha256": "9a2c091acd2178401d0d0e06a6bdc12c548c6029d39b507a3f04844cfa5bf7fe",
+      "actual_sha256": "9a2c091acd2178401d0d0e06a6bdc12c548c6029d39b507a3f04844cfa5bf7fe",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 13,
+      "scene": "PP08",
+      "role": "actual_native_output",
+      "path": "04_Images/Native/PP08.png",
+      "declared_sha256": "8b3399692d030b081b687ab73ff26f4b7a37412231d1c211167f1d5b4b337d34",
+      "actual_sha256": "8b3399692d030b081b687ab73ff26f4b7a37412231d1c211167f1d5b4b337d34",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 14,
+      "scene": "PP09",
+      "role": "prompt",
+      "path": "04_Images/Native/PP09.prompt.txt",
+      "declared_sha256": "4e229b6a73dc9ca65100a118effc41038b577e16725fbd2ba1d985127e807988",
+      "actual_sha256": "4e229b6a73dc9ca65100a118effc41038b577e16725fbd2ba1d985127e807988",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 14,
+      "scene": "PP09",
+      "role": "actual_local_input",
+      "path": "03_References/PP09_Structure.png",
+      "declared_sha256": "20d66057222329bbf814107f614765c131e89396472206dc7f21402b722dc949",
+      "actual_sha256": "20d66057222329bbf814107f614765c131e89396472206dc7f21402b722dc949",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 14,
+      "scene": "PP09",
+      "role": "actual_local_input",
+      "path": "04_Images/Native/PP01.png",
+      "declared_sha256": "9a2c091acd2178401d0d0e06a6bdc12c548c6029d39b507a3f04844cfa5bf7fe",
+      "actual_sha256": "9a2c091acd2178401d0d0e06a6bdc12c548c6029d39b507a3f04844cfa5bf7fe",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 14,
+      "scene": "PP09",
+      "role": "actual_native_output",
+      "path": "04_Images/Native/PP09.png",
+      "declared_sha256": "b051b335f34fa26715414a003f5b94e0eb78329d4227d1e014b7f5f187908a81",
+      "actual_sha256": "b051b335f34fa26715414a003f5b94e0eb78329d4227d1e014b7f5f187908a81",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 15,
+      "scene": "PP10",
+      "role": "prompt",
+      "path": "04_Images/Native/PP10.prompt.txt",
+      "declared_sha256": "80eda6bbbd26ef31dc4830075a0c4e64e6d087e04333ce9b5003ab427221b319",
+      "actual_sha256": "80eda6bbbd26ef31dc4830075a0c4e64e6d087e04333ce9b5003ab427221b319",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 15,
+      "scene": "PP10",
+      "role": "actual_local_input",
+      "path": "03_References/PP10_Structure.png",
+      "declared_sha256": "00f3661f895eea34906772b37cae66b1fb451e036309e290720c958550a35b61",
+      "actual_sha256": "00f3661f895eea34906772b37cae66b1fb451e036309e290720c958550a35b61",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 15,
+      "scene": "PP10",
+      "role": "actual_local_input",
+      "path": "01_Maps_Plans/Iranica_Figure2_Persepolis_Plan.jpg",
+      "declared_sha256": "17fb63b4570fe31129b8c6c1e76f7e4e02794333f82c015793a9594ef6ed3a5b",
+      "status": "NOT_BUNDLED"
+    },
+    {
+      "stage_index": 15,
+      "scene": "PP10",
+      "role": "actual_native_output",
+      "path": "04_Images/Native/PP10.png",
+      "declared_sha256": "f4f1bda713de882af9842ccb9c4d09b8ffc1ec797d768236a6d37d65ac55aebb",
+      "actual_sha256": "f4f1bda713de882af9842ccb9c4d09b8ffc1ec797d768236a6d37d65ac55aebb",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 16,
+      "scene": "PP11",
+      "role": "prompt",
+      "path": "04_Images/Native/PP11.prompt.txt",
+      "declared_sha256": "12842c3aa7ecf8530ec42e2dbc74df8c0bca9c876ee1bb6ceda0554e7f63f5fd",
+      "actual_sha256": "12842c3aa7ecf8530ec42e2dbc74df8c0bca9c876ee1bb6ceda0554e7f63f5fd",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 16,
+      "scene": "PP11",
+      "role": "actual_local_input",
+      "path": "03_References/PP11_Structure.png",
+      "declared_sha256": "3f877e34cf9382cf1f25c7794cac3ed77d0bc39f04442812e34c220ca4a2ec42",
+      "actual_sha256": "3f877e34cf9382cf1f25c7794cac3ed77d0bc39f04442812e34c220ca4a2ec42",
+      "status": "MATCH"
+    },
+    {
+      "stage_index": 16,
+      "scene": "PP11",
+      "role": "actual_local_input",
+      "path": "01_Maps_Plans/Regional_Sectors_Source.jpg",
+      "declared_sha256": "92689d23e1f106c5f325e2db02765aeac12785a1de663546eb0fa4ddbeea93de",
+      "status": "NOT_BUNDLED"
+    },
+    {
+      "stage_index": 16,
+      "scene": "PP11",
+      "role": "actual_native_output",
+      "path": "04_Images/Native/PP11.png",
+      "declared_sha256": "6742a16ade61c13f650de357364c773e2d280388825684ef74ce98a921afc1fd",
+      "actual_sha256": "6742a16ade61c13f650de357364c773e2d280388825684ef74ce98a921afc1fd",
+      "status": "MATCH"
+    }
+  ],
+  "scope": "local preserved provenance and input/output hashes only; no provider attestation"
+}

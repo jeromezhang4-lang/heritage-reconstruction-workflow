@@ -1,0 +1,27 @@
+{
+  "added": [
+    "cases/persepolis/process-support/BROWSER_ENVIRONMENT.json",
+    "cases/persepolis/process-support/DOWNLOAD_RECEIPT.json",
+    "cases/persepolis/process-support/RECORD_SCOPE.md"
+  ],
+  "removed": [],
+  "changed": [
+    "cases/persepolis/assets.sha256.json",
+    "cases/persepolis/case.json",
+    "docs/WORKFLOW.md",
+    "heritage_workflow/cli.py",
+    "heritage_workflow/pipeline.py",
+    "heritage_workflow/validation.py",
+    "heritage_workflow/web/gallery.js",
+    "skills/heritage-audit/assets/runtime/heritage_workflow/cli.py",
+    "skills/heritage-audit/assets/runtime/heritage_workflow/pipeline.py",
+    "skills/heritage-audit/assets/runtime/heritage_workflow/validation.py",
+    "skills/heritage-audit/assets/runtime/heritage_workflow/web/gallery.js",
+    "skills/heritage-reconstruct/assets/runtime/heritage_workflow/cli.py",
+    "skills/heritage-reconstruct/assets/runtime/heritage_workflow/pipeline.py",
+    "skills/heritage-reconstruct/assets/runtime/heritage_workflow/validation.py",
+    "skills/heritage-reconstruct/assets/runtime/heritage_workflow/web/gallery.js",
+    "skills/heritage-reconstruct/references/workflow.md",
+    "tests/test_workflow.py"
+  ]
+}

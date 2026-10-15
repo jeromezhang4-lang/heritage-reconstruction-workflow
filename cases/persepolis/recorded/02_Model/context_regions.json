@@ -1,0 +1,72 @@
+[
+  {
+    "id": "terrace",
+    "name": "宫殿高台",
+    "true_xy_m": [
+      0,
+      0
+    ],
+    "tier": "A/B",
+    "detail": "约13公顷；沿用主模型"
+  },
+  {
+    "id": "royal_south",
+    "name": "台下南部大型建筑区",
+    "true_xy_m": [
+      0,
+      -500
+    ],
+    "tier": "B/C",
+    "detail": "考古发现大型建筑群，示意上部与台下联系"
+  },
+  {
+    "id": "royal_north",
+    "name": "北侧官方建筑区",
+    "true_xy_m": [
+      0,
+      700
+    ],
+    "tier": "B/C",
+    "detail": "约500m以北的探测复合建筑；模型近似位置"
+  },
+  {
+    "id": "west",
+    "name": "西侧居住与工匠活动区",
+    "true_xy_m": [
+      -1250,
+      350
+    ],
+    "tier": "B/C/D",
+    "detail": "区域与沟渠网络有证据；住宅位置、数量和密度均推定"
+  },
+  {
+    "id": "firuzi",
+    "name": "菲鲁齐早期纪念性区",
+    "true_xy_m": [
+      -3500,
+      -550
+    ],
+    "tier": "B/C",
+    "detail": "早期建筑分布区；430BCE具体使用状态未知"
+  },
+  {
+    "id": "necropolis",
+    "name": "北侧王陵地区",
+    "true_xy_m": [
+      -1500,
+      5800
+    ],
+    "tier": "B/C",
+    "detail": "约6km北侧Naqsh-eRustam；只示意早期王陵，不画萨珊浮雕"
+  },
+  {
+    "id": "agriculture",
+    "name": "园地、果园与农田",
+    "true_xy_m": [
+      -2000,
+      2400
+    ],
+    "tier": "B/C/D",
+    "detail": "开敞城市景观有研究依据；作物、分块与人物均推定"
+  }
+]

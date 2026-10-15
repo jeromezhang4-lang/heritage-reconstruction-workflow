@@ -1,0 +1,1248 @@
+[
+  {
+    "id": "PP01",
+    "actual_tool": "built-in image_gen.imagegen",
+    "actual_generated": true,
+    "native_file": "04_Images/Native/PP01.png",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "native_sha256": "9a2c091acd2178401d0d0e06a6bdc12c548c6029d39b507a3f04844cfa5bf7fe",
+    "final_file": "04_Images/PP01_4K.png",
+    "final_dimensions": [
+      3840,
+      2160
+    ],
+    "final_sha256": "ad7ec7b549208da1a5c59c1a1524b89c9e9c71315bdfc1fde39cfe666aeac828",
+    "upscaling": {
+      "algorithm": "FSRCNN x3 pretrained TensorFlow graph via OpenCV dnn_superres, followed by area downsampling to 3840x2160",
+      "model_source": "https://github.com/Saafke/FSRCNN_Tensorflow/blob/master/models/FSRCNN_x3.pb",
+      "model_sha256": "efd38655a815908c6c8954db6052f128e76a735f1de657894c477d0dc0b64481",
+      "opencv_version": "4.12.0",
+      "native_size": [
+        1672,
+        941
+      ],
+      "network_output_size": [
+        5016,
+        2823
+      ],
+      "exact_aspect_crop_size": [
+        5008,
+        2817
+      ],
+      "final_size": [
+        3840,
+        2160
+      ],
+      "downsample": "OpenCV INTER_AREA from learned 3x prediction",
+      "crop_pixels": {
+        "left": 4,
+        "right": 4,
+        "top": 3,
+        "bottom": 3
+      },
+      "source_sha256": "9a2c091acd2178401d0d0e06a6bdc12c548c6029d39b507a3f04844cfa5bf7fe",
+      "output_sha256": "ad7ec7b549208da1a5c59c1a1524b89c9e9c71315bdfc1fde39cfe666aeac828",
+      "elapsed_seconds": 2.361,
+      "native_4k": false,
+      "note": "学习型3倍超分辨率后面积缩减到3840×2160；原生尺寸与裁切如实记录。最终文件为4K尺寸，不是原生4K，放大不增加考古证据。",
+      "cpu_threads": 2,
+      "gpu_used": false
+    },
+    "sharing_derivative": {
+      "file": "04_Images/PP01_Share_4K.jpg",
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "lossy": true,
+      "sha256": "41d3a846c701006ce9f8aceb6c45c9ae4a30450933156e29463c9d04680ed4f1"
+    },
+    "camera": {
+      "id": "PP01",
+      "title_zh": "完整宫殿群 · 西北鸟瞰",
+      "title_en": "Complete terrace from the northwest",
+      "position_m": [
+        -480,
+        440,
+        390
+      ],
+      "look_at_m": [
+        -40,
+        -25,
+        16
+      ],
+      "focal_mm": 26,
+      "tags": [
+        "all"
+      ],
+      "kind": "overall",
+      "camera_reconstruction_tier": "D",
+      "coordinate_frame": "local building axes, metre units; not georeferenced"
+    },
+    "prompt": {
+      "id": "PP01",
+      "prompt_path": "04_Images/Native/PP01.prompt.txt",
+      "prompt_sha256": "5a2f0e9664c48b781ba3098b7334b6e27beac0fe8283fde06ac44d2a5d1f6b54",
+      "references": [
+        "03_References/PP01_Structure.png",
+        "01_Maps_Plans/Iranica_Figure2_Persepolis_Plan.jpg"
+      ],
+      "reference_roles": [
+        "geometry/camera",
+        "source plan"
+      ]
+    },
+    "input_reference_sha256": "a6fcaf8b44865ca406adf7e5c32ea6dae29e509d9c359e2dc1a5bbb98d5ba1af",
+    "geometry_version": "initial main mesh with final stair-reference targeted edits",
+    "provider_model": "UNVERIFIED_NOT_EXPOSED",
+    "seed": "UNVERIFIED_NOT_EXPOSED",
+    "strict_pixel_mesh_fit": "UNVERIFIED",
+    "independent_archaeological_review": "NOT_PERFORMED",
+    "second_input_sha256": "17fb63b4570fe31129b8c6c1e76f7e4e02794333f82c015793a9594ef6ed3a5b",
+    "initial_model_sha256": "8a27be8eebf31d105fea98918d721a75cd93b0d934e9545de90ca206c50deda4",
+    "final_edit_inputs": [
+      {
+        "file": "04_Images/Native/PP01_repair1.png",
+        "sha256": "cd6dbb2a0f1b7c393ab0c768143864619b24aa4fdc1d1395b54a1b3e391bda0a"
+      },
+      {
+        "file": "03_References/Stair_Detail_Structure.png",
+        "sha256": "0063c68ba69b1fb2b6cbf0c5111a4b5f7893dae204c94972a445c5426c1d96de"
+      }
+    ],
+    "actual_prompt_chain": [
+      {
+        "path": "04_Images/Native/PP01_initial.prompt.txt",
+        "sha256": "b6b59c839d7b2de5d8239a6e8dc32a642067e18ebcc5621f37eb087c99310282"
+      },
+      {
+        "path": "04_Images/Native/PP01_repair.prompt.txt",
+        "sha256": "a6c442d08fe357025acbf4da7e85b76f1d22383461d9a27f64898ba74dfd19b0"
+      },
+      {
+        "path": "04_Images/Native/PP01_repair2.prompt.txt",
+        "sha256": "b6f852ca83df38e669919f6f161a7763b3ca204918bd2b7cab9d85bad5a8981d"
+      }
+    ]
+  },
+  {
+    "id": "PP02",
+    "actual_tool": "built-in image_gen.imagegen",
+    "actual_generated": true,
+    "native_file": "04_Images/Native/PP02.png",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "native_sha256": "23821a4d9a1232956980f778f5c04af2d0035b446f7cd12dd559a25205095309",
+    "final_file": "04_Images/PP02_4K.png",
+    "final_dimensions": [
+      3840,
+      2160
+    ],
+    "final_sha256": "84337758b4b192d5d87a5cb2bc466b76a3ab26b146324bd1ac1ad2149db85634",
+    "upscaling": {
+      "algorithm": "FSRCNN x3 pretrained TensorFlow graph via OpenCV dnn_superres, followed by area downsampling to 3840x2160",
+      "model_source": "https://github.com/Saafke/FSRCNN_Tensorflow/blob/master/models/FSRCNN_x3.pb",
+      "model_sha256": "efd38655a815908c6c8954db6052f128e76a735f1de657894c477d0dc0b64481",
+      "opencv_version": "4.12.0",
+      "native_size": [
+        1672,
+        941
+      ],
+      "network_output_size": [
+        5016,
+        2823
+      ],
+      "exact_aspect_crop_size": [
+        5008,
+        2817
+      ],
+      "final_size": [
+        3840,
+        2160
+      ],
+      "downsample": "OpenCV INTER_AREA from learned 3x prediction",
+      "crop_pixels": {
+        "left": 4,
+        "right": 4,
+        "top": 3,
+        "bottom": 3
+      },
+      "source_sha256": "23821a4d9a1232956980f778f5c04af2d0035b446f7cd12dd559a25205095309",
+      "output_sha256": "84337758b4b192d5d87a5cb2bc466b76a3ab26b146324bd1ac1ad2149db85634",
+      "elapsed_seconds": 2.123,
+      "native_4k": false,
+      "note": "学习型3倍超分辨率后面积缩减到3840×2160；原生尺寸与裁切如实记录。最终文件为4K尺寸，不是原生4K，放大不增加考古证据。",
+      "cpu_threads": 2,
+      "gpu_used": false
+    },
+    "sharing_derivative": {
+      "file": "04_Images/PP02_Share_4K.jpg",
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "lossy": true,
+      "sha256": "feeca0f69a24146cc89794ebc25f6e5a948e9d19fcff7f486d402098d9a018ac"
+    },
+    "camera": {
+      "id": "PP02",
+      "title_zh": "完整宫殿群 · 西南鸟瞰",
+      "title_en": "Complete terrace from the southwest",
+      "position_m": [
+        -465,
+        -485,
+        345
+      ],
+      "look_at_m": [
+        -35,
+        -10,
+        16
+      ],
+      "focal_mm": 30,
+      "tags": [
+        "all"
+      ],
+      "kind": "overall",
+      "camera_reconstruction_tier": "D",
+      "coordinate_frame": "local building axes, metre units; not georeferenced"
+    },
+    "prompt": {
+      "id": "PP02",
+      "prompt_path": "04_Images/Native/PP02.prompt.txt",
+      "prompt_sha256": "831a3ff625783edfb6b35048dcba876834178f06ef106e06fe645be5d99ca6cd",
+      "references": [
+        "03_References/PP02_Structure.png",
+        "01_Maps_Plans/Iranica_Figure2_Persepolis_Plan.jpg"
+      ],
+      "reference_roles": [
+        "geometry/camera",
+        "source plan, no photographic style image"
+      ]
+    },
+    "input_reference_sha256": "815b8cbd01ee45443858e4ab603fc90ff039e3dc5f943cdaee2b6ea51fa73a16",
+    "geometry_version": "final-stair-revision",
+    "provider_model": "UNVERIFIED_NOT_EXPOSED",
+    "seed": "UNVERIFIED_NOT_EXPOSED",
+    "strict_pixel_mesh_fit": "UNVERIFIED",
+    "independent_archaeological_review": "NOT_PERFORMED",
+    "second_input_sha256": "17fb63b4570fe31129b8c6c1e76f7e4e02794333f82c015793a9594ef6ed3a5b",
+    "rejected_initial_reason": "Wrong aerial direction repeated master camera",
+    "actual_prompt_chain": [
+      {
+        "path": "04_Images/Native/PP02_initial.prompt.txt",
+        "sha256": "191622765f7c717d6bda8fc752a38d9214d347d910d8d94ecf5630e9dc674a29"
+      },
+      {
+        "path": "04_Images/Native/PP02.prompt.txt",
+        "sha256": "831a3ff625783edfb6b35048dcba876834178f06ef106e06fe645be5d99ca6cd"
+      }
+    ]
+  },
+  {
+    "id": "PP03",
+    "actual_tool": "built-in image_gen.imagegen",
+    "actual_generated": true,
+    "native_file": "04_Images/Native/PP03.png",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "native_sha256": "f25e44319555c941f27f26d7c508018b4747597bc73acff998759859385756a0",
+    "final_file": "04_Images/PP03_4K.png",
+    "final_dimensions": [
+      3840,
+      2160
+    ],
+    "final_sha256": "05eba4af48f86fa30ae99813634550626255966f8e698b218e423456d7b18e6d",
+    "upscaling": {
+      "algorithm": "FSRCNN x3 pretrained TensorFlow graph via OpenCV dnn_superres, followed by area downsampling to 3840x2160",
+      "model_source": "https://github.com/Saafke/FSRCNN_Tensorflow/blob/master/models/FSRCNN_x3.pb",
+      "model_sha256": "efd38655a815908c6c8954db6052f128e76a735f1de657894c477d0dc0b64481",
+      "opencv_version": "4.12.0",
+      "native_size": [
+        1672,
+        941
+      ],
+      "network_output_size": [
+        5016,
+        2823
+      ],
+      "exact_aspect_crop_size": [
+        5008,
+        2817
+      ],
+      "final_size": [
+        3840,
+        2160
+      ],
+      "downsample": "OpenCV INTER_AREA from learned 3x prediction",
+      "crop_pixels": {
+        "left": 4,
+        "right": 4,
+        "top": 3,
+        "bottom": 3
+      },
+      "source_sha256": "f25e44319555c941f27f26d7c508018b4747597bc73acff998759859385756a0",
+      "output_sha256": "05eba4af48f86fa30ae99813634550626255966f8e698b218e423456d7b18e6d",
+      "elapsed_seconds": 2.095,
+      "native_4k": false,
+      "note": "学习型3倍超分辨率后面积缩减到3840×2160；原生尺寸与裁切如实记录。最终文件为4K尺寸，不是原生4K，放大不增加考古证据。",
+      "cpu_threads": 2,
+      "gpu_used": false
+    },
+    "sharing_derivative": {
+      "file": "04_Images/PP03_Share_4K.jpg",
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "lossy": true,
+      "sha256": "b551c026421eba59f2d79477fcf1fce2109b072fa2cc48bb1e0dddf9b1503d5c"
+    },
+    "camera": {
+      "id": "PP03",
+      "title_zh": "登上帝国高台",
+      "title_en": "Ascending the monumental terrace",
+      "position_m": [
+        -261.1,
+        200.1,
+        1.75
+      ],
+      "look_at_m": [
+        -194.1,
+        142.1,
+        15
+      ],
+      "focal_mm": 24,
+      "tags": [
+        "all"
+      ],
+      "kind": "entrance",
+      "camera_reconstruction_tier": "D",
+      "coordinate_frame": "local building axes, metre units; not georeferenced"
+    },
+    "prompt": {
+      "id": "PP03",
+      "prompt_path": "04_Images/Native/PP03.prompt.txt",
+      "prompt_sha256": "c0d00eb3eeb1d47a06b3a8132850dd817c12d925b8aaca09bcf0e2bdae76006d",
+      "references": [
+        "03_References/PP03_Structure.png",
+        "04_Images/Native/PP01.png"
+      ],
+      "reference_roles": [
+        "geometry/camera",
+        "accepted master style only"
+      ]
+    },
+    "input_reference_sha256": "ad981a13df3238c074107854f01108ebe9597838d7ec506af922c079e7abcf7e",
+    "geometry_version": "final-stair-revision",
+    "provider_model": "UNVERIFIED_NOT_EXPOSED",
+    "seed": "UNVERIFIED_NOT_EXPOSED",
+    "strict_pixel_mesh_fit": "UNVERIFIED",
+    "independent_archaeological_review": "NOT_PERFORMED",
+    "second_input_sha256": "9a2c091acd2178401d0d0e06a6bdc12c548c6029d39b507a3f04844cfa5bf7fe",
+    "actual_prompt_chain": [
+      {
+        "path": "04_Images/Native/PP03.prompt.txt",
+        "sha256": "c0d00eb3eeb1d47a06b3a8132850dd817c12d925b8aaca09bcf0e2bdae76006d"
+      }
+    ]
+  },
+  {
+    "id": "PP04",
+    "actual_tool": "built-in image_gen.imagegen",
+    "actual_generated": true,
+    "native_file": "04_Images/Native/PP04.png",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "native_sha256": "3c7ecd22340cb94c4ddc239e84b7061e326b5bbe2fd8575264192f644a2b8ec8",
+    "final_file": "04_Images/PP04_4K.png",
+    "final_dimensions": [
+      3840,
+      2160
+    ],
+    "final_sha256": "0493b0c68e62becb8b26c863fd207c0c138a33421292a7395b098b99e7f5ef84",
+    "upscaling": {
+      "algorithm": "FSRCNN x3 pretrained TensorFlow graph via OpenCV dnn_superres, followed by area downsampling to 3840x2160",
+      "model_source": "https://github.com/Saafke/FSRCNN_Tensorflow/blob/master/models/FSRCNN_x3.pb",
+      "model_sha256": "efd38655a815908c6c8954db6052f128e76a735f1de657894c477d0dc0b64481",
+      "opencv_version": "4.12.0",
+      "native_size": [
+        1672,
+        941
+      ],
+      "network_output_size": [
+        5016,
+        2823
+      ],
+      "exact_aspect_crop_size": [
+        5008,
+        2817
+      ],
+      "final_size": [
+        3840,
+        2160
+      ],
+      "downsample": "OpenCV INTER_AREA from learned 3x prediction",
+      "crop_pixels": {
+        "left": 4,
+        "right": 4,
+        "top": 3,
+        "bottom": 3
+      },
+      "source_sha256": "3c7ecd22340cb94c4ddc239e84b7061e326b5bbe2fd8575264192f644a2b8ec8",
+      "output_sha256": "0493b0c68e62becb8b26c863fd207c0c138a33421292a7395b098b99e7f5ef84",
+      "elapsed_seconds": 2.311,
+      "native_4k": false,
+      "note": "学习型3倍超分辨率后面积缩减到3840×2160；原生尺寸与裁切如实记录。最终文件为4K尺寸，不是原生4K，放大不增加考古证据。",
+      "cpu_threads": 2,
+      "gpu_used": false
+    },
+    "sharing_derivative": {
+      "file": "04_Images/PP04_Share_4K.jpg",
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "lossy": true,
+      "sha256": "5445a854db0ac74332008cc061a66dc24789aaec0305b170451a0e83bba791ac"
+    },
+    "camera": {
+      "id": "PP04",
+      "title_zh": "万国门的巨型门廊",
+      "title_en": "The monumental Gate of All Lands",
+      "position_m": [
+        -196.1,
+        130.1,
+        13.75
+      ],
+      "look_at_m": [
+        -148.1,
+        143.1,
+        25
+      ],
+      "focal_mm": 24,
+      "tags": [
+        "all"
+      ],
+      "kind": "entrance",
+      "camera_reconstruction_tier": "D",
+      "coordinate_frame": "local building axes, metre units; not georeferenced"
+    },
+    "prompt": {
+      "id": "PP04",
+      "prompt_path": "04_Images/Native/PP04.prompt.txt",
+      "prompt_sha256": "8c43d2d60f7f8927a5746c63b8886963ae71c571c0e264d51d13adee47f69ba2",
+      "references": [
+        "03_References/PP04_Structure.png",
+        "04_Images/Native/PP01.png"
+      ],
+      "reference_roles": [
+        "geometry/camera",
+        "accepted master style only"
+      ]
+    },
+    "input_reference_sha256": "ba789c8a274f1fb7ec0dab9893c0e35f382ce2217bde21132205ceb0f6a67298",
+    "geometry_version": "final-stair-revision",
+    "provider_model": "UNVERIFIED_NOT_EXPOSED",
+    "seed": "UNVERIFIED_NOT_EXPOSED",
+    "strict_pixel_mesh_fit": "UNVERIFIED",
+    "independent_archaeological_review": "NOT_PERFORMED",
+    "second_input_sha256": "9a2c091acd2178401d0d0e06a6bdc12c548c6029d39b507a3f04844cfa5bf7fe",
+    "actual_prompt_chain": [
+      {
+        "path": "04_Images/Native/PP04.prompt.txt",
+        "sha256": "8c43d2d60f7f8927a5746c63b8886963ae71c571c0e264d51d13adee47f69ba2"
+      },
+      {
+        "path": "04_Images/Native/PP04_repair.prompt.txt",
+        "sha256": "b4bdfb7dbc26b4fdf5bac598301d9ee1479c23e4f52ae5ab9052ec7cf8bbb6f0"
+      }
+    ]
+  },
+  {
+    "id": "PP05",
+    "actual_tool": "built-in image_gen.imagegen",
+    "actual_generated": true,
+    "native_file": "04_Images/Native/PP05.png",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "native_sha256": "410dd1f0494e4c23dd1156faf279a39c975caa5cd0d779457e89ebcb0de6f259",
+    "final_file": "04_Images/PP05_4K.png",
+    "final_dimensions": [
+      3840,
+      2160
+    ],
+    "final_sha256": "17b280c45c8f8a0b42e35c40368fb07f8d914ad4f385c3002b4f984b51dc4693",
+    "upscaling": {
+      "algorithm": "FSRCNN x3 pretrained TensorFlow graph via OpenCV dnn_superres, followed by area downsampling to 3840x2160",
+      "model_source": "https://github.com/Saafke/FSRCNN_Tensorflow/blob/master/models/FSRCNN_x3.pb",
+      "model_sha256": "efd38655a815908c6c8954db6052f128e76a735f1de657894c477d0dc0b64481",
+      "opencv_version": "4.12.0",
+      "native_size": [
+        1672,
+        941
+      ],
+      "network_output_size": [
+        5016,
+        2823
+      ],
+      "exact_aspect_crop_size": [
+        5008,
+        2817
+      ],
+      "final_size": [
+        3840,
+        2160
+      ],
+      "downsample": "OpenCV INTER_AREA from learned 3x prediction",
+      "crop_pixels": {
+        "left": 4,
+        "right": 4,
+        "top": 3,
+        "bottom": 3
+      },
+      "source_sha256": "410dd1f0494e4c23dd1156faf279a39c975caa5cd0d779457e89ebcb0de6f259",
+      "output_sha256": "17b280c45c8f8a0b42e35c40368fb07f8d914ad4f385c3002b4f984b51dc4693",
+      "elapsed_seconds": 2.309,
+      "native_4k": false,
+      "note": "学习型3倍超分辨率后面积缩减到3840×2160；原生尺寸与裁切如实记录。最终文件为4K尺寸，不是原生4K，放大不增加考古证据。",
+      "cpu_threads": 2,
+      "gpu_used": false
+    },
+    "sharing_derivative": {
+      "file": "04_Images/PP05_Share_4K.jpg",
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "lossy": true,
+      "sha256": "a1deb4f8674ac33cb2ca9db81678bab74a72c7a80434e09624ceb99a15edaf4e"
+    },
+    "camera": {
+      "id": "PP05",
+      "title_zh": "阿帕达纳与朝见庭院",
+      "title_en": "Apadana and its audience court",
+      "position_m": [
+        -113.80000000000001,
+        132.7,
+        13.75
+      ],
+      "look_at_m": [
+        -133.8,
+        24.7,
+        26
+      ],
+      "focal_mm": 24,
+      "tags": [
+        "all"
+      ],
+      "kind": "hall",
+      "camera_reconstruction_tier": "D",
+      "coordinate_frame": "local building axes, metre units; not georeferenced"
+    },
+    "prompt": {
+      "id": "PP05",
+      "prompt_path": "04_Images/Native/PP05.prompt.txt",
+      "prompt_sha256": "d667391bbb3d58be5afea7b39f4e86b6cd9bb51d727d330bf6c3d970b4fce08d",
+      "references": [
+        "03_References/PP05_Structure.png",
+        "04_Images/Native/PP01.png"
+      ],
+      "reference_roles": [
+        "geometry/camera",
+        "accepted master style only"
+      ]
+    },
+    "input_reference_sha256": "da1242a7741bfe742e3ccebe543de531c0d98f94e4738fac080c258ae8392635",
+    "geometry_version": "final-stair-revision",
+    "provider_model": "UNVERIFIED_NOT_EXPOSED",
+    "seed": "UNVERIFIED_NOT_EXPOSED",
+    "strict_pixel_mesh_fit": "UNVERIFIED",
+    "independent_archaeological_review": "NOT_PERFORMED",
+    "second_input_sha256": "9a2c091acd2178401d0d0e06a6bdc12c548c6029d39b507a3f04844cfa5bf7fe",
+    "actual_prompt_chain": [
+      {
+        "path": "04_Images/Native/PP05.prompt.txt",
+        "sha256": "d667391bbb3d58be5afea7b39f4e86b6cd9bb51d727d330bf6c3d970b4fce08d"
+      },
+      {
+        "path": "04_Images/Native/PP05_repair.prompt.txt",
+        "sha256": "ec1c7593f28403907323dbf023f15d44aaeac41c1d31614e7995d7b1d9be814d"
+      }
+    ]
+  },
+  {
+    "id": "PP06",
+    "actual_tool": "built-in image_gen.imagegen",
+    "actual_generated": true,
+    "native_file": "04_Images/Native/PP06.png",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "native_sha256": "1a35e58a644d873107d2a6d48f40767a8f6fd582d40de1a555f0fe6a3976ed7c",
+    "final_file": "04_Images/PP06_4K.png",
+    "final_dimensions": [
+      3840,
+      2160
+    ],
+    "final_sha256": "6175e86648300be9280dab959d542c9f309f3004a84003374f469e43604d77d3",
+    "upscaling": {
+      "algorithm": "FSRCNN x3 pretrained TensorFlow graph via OpenCV dnn_superres, followed by area downsampling to 3840x2160",
+      "model_source": "https://github.com/Saafke/FSRCNN_Tensorflow/blob/master/models/FSRCNN_x3.pb",
+      "model_sha256": "efd38655a815908c6c8954db6052f128e76a735f1de657894c477d0dc0b64481",
+      "opencv_version": "4.12.0",
+      "native_size": [
+        1672,
+        941
+      ],
+      "network_output_size": [
+        5016,
+        2823
+      ],
+      "exact_aspect_crop_size": [
+        5008,
+        2817
+      ],
+      "final_size": [
+        3840,
+        2160
+      ],
+      "downsample": "OpenCV INTER_AREA from learned 3x prediction",
+      "crop_pixels": {
+        "left": 4,
+        "right": 4,
+        "top": 3,
+        "bottom": 3
+      },
+      "source_sha256": "1a35e58a644d873107d2a6d48f40767a8f6fd582d40de1a555f0fe6a3976ed7c",
+      "output_sha256": "6175e86648300be9280dab959d542c9f309f3004a84003374f469e43604d77d3",
+      "elapsed_seconds": 2.475,
+      "native_4k": false,
+      "note": "学习型3倍超分辨率后面积缩减到3840×2160；原生尺寸与裁切如实记录。最终文件为4K尺寸，不是原生4K，放大不增加考古证据。",
+      "cpu_threads": 2,
+      "gpu_used": false
+    },
+    "sharing_derivative": {
+      "file": "04_Images/PP06_Share_4K.jpg",
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "lossy": true,
+      "sha256": "07e307bca4841dc355d2020851b5f3078d267b1bf876c55403edc5072a17d798"
+    },
+    "camera": {
+      "id": "PP06",
+      "title_zh": "阿帕达纳 · 柱林内部",
+      "title_en": "Inside the Apadana",
+      "position_m": [
+        -156.8,
+        5.699999999999999,
+        16.75
+      ],
+      "look_at_m": [
+        -113.80000000000001,
+        48.7,
+        25
+      ],
+      "focal_mm": 21,
+      "tags": [
+        "all"
+      ],
+      "kind": "interior",
+      "camera_reconstruction_tier": "D",
+      "coordinate_frame": "local building axes, metre units; not georeferenced"
+    },
+    "prompt": {
+      "id": "PP06",
+      "prompt_path": "04_Images/Native/PP06.prompt.txt",
+      "prompt_sha256": "2240e3b82727a4942e2a4ad33a5199198b6e392fc04fdb10c58a0be89990140e",
+      "references": [
+        "03_References/PP06_Structure.png",
+        "04_Images/Native/PP01.png"
+      ],
+      "reference_roles": [
+        "geometry/camera",
+        "accepted master style only"
+      ]
+    },
+    "input_reference_sha256": "1f33eb9442c605658549dcf5473b5d24506da3582f5c2439ef3ca0f71f81f0b6",
+    "geometry_version": "final-stair-revision",
+    "provider_model": "UNVERIFIED_NOT_EXPOSED",
+    "seed": "UNVERIFIED_NOT_EXPOSED",
+    "strict_pixel_mesh_fit": "UNVERIFIED",
+    "independent_archaeological_review": "NOT_PERFORMED",
+    "second_input_sha256": "9a2c091acd2178401d0d0e06a6bdc12c548c6029d39b507a3f04844cfa5bf7fe",
+    "actual_prompt_chain": [
+      {
+        "path": "04_Images/Native/PP06.prompt.txt",
+        "sha256": "2240e3b82727a4942e2a4ad33a5199198b6e392fc04fdb10c58a0be89990140e"
+      }
+    ]
+  },
+  {
+    "id": "PP07",
+    "actual_tool": "built-in image_gen.imagegen",
+    "actual_generated": true,
+    "native_file": "04_Images/Native/PP07.png",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "native_sha256": "6924b8ad2cf0462dd0f5b7e8b41f4985b021bcb8bddeb8202651351adfee0b82",
+    "final_file": "04_Images/PP07_4K.png",
+    "final_dimensions": [
+      3840,
+      2160
+    ],
+    "final_sha256": "c1217d2d059ed0a59805211f42fe17fbd2e02b84d168c01acd55995000f2e791",
+    "upscaling": {
+      "algorithm": "FSRCNN x3 pretrained TensorFlow graph via OpenCV dnn_superres, followed by area downsampling to 3840x2160",
+      "model_source": "https://github.com/Saafke/FSRCNN_Tensorflow/blob/master/models/FSRCNN_x3.pb",
+      "model_sha256": "efd38655a815908c6c8954db6052f128e76a735f1de657894c477d0dc0b64481",
+      "opencv_version": "4.12.0",
+      "native_size": [
+        1672,
+        941
+      ],
+      "network_output_size": [
+        5016,
+        2823
+      ],
+      "exact_aspect_crop_size": [
+        5008,
+        2817
+      ],
+      "final_size": [
+        3840,
+        2160
+      ],
+      "downsample": "OpenCV INTER_AREA from learned 3x prediction",
+      "crop_pixels": {
+        "left": 4,
+        "right": 4,
+        "top": 3,
+        "bottom": 3
+      },
+      "source_sha256": "6924b8ad2cf0462dd0f5b7e8b41f4985b021bcb8bddeb8202651351adfee0b82",
+      "output_sha256": "c1217d2d059ed0a59805211f42fe17fbd2e02b84d168c01acd55995000f2e791",
+      "elapsed_seconds": 3.114,
+      "native_4k": false,
+      "note": "学习型3倍超分辨率后面积缩减到3840×2160；原生尺寸与裁切如实记录。最终文件为4K尺寸，不是原生4K，放大不增加考古证据。",
+      "cpu_threads": 2,
+      "gpu_used": false
+    },
+    "sharing_derivative": {
+      "file": "04_Images/PP07_Share_4K.jpg",
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "lossy": true,
+      "sha256": "bf1bd71a43e353522a41488d168da38006b3d38fe514b36aee4be5ae39de8aef"
+    },
+    "camera": {
+      "id": "PP07",
+      "title_zh": "百柱厅与北侧门廊",
+      "title_en": "Hundred Column Hall and north portico",
+      "position_m": [
+        48,
+        118,
+        13.75
+      ],
+      "look_at_m": [
+        0,
+        10,
+        23
+      ],
+      "focal_mm": 24,
+      "tags": [
+        "all"
+      ],
+      "kind": "hall",
+      "camera_reconstruction_tier": "D",
+      "coordinate_frame": "local building axes, metre units; not georeferenced"
+    },
+    "prompt": {
+      "id": "PP07",
+      "prompt_path": "04_Images/Native/PP07.prompt.txt",
+      "prompt_sha256": "9e5ef1a14d7214705b76c43ca371114069638346ac16c502bf345006cdde5099",
+      "references": [
+        "03_References/PP07_Structure.png",
+        "04_Images/Native/PP01.png"
+      ],
+      "reference_roles": [
+        "geometry/camera",
+        "accepted master style only"
+      ]
+    },
+    "input_reference_sha256": "4c44c33143d56e7350fd4c2b3918dcc706b288411c6069c2808c5e478f7daeb7",
+    "geometry_version": "final-stair-revision",
+    "provider_model": "UNVERIFIED_NOT_EXPOSED",
+    "seed": "UNVERIFIED_NOT_EXPOSED",
+    "strict_pixel_mesh_fit": "UNVERIFIED",
+    "independent_archaeological_review": "NOT_PERFORMED",
+    "second_input_sha256": "9a2c091acd2178401d0d0e06a6bdc12c548c6029d39b507a3f04844cfa5bf7fe",
+    "actual_prompt_chain": [
+      {
+        "path": "04_Images/Native/PP07.prompt.txt",
+        "sha256": "9e5ef1a14d7214705b76c43ca371114069638346ac16c502bf345006cdde5099"
+      }
+    ]
+  },
+  {
+    "id": "PP08",
+    "actual_tool": "built-in image_gen.imagegen",
+    "actual_generated": true,
+    "native_file": "04_Images/Native/PP08.png",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "native_sha256": "8b3399692d030b081b687ab73ff26f4b7a37412231d1c211167f1d5b4b337d34",
+    "final_file": "04_Images/PP08_4K.png",
+    "final_dimensions": [
+      3840,
+      2160
+    ],
+    "final_sha256": "9874eeb5439c68165e66b26469fe2e8aec756f334ac8c90b31c14ca988817060",
+    "upscaling": {
+      "algorithm": "FSRCNN x3 pretrained TensorFlow graph via OpenCV dnn_superres, followed by area downsampling to 3840x2160",
+      "model_source": "https://github.com/Saafke/FSRCNN_Tensorflow/blob/master/models/FSRCNN_x3.pb",
+      "model_sha256": "efd38655a815908c6c8954db6052f128e76a735f1de657894c477d0dc0b64481",
+      "opencv_version": "4.12.0",
+      "native_size": [
+        1672,
+        941
+      ],
+      "network_output_size": [
+        5016,
+        2823
+      ],
+      "exact_aspect_crop_size": [
+        5008,
+        2817
+      ],
+      "final_size": [
+        3840,
+        2160
+      ],
+      "downsample": "OpenCV INTER_AREA from learned 3x prediction",
+      "crop_pixels": {
+        "left": 4,
+        "right": 4,
+        "top": 3,
+        "bottom": 3
+      },
+      "source_sha256": "8b3399692d030b081b687ab73ff26f4b7a37412231d1c211167f1d5b4b337d34",
+      "output_sha256": "9874eeb5439c68165e66b26469fe2e8aec756f334ac8c90b31c14ca988817060",
+      "elapsed_seconds": 2.512,
+      "native_4k": false,
+      "note": "学习型3倍超分辨率后面积缩减到3840×2160；原生尺寸与裁切如实记录。最终文件为4K尺寸，不是原生4K，放大不增加考古证据。",
+      "cpu_threads": 2,
+      "gpu_used": false
+    },
+    "sharing_derivative": {
+      "file": "04_Images/PP08_Share_4K.jpg",
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "lossy": true,
+      "sha256": "5039eca8061dc1101dbd9af8ad64444a9f462e773f24cdf34cd1aaf03c08a3f5"
+    },
+    "camera": {
+      "id": "PP08",
+      "title_zh": "百柱厅 · 深处的秩序",
+      "title_en": "Within the Hundred Column Hall",
+      "position_m": [
+        -28,
+        -28,
+        13.75
+      ],
+      "look_at_m": [
+        25,
+        25,
+        19
+      ],
+      "focal_mm": 21,
+      "tags": [
+        "all"
+      ],
+      "kind": "interior",
+      "camera_reconstruction_tier": "D",
+      "coordinate_frame": "local building axes, metre units; not georeferenced"
+    },
+    "prompt": {
+      "id": "PP08",
+      "prompt_path": "04_Images/Native/PP08.prompt.txt",
+      "prompt_sha256": "e5da3c74c1c8672edd935425254f50292c576fa43e14df7c6c65be52da5c6e11",
+      "references": [
+        "03_References/PP08_Structure.png",
+        "04_Images/Native/PP01.png"
+      ],
+      "reference_roles": [
+        "geometry/camera",
+        "accepted master style only"
+      ]
+    },
+    "input_reference_sha256": "cd21aad8ef300d285a5c8a1336b9302ff980458027b6ab68d49ac61d4118d7c6",
+    "geometry_version": "final-stair-revision",
+    "provider_model": "UNVERIFIED_NOT_EXPOSED",
+    "seed": "UNVERIFIED_NOT_EXPOSED",
+    "strict_pixel_mesh_fit": "UNVERIFIED",
+    "independent_archaeological_review": "NOT_PERFORMED",
+    "second_input_sha256": "9a2c091acd2178401d0d0e06a6bdc12c548c6029d39b507a3f04844cfa5bf7fe",
+    "actual_prompt_chain": [
+      {
+        "path": "04_Images/Native/PP08.prompt.txt",
+        "sha256": "e5da3c74c1c8672edd935425254f50292c576fa43e14df7c6c65be52da5c6e11"
+      }
+    ]
+  },
+  {
+    "id": "PP09",
+    "actual_tool": "built-in image_gen.imagegen",
+    "actual_generated": true,
+    "native_file": "04_Images/Native/PP09.png",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "native_sha256": "b051b335f34fa26715414a003f5b94e0eb78329d4227d1e014b7f5f187908a81",
+    "final_file": "04_Images/PP09_4K.png",
+    "final_dimensions": [
+      3840,
+      2160
+    ],
+    "final_sha256": "0aefc1b66a08f527f5cac49720a6c1aad8e1efa04539f25f215f17bd4d1a34d5",
+    "upscaling": {
+      "algorithm": "FSRCNN x3 pretrained TensorFlow graph via OpenCV dnn_superres, followed by area downsampling to 3840x2160",
+      "model_source": "https://github.com/Saafke/FSRCNN_Tensorflow/blob/master/models/FSRCNN_x3.pb",
+      "model_sha256": "efd38655a815908c6c8954db6052f128e76a735f1de657894c477d0dc0b64481",
+      "opencv_version": "4.12.0",
+      "native_size": [
+        1672,
+        941
+      ],
+      "network_output_size": [
+        5016,
+        2823
+      ],
+      "exact_aspect_crop_size": [
+        5008,
+        2817
+      ],
+      "final_size": [
+        3840,
+        2160
+      ],
+      "downsample": "OpenCV INTER_AREA from learned 3x prediction",
+      "crop_pixels": {
+        "left": 4,
+        "right": 4,
+        "top": 3,
+        "bottom": 3
+      },
+      "source_sha256": "b051b335f34fa26715414a003f5b94e0eb78329d4227d1e014b7f5f187908a81",
+      "output_sha256": "0aefc1b66a08f527f5cac49720a6c1aad8e1efa04539f25f215f17bd4d1a34d5",
+      "elapsed_seconds": 2.643,
+      "native_4k": false,
+      "note": "学习型3倍超分辨率后面积缩减到3840×2160；原生尺寸与裁切如实记录。最终文件为4K尺寸，不是原生4K，放大不增加考古证据。",
+      "cpu_threads": 2,
+      "gpu_used": false
+    },
+    "sharing_derivative": {
+      "file": "04_Images/PP09_Share_4K.jpg",
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "lossy": true,
+      "sha256": "1c47448f9d36babbcd4f0d7fd6dce6bf15c23e433ca5265a08d64d2db94b2258"
+    },
+    "camera": {
+      "id": "PP09",
+      "title_zh": "王宫台基与私庭",
+      "title_en": "Royal palaces and raised courts",
+      "position_m": [
+        -211.9,
+        -146.2,
+        49
+      ],
+      "look_at_m": [
+        -128.9,
+        -68.2,
+        23
+      ],
+      "focal_mm": 30,
+      "tags": [
+        "all"
+      ],
+      "kind": "palaces",
+      "camera_reconstruction_tier": "D",
+      "coordinate_frame": "local building axes, metre units; not georeferenced"
+    },
+    "prompt": {
+      "id": "PP09",
+      "prompt_path": "04_Images/Native/PP09.prompt.txt",
+      "prompt_sha256": "4e229b6a73dc9ca65100a118effc41038b577e16725fbd2ba1d985127e807988",
+      "references": [
+        "03_References/PP09_Structure.png",
+        "04_Images/Native/PP01.png"
+      ],
+      "reference_roles": [
+        "geometry/camera",
+        "accepted master style only"
+      ]
+    },
+    "input_reference_sha256": "20d66057222329bbf814107f614765c131e89396472206dc7f21402b722dc949",
+    "geometry_version": "final-stair-revision",
+    "provider_model": "UNVERIFIED_NOT_EXPOSED",
+    "seed": "UNVERIFIED_NOT_EXPOSED",
+    "strict_pixel_mesh_fit": "UNVERIFIED",
+    "independent_archaeological_review": "NOT_PERFORMED",
+    "second_input_sha256": "9a2c091acd2178401d0d0e06a6bdc12c548c6029d39b507a3f04844cfa5bf7fe",
+    "actual_prompt_chain": [
+      {
+        "path": "04_Images/Native/PP09.prompt.txt",
+        "sha256": "4e229b6a73dc9ca65100a118effc41038b577e16725fbd2ba1d985127e807988"
+      }
+    ]
+  },
+  {
+    "id": "PP10",
+    "actual_tool": "built-in image_gen.imagegen",
+    "actual_generated": true,
+    "native_file": "04_Images/Native/PP10.png",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "native_sha256": "f4f1bda713de882af9842ccb9c4d09b8ffc1ec797d768236a6d37d65ac55aebb",
+    "final_file": "04_Images/PP10_4K.png",
+    "final_dimensions": [
+      3840,
+      2160
+    ],
+    "final_sha256": "16cf9b1a14e51bfbcc19ee9e943ab25d5376bfc1a43ee915da779427c0a52b7b",
+    "upscaling": {
+      "algorithm": "FSRCNN x3 pretrained TensorFlow graph via OpenCV dnn_superres, followed by area downsampling to 3840x2160",
+      "model_source": "https://github.com/Saafke/FSRCNN_Tensorflow/blob/master/models/FSRCNN_x3.pb",
+      "model_sha256": "efd38655a815908c6c8954db6052f128e76a735f1de657894c477d0dc0b64481",
+      "opencv_version": "4.12.0",
+      "native_size": [
+        1672,
+        941
+      ],
+      "network_output_size": [
+        5016,
+        2823
+      ],
+      "exact_aspect_crop_size": [
+        5008,
+        2817
+      ],
+      "final_size": [
+        3840,
+        2160
+      ],
+      "downsample": "OpenCV INTER_AREA from learned 3x prediction",
+      "crop_pixels": {
+        "left": 4,
+        "right": 4,
+        "top": 3,
+        "bottom": 3
+      },
+      "source_sha256": "f4f1bda713de882af9842ccb9c4d09b8ffc1ec797d768236a6d37d65ac55aebb",
+      "output_sha256": "16cf9b1a14e51bfbcc19ee9e943ab25d5376bfc1a43ee915da779427c0a52b7b",
+      "elapsed_seconds": 2.195,
+      "native_4k": false,
+      "note": "学习型3倍超分辨率后面积缩减到3840×2160；原生尺寸与裁切如实记录。最终文件为4K尺寸，不是原生4K，放大不增加考古证据。",
+      "cpu_threads": 2,
+      "gpu_used": false
+    },
+    "sharing_derivative": {
+      "file": "04_Images/PP10_Share_4K.jpg",
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "lossy": true,
+      "sha256": "b9ab32ad534551ca01ac4c49da1d0fd7b5ac36bf5733a0cb3ad109952f3bfe37"
+    },
+    "camera": {
+      "id": "PP10",
+      "title_zh": "东侧山坡回望宫殿群",
+      "title_en": "The terrace seen from the eastern hillside",
+      "position_m": [
+        365,
+        30,
+        230
+      ],
+      "look_at_m": [
+        -50,
+        -10,
+        19
+      ],
+      "focal_mm": 26,
+      "tags": [
+        "all"
+      ],
+      "kind": "overall",
+      "camera_reconstruction_tier": "D",
+      "coordinate_frame": "local building axes, metre units; not georeferenced"
+    },
+    "prompt": {
+      "id": "PP10",
+      "prompt_path": "04_Images/Native/PP10.prompt.txt",
+      "prompt_sha256": "80eda6bbbd26ef31dc4830075a0c4e64e6d087e04333ce9b5003ab427221b319",
+      "references": [
+        "03_References/PP10_Structure.png",
+        "01_Maps_Plans/Iranica_Figure2_Persepolis_Plan.jpg"
+      ],
+      "reference_roles": [
+        "geometry/camera",
+        "source plan for reversed building relationships"
+      ]
+    },
+    "input_reference_sha256": "00f3661f895eea34906772b37cae66b1fb451e036309e290720c958550a35b61",
+    "geometry_version": "final-stair-revision",
+    "provider_model": "UNVERIFIED_NOT_EXPOSED",
+    "seed": "UNVERIFIED_NOT_EXPOSED",
+    "strict_pixel_mesh_fit": "UNVERIFIED",
+    "independent_archaeological_review": "NOT_PERFORMED",
+    "second_input_sha256": "17fb63b4570fe31129b8c6c1e76f7e4e02794333f82c015793a9594ef6ed3a5b",
+    "actual_prompt_chain": [
+      {
+        "path": "04_Images/Native/PP10.prompt.txt",
+        "sha256": "80eda6bbbd26ef31dc4830075a0c4e64e6d087e04333ce9b5003ab427221b319"
+      }
+    ]
+  },
+  {
+    "id": "PP11",
+    "actual_tool": "built-in image_gen.imagegen",
+    "actual_generated": true,
+    "native_file": "04_Images/Native/PP11.png",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "native_sha256": "6742a16ade61c13f650de357364c773e2d280388825684ef74ce98a921afc1fd",
+    "final_file": "04_Images/PP11_4K.png",
+    "final_dimensions": [
+      3840,
+      2160
+    ],
+    "final_sha256": "8cc254285ccc326d0e3592550681d40629908a9fc9f28f830db62e61096a062d",
+    "upscaling": {
+      "algorithm": "FSRCNN x3 pretrained TensorFlow graph via OpenCV dnn_superres, followed by area downsampling to 3840x2160",
+      "model_source": "https://github.com/Saafke/FSRCNN_Tensorflow/blob/master/models/FSRCNN_x3.pb",
+      "model_sha256": "efd38655a815908c6c8954db6052f128e76a735f1de657894c477d0dc0b64481",
+      "opencv_version": "4.12.0",
+      "native_size": [
+        1672,
+        941
+      ],
+      "network_output_size": [
+        5016,
+        2823
+      ],
+      "exact_aspect_crop_size": [
+        5008,
+        2817
+      ],
+      "final_size": [
+        3840,
+        2160
+      ],
+      "downsample": "OpenCV INTER_AREA from learned 3x prediction",
+      "crop_pixels": {
+        "left": 4,
+        "right": 4,
+        "top": 3,
+        "bottom": 3
+      },
+      "source_sha256": "6742a16ade61c13f650de357364c773e2d280388825684ef74ce98a921afc1fd",
+      "output_sha256": "8cc254285ccc326d0e3592550681d40629908a9fc9f28f830db62e61096a062d",
+      "elapsed_seconds": 1.81,
+      "native_4k": false,
+      "note": "学习型3倍超分辨率后面积缩减到3840×2160；原生尺寸与裁切如实记录。最终文件为4K尺寸，不是原生4K，放大不增加考古证据。",
+      "cpu_threads": 2,
+      "gpu_used": false
+    },
+    "sharing_derivative": {
+      "file": "04_Images/PP11_Share_4K.jpg",
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "lossy": true,
+      "sha256": "95f3de9019e236d4aa32c44cae86608a123447e267cf1ebda23341fc52d6e5c8"
+    },
+    "camera": {
+      "id": "PP11",
+      "title_zh": "主要活动区域 · 区域全景",
+      "title_en": "Regional panorama of the principal activity areas",
+      "position_m": [
+        -7100,
+        -6300,
+        6800
+      ],
+      "look_at_m": [
+        -1000,
+        2150,
+        0
+      ],
+      "focal_mm": 36,
+      "tags": [
+        "all"
+      ],
+      "kind": "regional",
+      "camera_reconstruction_tier": "D",
+      "coordinate_frame": "same local building axes as core; approximate true-north rotation15deg",
+      "scope": "multi-kilometre Achaemenid settlement landscape, no claim of every known/unknown activity or synchronous430BCE occupancy"
+    },
+    "prompt": {
+      "id": "PP11",
+      "prompt_path": "04_Images/Native/PP11.prompt.txt",
+      "prompt_sha256": "12842c3aa7ecf8530ec42e2dbc74df8c0bca9c876ee1bb6ceda0554e7f63f5fd",
+      "references": [
+        "03_References/PP11_Structure.png",
+        "01_Maps_Plans/Regional_Sectors_Source.jpg"
+      ],
+      "reference_roles": [
+        "actual regional context mesh/camera",
+        "research map positions only; modern layers excluded"
+      ]
+    },
+    "input_reference_sha256": "3f877e34cf9382cf1f25c7794cac3ed77d0bc39f04442812e34c220ca4a2ec42",
+    "geometry_version": "regional context layer reuses final core",
+    "provider_model": "UNVERIFIED_NOT_EXPOSED",
+    "seed": "UNVERIFIED_NOT_EXPOSED",
+    "strict_pixel_mesh_fit": "UNVERIFIED",
+    "independent_archaeological_review": "NOT_PERFORMED",
+    "second_input_sha256": "92689d23e1f106c5f325e2db02765aeac12785a1de663546eb0fa4ddbeea93de",
+    "regional_obj_sha256": "0a527080f7252bab7961078b6a94ff1f13dcb82be22d823dc9617c93ab4de707",
+    "region_occupancy_and_density": "HYPOTHETICAL_NOT_A_CENSUS",
+    "distant_necropolis_detail": "Geographic context; facade count and exact430BCE appearance unverified",
+    "actual_prompt_chain": [
+      {
+        "path": "04_Images/Native/PP11.prompt.txt",
+        "sha256": "12842c3aa7ecf8530ec42e2dbc74df8c0bca9c876ee1bb6ceda0554e7f63f5fd"
+      }
+    ]
+  }
+]

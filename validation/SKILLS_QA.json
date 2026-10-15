@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "skill": "heritage-reconstruct",
+      "structure_validation": "PASS",
+      "validator_output": "Skill is valid!",
+      "runtime_matches_accepted_source": true,
+      "runtime_files": 11,
+      "skill_md_sha256": "8490563f06f441b01378d179b3311873f0f8c80e043551690ef6514b2ae9b405",
+      "ui_metadata_sha256": "f8301fad924cee79bd51dd5fb047c8b8b1751d5190f73f195bf01d6fd7553149"
+    },
+    {
+      "skill": "heritage-audit",
+      "structure_validation": "PASS",
+      "validator_output": "Skill is valid!",
+      "runtime_matches_accepted_source": true,
+      "runtime_files": 11,
+      "skill_md_sha256": "ef250cd294285e56d621d7c4e9ea424e0b8409053a020f335ca5bcbd341922e1",
+      "ui_metadata_sha256": "c644bbc5ecf365ff3d327a43ee5510ef8fc4893472dd78bde92079e07e3dd84d"
+    }
+  ],
+  "validator": "skill-creator quick_validate.py",
+  "validator_sha256": "ee6dba90f44d37171c5a6edb8095979c54919ff6822c1a907afca2e78c48738c",
+  "validator_dependency": "PyYAML 6.0.3 in an existing isolated interpreter",
+  "behavioral_evidence": [
+    "COLD_READER.json",
+    "independent/ACCEPTANCE.md"
+  ],
+  "globally_installed": false,
+  "current_client_discovery": "UNVERIFIED",
+  "scope": "structure validation and bundled runtime byte identity; behavioral scope is separately reported"
+}

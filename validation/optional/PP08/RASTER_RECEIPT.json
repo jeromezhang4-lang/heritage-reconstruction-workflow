@@ -1,0 +1,15 @@
+{
+  "status": "ACTUAL_MESH_RENDER",
+  "dimensions": [
+    960,
+    540
+  ],
+  "objects": 1883,
+  "triangles": 8567,
+  "elapsed_seconds": 0.638,
+  "visible_pixels": 518120,
+  "not_final_ai_image": true,
+  "structure_sha256": "241038852e942cb35c5d0144fa7ab6f167a94c8e20fb204e08e983476b5f06a5",
+  "depth": "PP08_Depth.png",
+  "edges": "PP08_Edges.png"
+}

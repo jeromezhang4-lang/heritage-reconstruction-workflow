@@ -1,0 +1,93 @@
+{
+  "status": "PASS_WITH_DECLARED_LIMITATIONS",
+  "reviewer": "Primary agent visual inspection, not an independent archaeologist",
+  "actual_generated_views": 11,
+  "built_in_generation_calls": 16,
+  "native_pngs_preserved": 16,
+  "criteria": {
+    "actual_assets_and_size_readback": "PASS",
+    "complete_terrace_in_two_distinct_aerials": "PASS",
+    "principal_activity_region_panorama": "PASS_AS_INTERPRETIVE_CONTEXT",
+    "monumental_human_scale": "PASS",
+    "functioning_intact_main_palaces": "PASS",
+    "no_obvious_modern_equipment": "PASS",
+    "reference_mesh_column_grids": "PASS",
+    "strict_photographic_column_counts": "UNVERIFIED",
+    "strict_camera_and_pixel_geometry_fit": "UNVERIFIED",
+    "independent_original_archaeological_accuracy": "UNVERIFIED",
+    "all_activity_areas_exhaustively_known": "NOT_CLAIMED",
+    "whole_city_population_and_occupancy": "NOT_CLAIMED",
+    "native4K": "NO_UPSCALED"
+  },
+  "per_image": [
+    {
+      "id": "PP01",
+      "observed": "完整高台边界、主要柱厅与南部屋顶群可见；已去除独立兽像、外挡墙人物带，并修正双折返入口",
+      "limitation": "台阶转折/步数、各门廊可见柱数和装饰不能作精确测量",
+      "final_sha256": "ad7ec7b549208da1a5c59c1a1524b89c9e9c71315bdfc1fde39cfe666aeac828"
+    },
+    {
+      "id": "PP02",
+      "observed": "重生成后的西南视角与PP01不同；南部宫殿/库房近处，公共柱厅与入口远处",
+      "limitation": "生成材质与边缘细部并非逐像素同构",
+      "final_sha256": "84337758b4b192d5d87a5cb2bc466b76a3ab26b146324bd1ac1ad2149db85634"
+    },
+    {
+      "id": "PP03",
+      "observed": "低人视角、高台挡墙、配对阶梯与高大门廊，人物提供尺度",
+      "limitation": "个别台阶与转台简化；111级不是图像逐级验证结论",
+      "final_sha256": "05eba4af48f86fa30ae99813634550626255966f8e698b218e423456d7b18e6d"
+    },
+    {
+      "id": "PP04",
+      "observed": "西侧门洞前守护兽已由人头修改为牛头；保留有顶四柱厅的可见部分",
+      "limitation": "完整原始门框雕刻、四柱同时可见与铭文均未认证",
+      "final_sha256": "0493b0c68e62becb8b26c863fd207c0c138a33421292a7395b098b99e7f5ef84"
+    },
+    {
+      "id": "PP05",
+      "observed": "阿帕达纳北门廊已针对柱序/间距修改；完整木顶、台基与人物比例清晰",
+      "limitation": "六轴模型已核对；照片遮挡与可见柱序尚未独立精确验证",
+      "final_sha256": "17b280c45c8f8a0b42e35c40368fb07f8d914ad4f385c3002b4f984b51dc4693"
+    },
+    {
+      "id": "PP06",
+      "observed": "阿帕达纳内部高柱、木梁、完整屋顶、门洞日光与小比例人物",
+      "limitation": "36柱总数不能凭一个透视图确认；彩绘与木顶细部C",
+      "final_sha256": "6175e86648300be9280dab959d542c9f309f3004a84003374f469e43604d77d3"
+    },
+    {
+      "id": "PP07",
+      "observed": "百柱厅北门廊更低，宽大前庭、后墙门户和柱列相连",
+      "limitation": "北廊8×2柱网为模型事实；图像可见柱数、兽雕范围未逐构件认证",
+      "final_sha256": "c1217d2d059ed0a59805211f42fe17fbd2e02b84d168c01acd55995000f2e791"
+    },
+    {
+      "id": "PP08",
+      "observed": "百柱厅密集柱阵、完整梁顶、长距离视线与小比例守卫/来宾",
+      "limitation": "主厅100柱由模型确认，图像不保证全部柱数/位置精确吻合",
+      "final_sha256": "9874eeb5439c68165e66b26469fe2e8aec756f334ac8c90b31c14ca988817060"
+    },
+    {
+      "id": "PP09",
+      "observed": "南部王宫多台基、门廊、内院与大型公共柱厅背景，统一材料",
+      "limitation": "木/石柱细节、后期阶段过滤与失去的上部方案含推定",
+      "final_sha256": "0aefc1b66a08f527f5cac49720a6c1aad8e1efa04539f25f215f17bd4d1a34d5"
+    },
+    {
+      "id": "PP10",
+      "observed": "东侧回望：库房靠近视点、百柱厅与阿帕达纳层次、入口更远",
+      "limitation": "地形与外围平原非实测；微观门洞和屋顶差异C",
+      "final_sha256": "16cf9b1a14e51bfbcc19ee9e943ab25d5376bfc1a43ee915da779427c0a52b7b"
+    },
+    {
+      "id": "PP11",
+      "observed": "多公里区域中可辨认高台、台下建筑、低矮聚落、田园河流与远侧王陵背景",
+      "limitation": "全景是主要区域解释；每座住宅、密度、活动与430BCE同期状态未知，远处王陵细部不作墓数/断代证明",
+      "final_sha256": "8cc254285ccc326d0e3592550681d40629908a9fc9f28f830db62e61096a062d"
+    }
+  ],
+  "core_obj_sha256": "1124885e01038307b5195256a12cd2ed501b0fe05275cb5e40325eca1f3a6aaf",
+  "regional_obj_sha256": "0a527080f7252bab7961078b6a94ff1f13dcb82be22d823dc9617c93ab4de707",
+  "version_note": "PP01 first-generation core1881objects then targeted stairs repair; final core1883objects. Main palace masses/column grids unchanged; inputOBJ/frame and repair prompts preserved."
+}

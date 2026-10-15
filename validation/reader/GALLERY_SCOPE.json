@@ -1,0 +1,23 @@
+{
+  "standalone": true,
+  "network_required": false,
+  "external_source_links_require_network": true,
+  "images": "recorded sharing assets; repaired/failed originals for comparisons",
+  "geometry": "regenerated core/context models; depth-tested WebGL viewer",
+  "historical_accuracy": "UNVERIFIED",
+  "recorded_images": 11,
+  "ai_images_regenerated": false,
+  "native_4k": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ]
+}

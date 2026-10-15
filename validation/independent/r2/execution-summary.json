@@ -1,0 +1,135 @@
+{
+  "candidate_sha256": "e16b0dad816bb329c96a00b66d787e968ad33ff83bd42e2de6cfe5f764f6be10",
+  "version": "R2",
+  "superseded_by": "R3",
+  "readme_verify_reproduce": "PASS",
+  "documented_tests": 17,
+  "two_standalone_skill_demo_exercises": "PASS",
+  "standalone_full_case_audit": "PASS",
+  "standalone_full_case_guarded_replay": "PASS",
+  "browser_checks": 23,
+  "browser_status": "PASS",
+  "browser_closed": true,
+  "network_requests": 0,
+  "historical_certification": "UNVERIFIED",
+  "fresh_ai_generation": "NOT_RUN",
+  "processes": [
+    {
+      "label": "create_clean_stdlib_venv",
+      "pid": 13046,
+      "exit_code": 0,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    },
+    {
+      "label": "clean_interpreter",
+      "pid": 13047,
+      "exit_code": 0,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    },
+    {
+      "label": "readme_verify",
+      "pid": 13048,
+      "exit_code": 0,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    },
+    {
+      "label": "readme_reproduce",
+      "pid": 13050,
+      "exit_code": 0,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    },
+    {
+      "label": "repository_tests",
+      "pid": 13072,
+      "exit_code": 0,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    },
+    {
+      "label": "heritage-reconstruct_demo_init",
+      "pid": 14177,
+      "exit_code": 0,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    },
+    {
+      "label": "heritage-reconstruct_demo_verify",
+      "pid": 14179,
+      "exit_code": 0,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    },
+    {
+      "label": "heritage-reconstruct_demo_reproduce",
+      "pid": 14184,
+      "exit_code": 0,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    },
+    {
+      "label": "heritage-reconstruct_demo_audit",
+      "pid": 14186,
+      "exit_code": 0,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    },
+    {
+      "label": "heritage-audit_demo_init",
+      "pid": 14187,
+      "exit_code": 0,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    },
+    {
+      "label": "heritage-audit_demo_verify",
+      "pid": 14190,
+      "exit_code": 0,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    },
+    {
+      "label": "heritage-audit_demo_reproduce",
+      "pid": 14199,
+      "exit_code": 0,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    },
+    {
+      "label": "heritage-audit_demo_audit",
+      "pid": 14200,
+      "exit_code": 0,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    },
+    {
+      "label": "standalone_audit_full_persepolis",
+      "pid": 14201,
+      "exit_code": 0,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    },
+    {
+      "label": "standalone_reconstruct_full_guarded",
+      "pid": 14207,
+      "exit_code": 0,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    },
+    {
+      "label": "offline_browser_qa_macos_renderer_permission",
+      "pid": 14223,
+      "exit_code": 0,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    }
+  ],
+  "remaining_findings": [
+    "validation/ACCEPTANCE.md absent",
+    "PP04 human-head diagnostic not established by supplied before image"
+  ],
+  "manual_images": "R1-reviewed retained images byte-identical between R1 and R2; no new full visual review"
+}

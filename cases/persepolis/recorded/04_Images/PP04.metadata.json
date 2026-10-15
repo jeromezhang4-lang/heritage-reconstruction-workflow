@@ -1,0 +1,114 @@
+{
+  "id": "PP04",
+  "actual_tool": "built-in image_gen.imagegen",
+  "actual_generated": true,
+  "native_file": "04_Images/Native/PP04.png",
+  "native_dimensions": [
+    1672,
+    941
+  ],
+  "native_sha256": "3c7ecd22340cb94c4ddc239e84b7061e326b5bbe2fd8575264192f644a2b8ec8",
+  "final_file": "04_Images/PP04_4K.png",
+  "final_dimensions": [
+    3840,
+    2160
+  ],
+  "final_sha256": "0493b0c68e62becb8b26c863fd207c0c138a33421292a7395b098b99e7f5ef84",
+  "upscaling": {
+    "algorithm": "FSRCNN x3 pretrained TensorFlow graph via OpenCV dnn_superres, followed by area downsampling to 3840x2160",
+    "model_source": "https://github.com/Saafke/FSRCNN_Tensorflow/blob/master/models/FSRCNN_x3.pb",
+    "model_sha256": "efd38655a815908c6c8954db6052f128e76a735f1de657894c477d0dc0b64481",
+    "opencv_version": "4.12.0",
+    "native_size": [
+      1672,
+      941
+    ],
+    "network_output_size": [
+      5016,
+      2823
+    ],
+    "exact_aspect_crop_size": [
+      5008,
+      2817
+    ],
+    "final_size": [
+      3840,
+      2160
+    ],
+    "downsample": "OpenCV INTER_AREA from learned 3x prediction",
+    "crop_pixels": {
+      "left": 4,
+      "right": 4,
+      "top": 3,
+      "bottom": 3
+    },
+    "source_sha256": "3c7ecd22340cb94c4ddc239e84b7061e326b5bbe2fd8575264192f644a2b8ec8",
+    "output_sha256": "0493b0c68e62becb8b26c863fd207c0c138a33421292a7395b098b99e7f5ef84",
+    "elapsed_seconds": 2.311,
+    "native_4k": false,
+    "note": "学习型3倍超分辨率后面积缩减到3840×2160；原生尺寸与裁切如实记录。最终文件为4K尺寸，不是原生4K，放大不增加考古证据。",
+    "cpu_threads": 2,
+    "gpu_used": false
+  },
+  "sharing_derivative": {
+    "file": "04_Images/PP04_Share_4K.jpg",
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "lossy": true,
+    "sha256": "5445a854db0ac74332008cc061a66dc24789aaec0305b170451a0e83bba791ac"
+  },
+  "camera": {
+    "id": "PP04",
+    "title_zh": "万国门的巨型门廊",
+    "title_en": "The monumental Gate of All Lands",
+    "position_m": [
+      -196.1,
+      130.1,
+      13.75
+    ],
+    "look_at_m": [
+      -148.1,
+      143.1,
+      25
+    ],
+    "focal_mm": 24,
+    "tags": [
+      "all"
+    ],
+    "kind": "entrance",
+    "camera_reconstruction_tier": "D",
+    "coordinate_frame": "local building axes, metre units; not georeferenced"
+  },
+  "prompt": {
+    "id": "PP04",
+    "prompt_path": "04_Images/Native/PP04.prompt.txt",
+    "prompt_sha256": "8c43d2d60f7f8927a5746c63b8886963ae71c571c0e264d51d13adee47f69ba2",
+    "references": [
+      "03_References/PP04_Structure.png",
+      "04_Images/Native/PP01.png"
+    ],
+    "reference_roles": [
+      "geometry/camera",
+      "accepted master style only"
+    ]
+  },
+  "input_reference_sha256": "ba789c8a274f1fb7ec0dab9893c0e35f382ce2217bde21132205ceb0f6a67298",
+  "geometry_version": "final-stair-revision",
+  "provider_model": "UNVERIFIED_NOT_EXPOSED",
+  "seed": "UNVERIFIED_NOT_EXPOSED",
+  "strict_pixel_mesh_fit": "UNVERIFIED",
+  "independent_archaeological_review": "NOT_PERFORMED",
+  "second_input_sha256": "9a2c091acd2178401d0d0e06a6bdc12c548c6029d39b507a3f04844cfa5bf7fe",
+  "actual_prompt_chain": [
+    {
+      "path": "04_Images/Native/PP04.prompt.txt",
+      "sha256": "8c43d2d60f7f8927a5746c63b8886963ae71c571c0e264d51d13adee47f69ba2"
+    },
+    {
+      "path": "04_Images/Native/PP04_repair.prompt.txt",
+      "sha256": "b4bdfb7dbc26b4fdf5bac598301d9ee1479c23e4f52ae5ab9052ec7cf8bbb6f0"
+    }
+  ]
+}

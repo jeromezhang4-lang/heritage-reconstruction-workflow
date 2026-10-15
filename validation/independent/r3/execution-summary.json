@@ -1,0 +1,233 @@
+{
+  "candidate": "<AUTHOR_WORKSPACE>/work/open-source-v1/candidate-r3.zip",
+  "candidate_sha256": "734b33f645c2d0f6a4f298fc4980ad5077f0086f812a29259f6f714c7bfbca7e",
+  "version": "R3",
+  "closeout_mode": "report only; no further checks after scoped deadline",
+  "technical_replay": "PASS",
+  "historical_accuracy": "UNVERIFIED",
+  "fresh_ai_generation": "NOT_RUN",
+  "commands": [
+    {
+      "label": "create_clean_stdlib_venv",
+      "command": [
+        "/usr/bin/python3",
+        "-m",
+        "venv",
+        "--without-pip",
+        "<READER_WORKSPACE>/venv"
+      ],
+      "cwd": "<READER_WORKSPACE>",
+      "pid": 17295,
+      "timeout_seconds": 60,
+      "exit_code": 0,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    },
+    {
+      "label": "clean_interpreter",
+      "command": [
+        "<READER_WORKSPACE>/venv/bin/python",
+        "-I",
+        "-c",
+        "import sys,json,importlib.util;print(json.dumps({\"version\":sys.version,\"prefix\":sys.prefix,\"site_packages\":sys.path,\"numpy_available\":importlib.util.find_spec(\"numpy\") is not None,\"PIL_available\":importlib.util.find_spec(\"PIL\") is not None}))"
+      ],
+      "cwd": "<READER_WORKSPACE>",
+      "pid": 17296,
+      "timeout_seconds": 120,
+      "exit_code": 0,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    },
+    {
+      "label": "readme_verify",
+      "command": [
+        "<READER_WORKSPACE>/venv/bin/python",
+        "-I",
+        "scripts/heritage.py",
+        "verify",
+        "--case",
+        "cases/persepolis"
+      ],
+      "cwd": "<READER_WORKSPACE>/extracted/heritage-reconstruction-workflow-v0.1.0",
+      "pid": 17297,
+      "timeout_seconds": 120,
+      "exit_code": 0,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    },
+    {
+      "label": "readme_reproduce",
+      "command": [
+        "<READER_WORKSPACE>/venv/bin/python",
+        "-I",
+        "scripts/heritage.py",
+        "reproduce",
+        "--case",
+        "cases/persepolis",
+        "--out",
+        "<READER_WORKSPACE>/build/persepolis"
+      ],
+      "cwd": "<READER_WORKSPACE>/extracted/heritage-reconstruction-workflow-v0.1.0",
+      "pid": 17299,
+      "timeout_seconds": 180,
+      "exit_code": 0,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    },
+    {
+      "label": "repository_tests",
+      "command": [
+        "<READER_WORKSPACE>/venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "cwd": "<READER_WORKSPACE>/extracted/heritage-reconstruction-workflow-v0.1.0",
+      "pid": 17324,
+      "timeout_seconds": 120,
+      "exit_code": 0,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    },
+    {
+      "label": "heritage-reconstruct_demo_init",
+      "command": [
+        "<READER_WORKSPACE>/venv/bin/python",
+        "-I",
+        "<READER_WORKSPACE>/skills-only/heritage-reconstruct/scripts/heritage.py",
+        "init",
+        "--out",
+        "<READER_WORKSPACE>/practice/heritage-reconstruct/case",
+        "--id",
+        "heritage-reconstruct-demo",
+        "--demo"
+      ],
+      "cwd": "<READER_WORKSPACE>",
+      "pid": 17988,
+      "timeout_seconds": 15,
+      "exit_code": 0,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    },
+    {
+      "label": "heritage-reconstruct_demo_reproduce",
+      "command": [
+        "<READER_WORKSPACE>/venv/bin/python",
+        "-I",
+        "<READER_WORKSPACE>/skills-only/heritage-reconstruct/scripts/heritage.py",
+        "reproduce",
+        "--case",
+        "<READER_WORKSPACE>/practice/heritage-reconstruct/case",
+        "--out",
+        "<READER_WORKSPACE>/practice/heritage-reconstruct/build"
+      ],
+      "cwd": "<READER_WORKSPACE>",
+      "pid": 17992,
+      "timeout_seconds": 15,
+      "exit_code": 0,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    },
+    {
+      "label": "heritage-audit_demo_init",
+      "command": [
+        "<READER_WORKSPACE>/venv/bin/python",
+        "-I",
+        "<READER_WORKSPACE>/skills-only/heritage-audit/scripts/heritage.py",
+        "init",
+        "--out",
+        "<READER_WORKSPACE>/practice/heritage-audit/case",
+        "--id",
+        "heritage-audit-demo",
+        "--demo"
+      ],
+      "cwd": "<READER_WORKSPACE>",
+      "pid": 17993,
+      "timeout_seconds": 15,
+      "exit_code": 0,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    },
+    {
+      "label": "heritage-audit_demo_reproduce",
+      "command": [
+        "<READER_WORKSPACE>/venv/bin/python",
+        "-I",
+        "<READER_WORKSPACE>/skills-only/heritage-audit/scripts/heritage.py",
+        "reproduce",
+        "--case",
+        "<READER_WORKSPACE>/practice/heritage-audit/case",
+        "--out",
+        "<READER_WORKSPACE>/practice/heritage-audit/build"
+      ],
+      "cwd": "<READER_WORKSPACE>",
+      "pid": 17994,
+      "timeout_seconds": 15,
+      "exit_code": 0,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    },
+    {
+      "label": "standalone_audit_full_persepolis",
+      "command": [
+        "<READER_WORKSPACE>/venv/bin/python",
+        "-I",
+        "<READER_WORKSPACE>/skills-only/heritage-audit/scripts/heritage.py",
+        "audit",
+        "--case",
+        "<READER_WORKSPACE>/extracted/heritage-reconstruction-workflow-v0.1.0/cases/persepolis",
+        "--report",
+        "<READER_WORKSPACE>/reports/persepolis-audit.json"
+      ],
+      "cwd": "<READER_WORKSPACE>",
+      "pid": 17997,
+      "timeout_seconds": 15,
+      "exit_code": 0,
+      "timed_out": false,
+      "final_state": "terminated_and_reaped"
+    }
+  ],
+  "r3_executed_scope": [
+    "new stdlib-only Python 3.9 venv",
+    "README verify and full Persepolis reproduce",
+    "17 documented unittest cases",
+    "heritage-reconstruct copied alone: demo init and reproduce",
+    "heritage-audit copied alone: demo init and reproduce",
+    "copied heritage-audit: full Persepolis audit"
+  ],
+  "r3_not_executed": [
+    "browser interaction or screenshots",
+    "fresh full visual review",
+    "optional raster rendering",
+    "new AI generation",
+    "external source retrieval",
+    "super-resolution",
+    "global skill discovery or installation",
+    "Windows/Linux execution",
+    "professional archaeological certification"
+  ],
+  "prior_observations": {
+    "R1": "11 final views in contact sheet; native before/after pairs PP01 PP02 PP04 PP05; core/context screenshots; 23 offline browser checks passed",
+    "R2": "23 offline browser checks passed; two complete independent skill demo exercises, full audit and guarded replay passed",
+    "version_binding": "candidate-delta.json comparisons show retained image and prompt bytes unchanged across these revisions; prior visual observations are not relabelled as fresh R3 browser tests"
+  },
+  "disposition": {
+    "PP04_diagnostic": "R3 README, ERRATA, case F04 and workflow now state the original human-head diagnosis is unsupported by the retained images; old images/prompts/QA remain preserved; residual anatomy/detail is UNVERIFIED",
+    "missing_acceptance_document": "R1/R2 lacked validation/ACCEPTANCE.md; R3 ZIP now includes this document and validation evidence. Presence resolved; packaged parent evidence is not treated as this readers new execution.",
+    "display_limit": "R3 runtime warning output represents PP04 known_issue with literal Unicode escape sequences; no R3 browser readability check was executed in this closeout"
+  },
+  "evidence_paths": {
+    "commands": "execution.jsonl",
+    "audit": "reports/persepolis-audit.json",
+    "build": "build/persepolis",
+    "delta": "candidate-delta.json",
+    "report": "ACCEPTANCE.md"
+  },
+  "parent_reports": [
+    "../reader-20261015T074541Z/ACCEPTANCE.md",
+    "../reader-r2-20261015T075300Z/ACCEPTANCE.md"
+  ]
+}

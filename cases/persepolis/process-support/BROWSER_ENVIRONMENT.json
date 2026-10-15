@@ -1,0 +1,9 @@
+{
+  "status": "HISTORICAL_ENVIRONMENT_FAILURE",
+  "failure_class": "macOS renderer sandbox / MachPortRendezvous KERN_SUCCESS",
+  "observed": "Bundled Chromium launch ended before the original browser QA could run.",
+  "recovery": "Use the task-authorized fixed browser QA entry; close the owned browser in finally. Do not infer a target-site/VPN failure from renderer launch.",
+  "source_sha256": "84df8de706b270ab8def9812ced4b326dd0a63eb00c063715410c7e8adb6fc1c",
+  "raw_log_distributed": false,
+  "reason": "Raw launch diagnostics include personal cache/profile paths; this structured cause and source hash preserve the relevant evidence."
+}

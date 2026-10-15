@@ -1,0 +1,75 @@
+{
+  "status": "PASS",
+  "scope": "case structure, references, file integrity and declared dimensions",
+  "historical_accuracy": "UNVERIFIED",
+  "fresh_ai_generation": "NOT_RUN",
+  "errors": [],
+  "warnings": [
+    "PP01: independent archaeological review not confirmed",
+    "PP01: strict image/mesh agreement not confirmed",
+    "PP02: independent archaeological review not confirmed",
+    "PP02: strict image/mesh agreement not confirmed",
+    "PP03: independent archaeological review not confirmed",
+    "PP03: strict image/mesh agreement not confirmed",
+    "PP04: independent archaeological review not confirmed",
+    "PP04: strict image/mesh agreement not confirmed",
+    "PP04: 原先“人头改牛头”的过程叙述缺乏保留图像支持，已作勘误；两版都有牛头特征。门兽姿态和雕刻细部仍有生成失真，仅作门厅体量示意。",
+    "PP05: independent archaeological review not confirmed",
+    "PP05: strict image/mesh agreement not confirmed",
+    "PP06: independent archaeological review not confirmed",
+    "PP06: strict image/mesh agreement not confirmed",
+    "PP07: independent archaeological review not confirmed",
+    "PP07: strict image/mesh agreement not confirmed",
+    "PP08: independent archaeological review not confirmed",
+    "PP08: strict image/mesh agreement not confirmed",
+    "PP09: independent archaeological review not confirmed",
+    "PP09: strict image/mesh agreement not confirmed",
+    "PP10: independent archaeological review not confirmed",
+    "PP10: strict image/mesh agreement not confirmed",
+    "PP11: independent archaeological review not confirmed",
+    "PP11: strict image/mesh agreement not confirmed",
+    "external research asset excluded: Iranica_Figure2_Persepolis_Plan.jpg",
+    "external research asset excluded: OIC21_Figure5_1937_Terrace_Plan.png",
+    "external research asset excluded: Regional_Sectors_Source.jpg",
+    "external research asset excluded: Royal_Precinct_Source.jpg"
+  ],
+  "counts": {
+    "sources": 9,
+    "claims": 23,
+    "components": 9,
+    "scenes": 11
+  },
+  "model_objects": {
+    "core": 1883,
+    "context": 2530
+  },
+  "column_invariants": {
+    "status": "PASS",
+    "actual": {
+      "Apadana_main": 36,
+      "Apadana_three_porticoes": 36,
+      "Hundred_main": 100,
+      "Hundred_north_portico": 16,
+      "Gate": 4,
+      "Tachara_main": 12,
+      "Hadish_main": 36,
+      "Tripylon": 4
+    },
+    "errors": [],
+    "scope": "reference model, not generated-image column counts"
+  },
+  "recorded_core_max_coordinate_delta_m": 0.00010000000000331966,
+  "recorded_context_max_coordinate_delta_m": 0.00010000000000331966,
+  "obj_sha256": {
+    "core": "1124885e01038307b5195256a12cd2ed501b0fe05275cb5e40325eca1f3a6aaf",
+    "context": "4ae9603301de0c2c8952f52700cc47283529f1038d6de2928a039429cfc6440e"
+  },
+  "reference_format": "SVG projected object bounds; original raster references are separately preserved",
+  "case_json_sha256": "45273322e4c91bff3bcf530153661a88660adc4f23e51d7ce6f781376ee5b4f4",
+  "gallery": "gallery.html",
+  "replay_scope": "regenerated reference geometry/cameras/SVG previews + recorded image replay + offline gallery + integrity checks",
+  "ai_images_regenerated": false,
+  "known_visual_issues": [
+    "PP04"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "candidate": "<AUTHOR_WORKSPACE>/work/open-source-v1/candidate-r2.zip",
+  "candidate_sha256": "e16b0dad816bb329c96a00b66d787e968ad33ff83bd42e2de6cfe5f764f6be10",
+  "root": "<READER_WORKSPACE>/extracted/heritage-reconstruction-workflow-v0.1.0",
+  "initial_deadline_utc": "2026-10-15T08:00:41Z"
+}

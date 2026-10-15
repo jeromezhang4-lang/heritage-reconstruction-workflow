@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>@@TITLE@@</title><style>@@STYLE@@</style></head>
+<body><header><p class="eyebrow">HERITAGE RECONSTRUCTION WORKFLOW · 0.1.0</p><h1>@@TITLE@@</h1><p>史料、空间模型、生成结果与修正过程，一起接受检查。</p><p class="notice">解释性复原案例。完整屋顶、色彩、外围住宅及部分细部含推定；技术复现通过不等于历史准确性认证。超分与原生尺寸分别记录。</p><nav aria-label="展馆内容"><button data-tab="results" aria-selected="true">复原结果</button><button data-tab="process">失败与修正</button><button data-tab="evidence">证据与边界</button><button data-tab="model">空间模型</button></nav></header>
+<main><section id="results"><h2>从区域到宫殿</h2><label>场景类型 <select id="filter"><option value="all">全部场景</option></select></label><div id="cards" class="grid"></div></section>
+<section id="process" hidden><h2>做过什么，改过什么</h2><p>原生图和弃用版本保留在完整案例中。下列修正记录并不表示剩余细节已全部通过。</p><div id="failures"></div></section>
+<section id="evidence" hidden><h2>证据与不确定性</h2><p>A：直接遗存/测绘支持；B：研究支持的推断；C：类比或缺失上部的推定；D：表现性安排。来源级别与复原确定性分别记录，不把字母当作准确率。</p><div id="limitations"></div><h3>资料来源</h3><div id="sources"></div><h3>历史主张与来源</h3><div id="claims"></div></section>
+<section id="model" hidden><h2>同一空间模型，不同机位</h2><p>近似注册的参考网格，非精密测绘。外围每座住宅、地形、屋顶和上部构造均含推定。拖动旋转，滚轮缩放；空闲时不连续渲染。</p><div class="controls"><label>模型 <select id="modelSelect"><option value="core">宫殿核心</option><option value="context">区域景观</option></select></label><label>机位 <select id="cameraSelect"></select></label><button id="downloadObj">下载 OBJ</button></div><canvas id="modelCanvas" aria-label="可旋转的参考三维模型"></canvas><p id="modelStatus" role="status"></p></section></main>
+<dialog id="viewer"><button id="closeViewer" aria-label="关闭大图">关闭 ×</button><h2 id="viewerTitle"></h2><div class="imageViewport"><img id="full" alt=""></div><div class="controls"><button id="previous">上一张</button><button id="zoom">放大 / 适应窗口</button><button id="next">下一张</button><button id="downloadImage">下载分享图</button></div><div id="description"></div></dialog>
+<footer>案例内容与代码许可分别记录。第三方考古底图未打包；链接保留供核查。所有生成图均是复原假设的视觉表达。</footer>
+<script id="caseData" type="application/json">@@DATA@@</script><script>@@SCRIPT@@</script></body></html>

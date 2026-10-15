@@ -1,0 +1,67 @@
+[
+  {
+    "id": "S01",
+    "title": "Schmidt 1939 · OIC21 原始发掘报告",
+    "url": "https://isac.uchicago.edu/publications/treasury-persepolis-and-other-discoveries-achaemenians",
+    "tier": "A",
+    "inspected": "PDF184pages; printed pp1–3, Fig5 PDFpage35 inspected; relevant indexed architectural passages",
+    "used_for": "原始总平面、南部建筑标签、百柱厅100柱与北门廊16柱、年代分歧",
+    "scope_limit": "1937年发掘状态图；不是公元前430年的同步图。功能与断代部分已被后续研究修订。",
+    "rights": "University of Chicago CC BY-NC-ND4.0; unannotated limited full-page figure reproduced as research reference; full book not redistributed"
+  },
+  {
+    "id": "S02",
+    "title": "Shahbazi · Encyclopaedia Iranica: Persepolis",
+    "url": "https://www.iranicaonline.org/articles/persepolis/",
+    "tier": "B",
+    "inspected": "建筑章节与Figure2总平面实际像素",
+    "used_for": "总体尺度、各柱厅与住宅结构、复原时的建筑阶段过滤",
+    "scope_limit": "不是逐室原始测绘；部分细节与早期报告判断有差异。",
+    "rights": "Article and plan copyright retained; one unmodified plan as limited research reference"
+  },
+  {
+    "id": "S03",
+    "title": "UNESCO · Persepolis",
+    "url": "https://whc.unesco.org/en/list/114",
+    "tier": "B",
+    "inspected": "官方遗产条目",
+    "used_for": "遗址定位、约13公顷纪念性宫殿群、历史与遗产状态",
+    "scope_limit": "遗产简介不等于逐构件尺寸或屋顶依据。"
+  },
+  {
+    "id": "S04",
+    "title": "Schmidt 1953 · OIP68出版目录",
+    "url": "https://isac.uchicago.edu/publications/persepolis-i-structures-reliefs-inscriptions",
+    "tier": "A",
+    "inspected": "官方目录与下载地址；完整PDF下载两次到240秒截止，未完整取得",
+    "used_for": "原始建筑报告的书目信息与后续研究入口",
+    "scope_limit": "本次不将未读完整PDF作为新增几何证据。"
+  },
+  {
+    "id": "S05",
+    "title": "Princeton · 薛西斯宫执杯侍从浮雕 y1949-115",
+    "url": "https://artmuseum.princeton.edu/art/collections/objects/23760",
+    "tier": "A/B",
+    "inspected": "博物馆对象条目，约486–465BCE，原位置推断的说明",
+    "used_for": "侍从服饰、执杯活动的有限比较",
+    "scope_limit": "原位没有已知照片；不复制精确位置，不据此宣称一次具体宴会。"
+  },
+  {
+    "id": "S06",
+    "title": "Met · Procession relief 39.133",
+    "url": "https://www.metmuseum.org/art/collection/search/323723",
+    "tier": "A/B",
+    "inspected": "约405–359BCE对象条目",
+    "used_for": "年代排除检查",
+    "scope_limit": "晚于430BCE，不能直接移植其西侧阶梯雕刻到本次目标。"
+  },
+  {
+    "id": "S07",
+    "title": "UChicago ISAC · Persian Gallery",
+    "url": "https://isac.uchicago.edu/persian-gallery",
+    "tier": "B",
+    "inspected": "官方馆藏介绍",
+    "used_for": "1931–39发掘史与来自波斯波利斯的柱头、浮雕背景",
+    "scope_limit": "馆藏介绍不验证整个复原模型。"
+  }
+]

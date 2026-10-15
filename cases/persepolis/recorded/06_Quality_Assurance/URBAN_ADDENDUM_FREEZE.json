@@ -1,0 +1,55 @@
+{
+  "stage": "urban_addendum",
+  "status": "PASS_WITH_EXPLICIT_HYPOTHESES",
+  "user_scope": "add principal activity-area panorama",
+  "core_geometry_unchanged_sha256": "1124885e01038307b5195256a12cd2ed501b0fe05275cb5e40325eca1f3a6aaf",
+  "context_obj_sha256": "0a527080f7252bab7961078b6a94ff1f13dcb82be22d823dc9617c93ab4de707",
+  "context_objects": 2530,
+  "outputs": [
+    {
+      "path": "02_Model/Persepolis_Regional_Context.obj",
+      "sha256": "0a527080f7252bab7961078b6a94ff1f13dcb82be22d823dc9617c93ab4de707"
+    },
+    {
+      "path": "02_Model/context_mesh.json",
+      "sha256": "9b7c097cfd8e2a7ff44899e9c01efde9c1aaa5e638c9a8b0be17394f146e125a"
+    },
+    {
+      "path": "02_Model/context_camera.json",
+      "sha256": "1e1f5f074c8ed4ccae4fb1deac9762eeac165ac2b8954f3293b8b2a2448f7782"
+    },
+    {
+      "path": "02_Model/context_regions.json",
+      "sha256": "6a1e6cd5cac475e5deae6312bcfb4b87c335852aa8717c0d984f6cc57674d731"
+    },
+    {
+      "path": "03_References/PP11_Structure.png",
+      "sha256": "3f877e34cf9382cf1f25c7794cac3ed77d0bc39f04442812e34c220ca4a2ec42"
+    },
+    {
+      "path": "00_Research/URBAN_ADDENDUM.md",
+      "sha256": "5c5456678272a5023d28e10ca41a963732766c24323c8bfb36798a91a0eb819f"
+    },
+    {
+      "path": "00_Research/sources.json",
+      "sha256": "af72b557ae3b49702f0730aecfa0ef642dae6cf429807372721103f979c41c01"
+    },
+    {
+      "path": "01_Maps_Plans/Regional_Sectors_Source.jpg",
+      "sha256": "92689d23e1f106c5f325e2db02765aeac12785a1de663546eb0fa4ddbeea93de"
+    },
+    {
+      "path": "01_Maps_Plans/Royal_Precinct_Source.jpg",
+      "sha256": "98776f1ff3da69769b1b60c8e8980e39ca0d4e9260e13427e172c1fd31987820"
+    },
+    {
+      "path": "01_Maps_Plans/SOURCE_AND_RIGHTS.md",
+      "sha256": "8063db6935173b941a0211739fef297319321fa5b2c5ea40aeae00ea8109957b"
+    }
+  ],
+  "original_collection_record_retained": true,
+  "supersedes_original_paths": [
+    "00_Research/sources.json",
+    "01_Maps_Plans/SOURCE_AND_RIGHTS.md"
+  ]
+}

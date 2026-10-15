@@ -1,0 +1,145 @@
+[
+  {
+    "id": "PP01",
+    "prompt_path": "04_Images/Native/PP01.prompt.txt",
+    "prompt_sha256": "5a2f0e9664c48b781ba3098b7334b6e27beac0fe8283fde06ac44d2a5d1f6b54",
+    "references": [
+      "03_References/PP01_Structure.png",
+      "01_Maps_Plans/Iranica_Figure2_Persepolis_Plan.jpg"
+    ],
+    "reference_roles": [
+      "geometry/camera",
+      "source plan"
+    ]
+  },
+  {
+    "id": "PP02",
+    "prompt_path": "04_Images/Native/PP02.prompt.txt",
+    "prompt_sha256": "831a3ff625783edfb6b35048dcba876834178f06ef106e06fe645be5d99ca6cd",
+    "references": [
+      "03_References/PP02_Structure.png",
+      "01_Maps_Plans/Iranica_Figure2_Persepolis_Plan.jpg"
+    ],
+    "reference_roles": [
+      "geometry/camera",
+      "source plan, no photographic style image"
+    ]
+  },
+  {
+    "id": "PP03",
+    "prompt_path": "04_Images/Native/PP03.prompt.txt",
+    "prompt_sha256": "c0d00eb3eeb1d47a06b3a8132850dd817c12d925b8aaca09bcf0e2bdae76006d",
+    "references": [
+      "03_References/PP03_Structure.png",
+      "04_Images/Native/PP01.png"
+    ],
+    "reference_roles": [
+      "geometry/camera",
+      "accepted master style only"
+    ]
+  },
+  {
+    "id": "PP04",
+    "prompt_path": "04_Images/Native/PP04.prompt.txt",
+    "prompt_sha256": "8c43d2d60f7f8927a5746c63b8886963ae71c571c0e264d51d13adee47f69ba2",
+    "references": [
+      "03_References/PP04_Structure.png",
+      "04_Images/Native/PP01.png"
+    ],
+    "reference_roles": [
+      "geometry/camera",
+      "accepted master style only"
+    ]
+  },
+  {
+    "id": "PP05",
+    "prompt_path": "04_Images/Native/PP05.prompt.txt",
+    "prompt_sha256": "d667391bbb3d58be5afea7b39f4e86b6cd9bb51d727d330bf6c3d970b4fce08d",
+    "references": [
+      "03_References/PP05_Structure.png",
+      "04_Images/Native/PP01.png"
+    ],
+    "reference_roles": [
+      "geometry/camera",
+      "accepted master style only"
+    ]
+  },
+  {
+    "id": "PP06",
+    "prompt_path": "04_Images/Native/PP06.prompt.txt",
+    "prompt_sha256": "2240e3b82727a4942e2a4ad33a5199198b6e392fc04fdb10c58a0be89990140e",
+    "references": [
+      "03_References/PP06_Structure.png",
+      "04_Images/Native/PP01.png"
+    ],
+    "reference_roles": [
+      "geometry/camera",
+      "accepted master style only"
+    ]
+  },
+  {
+    "id": "PP07",
+    "prompt_path": "04_Images/Native/PP07.prompt.txt",
+    "prompt_sha256": "9e5ef1a14d7214705b76c43ca371114069638346ac16c502bf345006cdde5099",
+    "references": [
+      "03_References/PP07_Structure.png",
+      "04_Images/Native/PP01.png"
+    ],
+    "reference_roles": [
+      "geometry/camera",
+      "accepted master style only"
+    ]
+  },
+  {
+    "id": "PP08",
+    "prompt_path": "04_Images/Native/PP08.prompt.txt",
+    "prompt_sha256": "e5da3c74c1c8672edd935425254f50292c576fa43e14df7c6c65be52da5c6e11",
+    "references": [
+      "03_References/PP08_Structure.png",
+      "04_Images/Native/PP01.png"
+    ],
+    "reference_roles": [
+      "geometry/camera",
+      "accepted master style only"
+    ]
+  },
+  {
+    "id": "PP09",
+    "prompt_path": "04_Images/Native/PP09.prompt.txt",
+    "prompt_sha256": "4e229b6a73dc9ca65100a118effc41038b577e16725fbd2ba1d985127e807988",
+    "references": [
+      "03_References/PP09_Structure.png",
+      "04_Images/Native/PP01.png"
+    ],
+    "reference_roles": [
+      "geometry/camera",
+      "accepted master style only"
+    ]
+  },
+  {
+    "id": "PP10",
+    "prompt_path": "04_Images/Native/PP10.prompt.txt",
+    "prompt_sha256": "80eda6bbbd26ef31dc4830075a0c4e64e6d087e04333ce9b5003ab427221b319",
+    "references": [
+      "03_References/PP10_Structure.png",
+      "01_Maps_Plans/Iranica_Figure2_Persepolis_Plan.jpg"
+    ],
+    "reference_roles": [
+      "geometry/camera",
+      "source plan for reversed building relationships"
+    ]
+  },
+  {
+    "id": "PP11",
+    "prompt_path": "04_Images/Native/PP11.prompt.txt",
+    "prompt_sha256": "12842c3aa7ecf8530ec42e2dbc74df8c0bca9c876ee1bb6ceda0554e7f63f5fd",
+    "references": [
+      "03_References/PP11_Structure.png",
+      "01_Maps_Plans/Regional_Sectors_Source.jpg"
+    ],
+    "reference_roles": [
+      "actual regional context mesh/camera",
+      "research map positions only; modern layers excluded"
+    ]
+  }
+]

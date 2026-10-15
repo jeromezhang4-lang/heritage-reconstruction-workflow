@@ -1,0 +1,393 @@
+{
+  "status": "PASS",
+  "scope": "relocated ZIP, fresh venv without runtime dependencies, README commands, unit tests and standalone skill tools",
+  "candidate_sha256": "734b33f645c2d0f6a4f298fc4980ad5077f0086f812a29259f6f714c7bfbca7e",
+  "original_project_access_required": false,
+  "PYTHONPATH_used": false,
+  "network_used": false,
+  "fresh_ai_generation": "NOT_RUN",
+  "historical_accuracy": "UNVERIFIED",
+  "checks": [
+    {
+      "step": "create_fresh_venv",
+      "exit_code": 0,
+      "elapsed_seconds": 1.174,
+      "stdout_tail": "",
+      "stderr_tail": ""
+    },
+    {
+      "step": "confirm_no_runtime_dependencies",
+      "exit_code": 0,
+      "elapsed_seconds": 0.053,
+      "result": {
+        "python": "3.9.6",
+        "numpy_present": false,
+        "pillow_present": false,
+        "yaml_present": false
+      }
+    },
+    {
+      "step": "readme_verify",
+      "exit_code": 0,
+      "elapsed_seconds": 0.182,
+      "result": {
+        "status": "PASS",
+        "scope": "case structure, references, file integrity and declared dimensions",
+        "historical_accuracy": "UNVERIFIED",
+        "fresh_ai_generation": "NOT_RUN",
+        "errors": [],
+        "warnings": [
+          "PP01: independent archaeological review not confirmed",
+          "PP01: strict image/mesh agreement not confirmed",
+          "PP02: independent archaeological review not confirmed",
+          "PP02: strict image/mesh agreement not confirmed",
+          "PP03: independent archaeological review not confirmed",
+          "PP03: strict image/mesh agreement not confirmed",
+          "PP04: independent archaeological review not confirmed",
+          "PP04: strict image/mesh agreement not confirmed",
+          "PP04: 原先“人头改牛头”的过程叙述缺乏保留图像支持，已作勘误；两版都有牛头特征。门兽姿态和雕刻细部仍有生成失真，仅作门厅体量示意。",
+          "PP05: independent archaeological review not confirmed",
+          "PP05: strict image/mesh agreement not confirmed",
+          "PP06: independent archaeological review not confirmed",
+          "PP06: strict image/mesh agreement not confirmed",
+          "PP07: independent archaeological review not confirmed",
+          "PP07: strict image/mesh agreement not confirmed",
+          "PP08: independent archaeological review not confirmed",
+          "PP08: strict image/mesh agreement not confirmed",
+          "PP09: independent archaeological review not confirmed",
+          "PP09: strict image/mesh agreement not confirmed",
+          "PP10: independent archaeological review not confirmed",
+          "PP10: strict image/mesh agreement not confirmed",
+          "PP11: independent archaeological review not confirmed",
+          "PP11: strict image/mesh agreement not confirmed",
+          "external research asset excluded: Iranica_Figure2_Persepolis_Plan.jpg",
+          "external research asset excluded: OIC21_Figure5_1937_Terrace_Plan.png",
+          "external research asset excluded: Regional_Sectors_Source.jpg",
+          "external research asset excluded: Royal_Precinct_Source.jpg"
+        ],
+        "counts": {
+          "sources": 9,
+          "claims": 23,
+          "components": 9,
+          "scenes": 11
+        }
+      }
+    },
+    {
+      "step": "readme_reproduce",
+      "exit_code": 0,
+      "elapsed_seconds": 2.488,
+      "result": {
+        "status": "PASS",
+        "scope": "case structure, references, file integrity and declared dimensions",
+        "historical_accuracy": "UNVERIFIED",
+        "fresh_ai_generation": "NOT_RUN",
+        "errors": [],
+        "warnings": [
+          "PP01: independent archaeological review not confirmed",
+          "PP01: strict image/mesh agreement not confirmed",
+          "PP02: independent archaeological review not confirmed",
+          "PP02: strict image/mesh agreement not confirmed",
+          "PP03: independent archaeological review not confirmed",
+          "PP03: strict image/mesh agreement not confirmed",
+          "PP04: independent archaeological review not confirmed",
+          "PP04: strict image/mesh agreement not confirmed",
+          "PP04: 原先“人头改牛头”的过程叙述缺乏保留图像支持，已作勘误；两版都有牛头特征。门兽姿态和雕刻细部仍有生成失真，仅作门厅体量示意。",
+          "PP05: independent archaeological review not confirmed",
+          "PP05: strict image/mesh agreement not confirmed",
+          "PP06: independent archaeological review not confirmed",
+          "PP06: strict image/mesh agreement not confirmed",
+          "PP07: independent archaeological review not confirmed",
+          "PP07: strict image/mesh agreement not confirmed",
+          "PP08: independent archaeological review not confirmed",
+          "PP08: strict image/mesh agreement not confirmed",
+          "PP09: independent archaeological review not confirmed",
+          "PP09: strict image/mesh agreement not confirmed",
+          "PP10: independent archaeological review not confirmed",
+          "PP10: strict image/mesh agreement not confirmed",
+          "PP11: independent archaeological review not confirmed",
+          "PP11: strict image/mesh agreement not confirmed",
+          "external research asset excluded: Iranica_Figure2_Persepolis_Plan.jpg",
+          "external research asset excluded: OIC21_Figure5_1937_Terrace_Plan.png",
+          "external research asset excluded: Regional_Sectors_Source.jpg",
+          "external research asset excluded: Royal_Precinct_Source.jpg"
+        ],
+        "counts": {
+          "sources": 9,
+          "claims": 23,
+          "components": 9,
+          "scenes": 11
+        },
+        "model_objects": {
+          "core": 1883,
+          "context": 2530
+        },
+        "column_invariants": {
+          "status": "PASS",
+          "actual": {
+            "Apadana_main": 36,
+            "Apadana_three_porticoes": 36,
+            "Hundred_main": 100,
+            "Hundred_north_portico": 16,
+            "Gate": 4,
+            "Tachara_main": 12,
+            "Hadish_main": 36,
+            "Tripylon": 4
+          },
+          "errors": [],
+          "scope": "reference model, not generated-image column counts"
+        },
+        "recorded_core_max_coordinate_delta_m": 0.00010000000000331966,
+        "recorded_context_max_coordinate_delta_m": 0.00010000000000331966,
+        "obj_sha256": {
+          "core": "1124885e01038307b5195256a12cd2ed501b0fe05275cb5e40325eca1f3a6aaf",
+          "context": "4ae9603301de0c2c8952f52700cc47283529f1038d6de2928a039429cfc6440e"
+        },
+        "reference_format": "SVG projected object bounds; original raster references are separately preserved",
+        "case_json_sha256": "45273322e4c91bff3bcf530153661a88660adc4f23e51d7ce6f781376ee5b4f4",
+        "gallery": "gallery.html",
+        "replay_scope": "regenerated reference geometry/cameras/SVG previews + recorded image replay + offline gallery + integrity checks",
+        "ai_images_regenerated": false,
+        "known_visual_issues": [
+          "PP04"
+        ]
+      }
+    },
+    {
+      "step": "documented_unit_tests",
+      "exit_code": 0,
+      "elapsed_seconds": 0.198,
+      "stdout_tail": "",
+      "stderr_tail": "st_missing_reference_does_not_create_an_attempt (test_workflow.WorkflowTests) ... ok\ntest_mutated_image_fails_hash (test_workflow.WorkflowTests) ... ok\ntest_new_image_requires_current_geometry_and_chronology_reviews (test_workflow.WorkflowTests) ... ok\ntest_offline_demo_build_and_zip (test_workflow.WorkflowTests) ... ok\ntest_old_review_cannot_certify_a_changed_evidence_context (test_workflow.WorkflowTests) ... ok\ntest_open_review_failure_blocks_and_resolution_preserves_history (test_workflow.WorkflowTests) ... ok\ntest_path_traversal_and_absolute_paths_fail (test_workflow.WorkflowTests) ... ok\ntest_placeholder_case_is_not_release_ready (test_workflow.WorkflowTests) ... ok\ntest_record_generation_preserves_previous_output (test_workflow.WorkflowTests) ... ok\ntest_symlink_escape_fails (test_workflow.WorkflowTests) ... ok\ntest_unknown_claim_reference_fails (test_workflow.WorkflowTests) ... ok\n\n----------------------------------------------------------------------\nRan 17 tests in 0.149s\n\nOK\n"
+    },
+    {
+      "step": "explicit_skill_install_copy",
+      "exit_code": 0,
+      "elapsed_seconds": 0.028,
+      "result": {
+        "status": "COPIED",
+        "skills": [
+          "heritage-reconstruct",
+          "heritage-audit"
+        ],
+        "automatic_discovery_in_current_client": "UNVERIFIED"
+      }
+    },
+    {
+      "step": "heritage-reconstruct_standalone_demo",
+      "exit_code": 0,
+      "elapsed_seconds": 0.097,
+      "result": {
+        "status": "PASS",
+        "case": "heritage-reconstruct",
+        "mode": "SYNTHETIC_DEMO",
+        "next": "reproduce"
+      }
+    },
+    {
+      "step": "heritage-reconstruct_standalone_reproduce",
+      "exit_code": 0,
+      "elapsed_seconds": 0.104,
+      "result": {
+        "status": "PASS",
+        "scope": "case structure, references, file integrity and declared dimensions",
+        "historical_accuracy": "UNVERIFIED",
+        "fresh_ai_generation": "NOT_RUN",
+        "errors": [],
+        "warnings": [
+          "SC01: independent archaeological review not confirmed",
+          "SC01: strict image/mesh agreement not confirmed"
+        ],
+        "counts": {
+          "sources": 1,
+          "claims": 1,
+          "components": 1,
+          "scenes": 1
+        },
+        "model_objects": {
+          "core": 14
+        },
+        "column_invariants": {
+          "status": "PASS",
+          "actual": {},
+          "errors": [],
+          "scope": "reference model, not generated-image column counts"
+        },
+        "recorded_core_max_coordinate_delta_m": 0.0,
+        "recorded_context_max_coordinate_delta_m": null,
+        "obj_sha256": {
+          "core": "fb7c1608048e0e03e775784084a617bddcc23b31f5f1b5a47ac60d69ab1b8703"
+        },
+        "reference_format": "SVG projected object bounds; original raster references are separately preserved",
+        "case_json_sha256": "45241d6cb9df41bc58e9f8fd558bec14ed83ca4012d5937c1e34c939e0b6fa29",
+        "gallery": "gallery.html",
+        "replay_scope": "regenerated reference geometry/cameras/SVG previews + recorded image replay + offline gallery + integrity checks",
+        "ai_images_regenerated": false,
+        "known_visual_issues": []
+      }
+    },
+    {
+      "step": "heritage-reconstruct_audit_full_case",
+      "exit_code": 0,
+      "elapsed_seconds": 0.179,
+      "result": {
+        "status": "PASS",
+        "scope": "case structure, references, file integrity and declared dimensions",
+        "historical_accuracy": "UNVERIFIED",
+        "fresh_ai_generation": "NOT_RUN",
+        "errors": [],
+        "warnings": [
+          "PP01: independent archaeological review not confirmed",
+          "PP01: strict image/mesh agreement not confirmed",
+          "PP02: independent archaeological review not confirmed",
+          "PP02: strict image/mesh agreement not confirmed",
+          "PP03: independent archaeological review not confirmed",
+          "PP03: strict image/mesh agreement not confirmed",
+          "PP04: independent archaeological review not confirmed",
+          "PP04: strict image/mesh agreement not confirmed",
+          "PP04: 原先“人头改牛头”的过程叙述缺乏保留图像支持，已作勘误；两版都有牛头特征。门兽姿态和雕刻细部仍有生成失真，仅作门厅体量示意。",
+          "PP05: independent archaeological review not confirmed",
+          "PP05: strict image/mesh agreement not confirmed",
+          "PP06: independent archaeological review not confirmed",
+          "PP06: strict image/mesh agreement not confirmed",
+          "PP07: independent archaeological review not confirmed",
+          "PP07: strict image/mesh agreement not confirmed",
+          "PP08: independent archaeological review not confirmed",
+          "PP08: strict image/mesh agreement not confirmed",
+          "PP09: independent archaeological review not confirmed",
+          "PP09: strict image/mesh agreement not confirmed",
+          "PP10: independent archaeological review not confirmed",
+          "PP10: strict image/mesh agreement not confirmed",
+          "PP11: independent archaeological review not confirmed",
+          "PP11: strict image/mesh agreement not confirmed",
+          "external research asset excluded: Iranica_Figure2_Persepolis_Plan.jpg",
+          "external research asset excluded: OIC21_Figure5_1937_Terrace_Plan.png",
+          "external research asset excluded: Regional_Sectors_Source.jpg",
+          "external research asset excluded: Royal_Precinct_Source.jpg"
+        ],
+        "counts": {
+          "sources": 9,
+          "claims": 23,
+          "components": 9,
+          "scenes": 11
+        },
+        "manual_review_required": [
+          "source interpretation and chronology",
+          "generated image geometry and guardian anatomy",
+          "modern intrusions, human scale and density",
+          "rights of any newly introduced external input"
+        ],
+        "overall_historical_certification": "NOT_PROVIDED"
+      }
+    },
+    {
+      "step": "heritage-audit_standalone_demo",
+      "exit_code": 0,
+      "elapsed_seconds": 0.097,
+      "result": {
+        "status": "PASS",
+        "case": "heritage-audit",
+        "mode": "SYNTHETIC_DEMO",
+        "next": "reproduce"
+      }
+    },
+    {
+      "step": "heritage-audit_standalone_reproduce",
+      "exit_code": 0,
+      "elapsed_seconds": 0.108,
+      "result": {
+        "status": "PASS",
+        "scope": "case structure, references, file integrity and declared dimensions",
+        "historical_accuracy": "UNVERIFIED",
+        "fresh_ai_generation": "NOT_RUN",
+        "errors": [],
+        "warnings": [
+          "SC01: independent archaeological review not confirmed",
+          "SC01: strict image/mesh agreement not confirmed"
+        ],
+        "counts": {
+          "sources": 1,
+          "claims": 1,
+          "components": 1,
+          "scenes": 1
+        },
+        "model_objects": {
+          "core": 14
+        },
+        "column_invariants": {
+          "status": "PASS",
+          "actual": {},
+          "errors": [],
+          "scope": "reference model, not generated-image column counts"
+        },
+        "recorded_core_max_coordinate_delta_m": 0.0,
+        "recorded_context_max_coordinate_delta_m": null,
+        "obj_sha256": {
+          "core": "fb7c1608048e0e03e775784084a617bddcc23b31f5f1b5a47ac60d69ab1b8703"
+        },
+        "reference_format": "SVG projected object bounds; original raster references are separately preserved",
+        "case_json_sha256": "bfcdf6bcd487f2dffdebc5d01ecd8e4219f4c4fd7fc66ce379f84e74cc49bfe1",
+        "gallery": "gallery.html",
+        "replay_scope": "regenerated reference geometry/cameras/SVG previews + recorded image replay + offline gallery + integrity checks",
+        "ai_images_regenerated": false,
+        "known_visual_issues": []
+      }
+    },
+    {
+      "step": "heritage-audit_audit_full_case",
+      "exit_code": 0,
+      "elapsed_seconds": 0.181,
+      "result": {
+        "status": "PASS",
+        "scope": "case structure, references, file integrity and declared dimensions",
+        "historical_accuracy": "UNVERIFIED",
+        "fresh_ai_generation": "NOT_RUN",
+        "errors": [],
+        "warnings": [
+          "PP01: independent archaeological review not confirmed",
+          "PP01: strict image/mesh agreement not confirmed",
+          "PP02: independent archaeological review not confirmed",
+          "PP02: strict image/mesh agreement not confirmed",
+          "PP03: independent archaeological review not confirmed",
+          "PP03: strict image/mesh agreement not confirmed",
+          "PP04: independent archaeological review not confirmed",
+          "PP04: strict image/mesh agreement not confirmed",
+          "PP04: 原先“人头改牛头”的过程叙述缺乏保留图像支持，已作勘误；两版都有牛头特征。门兽姿态和雕刻细部仍有生成失真，仅作门厅体量示意。",
+          "PP05: independent archaeological review not confirmed",
+          "PP05: strict image/mesh agreement not confirmed",
+          "PP06: independent archaeological review not confirmed",
+          "PP06: strict image/mesh agreement not confirmed",
+          "PP07: independent archaeological review not confirmed",
+          "PP07: strict image/mesh agreement not confirmed",
+          "PP08: independent archaeological review not confirmed",
+          "PP08: strict image/mesh agreement not confirmed",
+          "PP09: independent archaeological review not confirmed",
+          "PP09: strict image/mesh agreement not confirmed",
+          "PP10: independent archaeological review not confirmed",
+          "PP10: strict image/mesh agreement not confirmed",
+          "PP11: independent archaeological review not confirmed",
+          "PP11: strict image/mesh agreement not confirmed",
+          "external research asset excluded: Iranica_Figure2_Persepolis_Plan.jpg",
+          "external research asset excluded: OIC21_Figure5_1937_Terrace_Plan.png",
+          "external research asset excluded: Regional_Sectors_Source.jpg",
+          "external research asset excluded: Royal_Precinct_Source.jpg"
+        ],
+        "counts": {
+          "sources": 9,
+          "claims": 23,
+          "components": 9,
+          "scenes": 11
+        },
+        "manual_review_required": [
+          "source interpretation and chronology",
+          "generated image geometry and guardian anatomy",
+          "modern intrusions, human scale and density",
+          "rights of any newly introduced external input"
+        ],
+        "overall_historical_certification": "NOT_PROVIDED"
+      }
+    }
+  ],
+  "elapsed_seconds": 5.337,
+  "temporary_environment_removed_on_exit": true
+}

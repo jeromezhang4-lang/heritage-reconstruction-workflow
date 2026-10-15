@@ -1,0 +1,3 @@
+# Optional only. Core replay has no third-party Python dependencies.
+numpy==2.0.2
+Pillow==11.3.0

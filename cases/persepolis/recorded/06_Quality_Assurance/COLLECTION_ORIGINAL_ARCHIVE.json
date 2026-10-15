@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "reason": "urban addendum superseded source-index/rights paths; original frozen versions preserved and verified here",
+  "files": [
+    {
+      "archived_path": "06_Quality_Assurance/COLLECTION_ORIGINAL/00_Research/sources.json",
+      "sha256": "5dfec4195bfb8edfdd41be94884738a4eb213cdf4bd7c2c95c376bddc1bc1b66",
+      "original_sha256_match": true
+    },
+    {
+      "archived_path": "06_Quality_Assurance/COLLECTION_ORIGINAL/00_Research/RESEARCH_REPORT.md",
+      "sha256": "21d79627791420b28aa2896fa156bd11a7242886a6033976a6746b19c1fb6385",
+      "original_sha256_match": true
+    },
+    {
+      "archived_path": "06_Quality_Assurance/COLLECTION_ORIGINAL/00_Research/claim_ledger.json",
+      "sha256": "7b733ca54b2fedda7b7ed331300431911ca5699579323c778bcf22100f3448e3",
+      "original_sha256_match": true
+    },
+    {
+      "archived_path": "06_Quality_Assurance/COLLECTION_ORIGINAL/01_Maps_Plans/Iranica_Figure2_Persepolis_Plan.jpg",
+      "sha256": "17fb63b4570fe31129b8c6c1e76f7e4e02794333f82c015793a9594ef6ed3a5b",
+      "original_sha256_match": true
+    },
+    {
+      "archived_path": "06_Quality_Assurance/COLLECTION_ORIGINAL/01_Maps_Plans/SOURCE_AND_RIGHTS.md",
+      "sha256": "c10e6ca8b2e414496aef1e3593555dc89c44344d8d7ea6d0d857e48763217bd7",
+      "original_sha256_match": true
+    },
+    {
+      "archived_path": "06_Quality_Assurance/COLLECTION_ORIGINAL/01_Maps_Plans/OIC21_Figure5_1937_Terrace_Plan.png",
+      "sha256": "9250b51702c4fc664fa11562cdae2648c3bf77ec0d5ad489f23538cb6a036d13",
+      "original_sha256_match": true
+    }
+  ]
+}

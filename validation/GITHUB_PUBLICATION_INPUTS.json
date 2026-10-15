@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "stage": "publication preparation",
+  "version": "v0.1.0",
+  "repository": "https://github.com/jeromezhang4-lang/heritage-reconstruction-workflow",
+  "accepted_source_archive_sha256": "266da89389aaa6d2194df8be1df484f7d0d03a417c96ab8fcdf8159b036c0c53",
+  "accepted_file_count": 319,
+  "changed_documents": [
+    {
+      "file": "README.md",
+      "accepted_sha256": "a8d9ccc0b00512ab1c075d5e10d13dae3e7228c4d7a5f880821bdfd5f93bb9c3",
+      "publication_sha256": "c4acfd5b7fa347e76d80168db4c6df01bac91ad4ff06b6869db89dd8104fffc1"
+    },
+    {
+      "file": "docs/REPRODUCIBILITY.md",
+      "accepted_sha256": "d6068344623dcbfc39fb63badfafac63f8e125a31e77ca2f47974a6155d12fe3",
+      "publication_sha256": "f0fc409359af7f29e0c91d7ea5d043dd88839665d720a39e774f94b8f6758cfc"
+    },
+    {
+      "file": "docs/SKILLS.md",
+      "accepted_sha256": "ab791b00e27609410f30f381941221f757f92269a0bd7dfa8f89213d511f02f3",
+      "publication_sha256": "0fa5e9e1716498500c08c004e1abedd7cf7dd55e5657c86b1215e23e61572717"
+    }
+  ],
+  "change_reason": "GitHub download/clone instructions and current official local skill installation/invocation guidance",
+  "added_distribution_files": {
+    ".gitattributes": "11deac27d22973bc2f87154dd60fdb7af6682c0c09e99d742c7eafbc67572e9b",
+    "docs/ci/reproduce.yml": "4b7c517711e50dfed442834c2870451c9b5b18ea03746fa385ebe5926eb79fff"
+  },
+  "historical_case_files_unchanged": true,
+  "runtime_and_skill_directories_unchanged": true,
+  "official_installation_reference": "https://developers.openai.com/codex/skills/#where-to-save-skills",
+  "official_reference_checked": "2026-10-15",
+  "remote_ci": "NOT_RUN: current OAuth credential lacks workflow scope; template retained under docs/ci/reproduce.yml",
+  "remote_readback_receipt": "GitHub Release asset Heritage_GitHub_Verification.json",
+  "old_validation_evidence": "preserved as historical execution receipts; baseline/SOURCE_FREEZE_R3.json is the prior snapshot",
+  "permission_recovery": "register no Actions workflow; preserve full project and skills; do not change account credentials or scopes"
+}

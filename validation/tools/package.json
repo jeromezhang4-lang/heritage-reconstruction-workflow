@@ -1,0 +1,9 @@
+{
+  "name": "heritage-browser-acceptance",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Optional, case-specific Playwright acceptance; not a core runtime dependency",
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

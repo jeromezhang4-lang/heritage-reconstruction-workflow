@@ -1,0 +1,9 @@
+{
+  "candidate_entries_checked": 256,
+  "candidate_changed_entries": [],
+  "release_crc_bad_member": null,
+  "release_members": 22,
+  "release_mismatches": [],
+  "core_obj_same_as_recorded_bytes": true,
+  "core_obj_sha256": "1124885e01038307b5195256a12cd2ed501b0fe05275cb5e40325eca1f3a6aaf"
+}

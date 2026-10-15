@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "heritage-reconstruction-workflow"
+version = "0.1.0"
+description = "Evidence-aware historical reconstruction workflow and offline case replay"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+dependencies = []
+
+[project.scripts]
+heritage-workflow = "heritage_workflow.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["heritage_workflow*"]
+
+[tool.setuptools.package-data]
+heritage_workflow = ["web/*.html", "web/*.css", "web/*.js"]

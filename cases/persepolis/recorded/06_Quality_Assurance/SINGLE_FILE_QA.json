@@ -1,0 +1,89 @@
+{
+  "cards": 11,
+  "zh_paragraphs": 22,
+  "en_paragraphs": 22,
+  "history_paragraphs": 4,
+  "thumbnails": true,
+  "first_card": "PP11",
+  "modal_dimensions": [
+    [
+      3840,
+      2160
+    ],
+    [
+      3840,
+      2160
+    ],
+    [
+      3840,
+      2160
+    ],
+    [
+      3840,
+      2160
+    ],
+    [
+      3840,
+      2160
+    ],
+    [
+      3840,
+      2160
+    ],
+    [
+      3840,
+      2160
+    ],
+    [
+      3840,
+      2160
+    ],
+    [
+      3840,
+      2160
+    ],
+    [
+      3840,
+      2160
+    ],
+    [
+      3840,
+      2160
+    ]
+  ],
+  "keyboard_switch": true,
+  "zoom": true,
+  "escape": true,
+  "filters": {
+    "regional": true,
+    "overall": true,
+    "entrance": true,
+    "hall": true,
+    "interior": true,
+    "palaces": true
+  },
+  "all_filter": true,
+  "report_opens": true,
+  "metadata_opens": true,
+  "obj_downloads": [
+    true,
+    true
+  ],
+  "jpeg_hash": true,
+  "sources": 9,
+  "model_objects": 1883,
+  "context_objects": 2530,
+  "region_camera_switch": true,
+  "drag_rotation": true,
+  "mobile_no_overflow": true,
+  "local_links_embedded": true,
+  "isolated_html_only": true,
+  "external_requests": [],
+  "errors": [],
+  "html_sha256": "3b4bd234a48db550ca7124b15e9f21569432b15316e27f63139670e09d1633e9",
+  "offline": true,
+  "status": "PASS",
+  "owned_browser_closed": true,
+  "no_preview_server_started": true,
+  "browser": "Playwright bundled Chromium; no executablePath or system Chrome"
+}

@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "scope": "case structure, references, file integrity and declared dimensions",
+  "historical_accuracy": "UNVERIFIED",
+  "fresh_ai_generation": "NOT_RUN",
+  "errors": [],
+  "warnings": [
+    "SC01: independent archaeological review not confirmed",
+    "SC01: strict image/mesh agreement not confirmed"
+  ],
+  "counts": {
+    "sources": 1,
+    "claims": 1,
+    "components": 1,
+    "scenes": 1
+  },
+  "manual_review_required": [
+    "source interpretation and chronology",
+    "generated image geometry and guardian anatomy",
+    "modern intrusions, human scale and density",
+    "rights of any newly introduced external input"
+  ],
+  "overall_historical_certification": "NOT_PROVIDED"
+}

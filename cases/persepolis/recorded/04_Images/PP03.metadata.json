@@ -1,0 +1,110 @@
+{
+  "id": "PP03",
+  "actual_tool": "built-in image_gen.imagegen",
+  "actual_generated": true,
+  "native_file": "04_Images/Native/PP03.png",
+  "native_dimensions": [
+    1672,
+    941
+  ],
+  "native_sha256": "f25e44319555c941f27f26d7c508018b4747597bc73acff998759859385756a0",
+  "final_file": "04_Images/PP03_4K.png",
+  "final_dimensions": [
+    3840,
+    2160
+  ],
+  "final_sha256": "05eba4af48f86fa30ae99813634550626255966f8e698b218e423456d7b18e6d",
+  "upscaling": {
+    "algorithm": "FSRCNN x3 pretrained TensorFlow graph via OpenCV dnn_superres, followed by area downsampling to 3840x2160",
+    "model_source": "https://github.com/Saafke/FSRCNN_Tensorflow/blob/master/models/FSRCNN_x3.pb",
+    "model_sha256": "efd38655a815908c6c8954db6052f128e76a735f1de657894c477d0dc0b64481",
+    "opencv_version": "4.12.0",
+    "native_size": [
+      1672,
+      941
+    ],
+    "network_output_size": [
+      5016,
+      2823
+    ],
+    "exact_aspect_crop_size": [
+      5008,
+      2817
+    ],
+    "final_size": [
+      3840,
+      2160
+    ],
+    "downsample": "OpenCV INTER_AREA from learned 3x prediction",
+    "crop_pixels": {
+      "left": 4,
+      "right": 4,
+      "top": 3,
+      "bottom": 3
+    },
+    "source_sha256": "f25e44319555c941f27f26d7c508018b4747597bc73acff998759859385756a0",
+    "output_sha256": "05eba4af48f86fa30ae99813634550626255966f8e698b218e423456d7b18e6d",
+    "elapsed_seconds": 2.095,
+    "native_4k": false,
+    "note": "学习型3倍超分辨率后面积缩减到3840×2160；原生尺寸与裁切如实记录。最终文件为4K尺寸，不是原生4K，放大不增加考古证据。",
+    "cpu_threads": 2,
+    "gpu_used": false
+  },
+  "sharing_derivative": {
+    "file": "04_Images/PP03_Share_4K.jpg",
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "lossy": true,
+    "sha256": "b551c026421eba59f2d79477fcf1fce2109b072fa2cc48bb1e0dddf9b1503d5c"
+  },
+  "camera": {
+    "id": "PP03",
+    "title_zh": "登上帝国高台",
+    "title_en": "Ascending the monumental terrace",
+    "position_m": [
+      -261.1,
+      200.1,
+      1.75
+    ],
+    "look_at_m": [
+      -194.1,
+      142.1,
+      15
+    ],
+    "focal_mm": 24,
+    "tags": [
+      "all"
+    ],
+    "kind": "entrance",
+    "camera_reconstruction_tier": "D",
+    "coordinate_frame": "local building axes, metre units; not georeferenced"
+  },
+  "prompt": {
+    "id": "PP03",
+    "prompt_path": "04_Images/Native/PP03.prompt.txt",
+    "prompt_sha256": "c0d00eb3eeb1d47a06b3a8132850dd817c12d925b8aaca09bcf0e2bdae76006d",
+    "references": [
+      "03_References/PP03_Structure.png",
+      "04_Images/Native/PP01.png"
+    ],
+    "reference_roles": [
+      "geometry/camera",
+      "accepted master style only"
+    ]
+  },
+  "input_reference_sha256": "ad981a13df3238c074107854f01108ebe9597838d7ec506af922c079e7abcf7e",
+  "geometry_version": "final-stair-revision",
+  "provider_model": "UNVERIFIED_NOT_EXPOSED",
+  "seed": "UNVERIFIED_NOT_EXPOSED",
+  "strict_pixel_mesh_fit": "UNVERIFIED",
+  "independent_archaeological_review": "NOT_PERFORMED",
+  "second_input_sha256": "9a2c091acd2178401d0d0e06a6bdc12c548c6029d39b507a3f04844cfa5bf7fe",
+  "actual_prompt_chain": [
+    {
+      "path": "04_Images/Native/PP03.prompt.txt",
+      "sha256": "c0d00eb3eeb1d47a06b3a8132850dd817c12d925b8aaca09bcf0e2bdae76006d"
+    }
+  ]
+}
