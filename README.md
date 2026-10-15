@@ -14,6 +14,7 @@
 
 - [v0.1.0 下载页](https://github.com/jeromezhang4-lang/heritage-reconstruction-workflow/releases/tag/v0.1.0)：完整项目、两个 skills 的轻量分享包、可直接打开的离线 HTML 和 SHA256 校验文件。
 - [技能安装与调用](docs/SKILLS.md) · [完整复现方法](docs/REPRODUCIBILITY.md) · [从新遗址开始](docs/WORKFLOW.md) · [验收范围](validation/ACCEPTANCE.md)。
+- [跨平台 CI](https://github.com/jeromezhang4-lang/heritage-reconstruction-workflow/actions/workflows/reproduce.yml)：检查当前源码及 GitHub Release 下载包，实际状态以对应提交的各平台运行结果为准。
 - 代码和技能工具：MIT；第一方案例说明与生成图：在权利持有范围内 CC BY 4.0。第三方地图不随包分发。
 
 ## 三分钟离线运行

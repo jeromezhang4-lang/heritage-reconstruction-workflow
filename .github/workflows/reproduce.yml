@@ -12,7 +12,7 @@ permissions:
 jobs:
   reproduce:
     name: ${{ matrix.os }} / Python ${{ matrix.python }}
-    timeout-minutes: 15
+    timeout-minutes: 20
     strategy:
       fail-fast: false
       matrix:
@@ -32,15 +32,19 @@ jobs:
       - uses: actions/setup-python@v7.0.0
         with:
           python-version: ${{ matrix.python }}
-      - name: Unit tests
+      - name: Test current checkout
         run: python -m unittest discover -s tests -v
-      - name: Verify complete case
-        run: python scripts/heritage.py verify --case cases/persepolis
-      - name: Rebuild model, gallery and archive
+      - name: Reproduce current complete case
         run: python scripts/heritage.py reproduce --case cases/persepolis --out build/persepolis
-      - name: Standalone reconstruct skill
-        run: |
-          python skills/heritage-reconstruct/scripts/heritage.py init --out work/ci-demo --id ci-demo --demo
-          python skills/heritage-reconstruct/scripts/heritage.py reproduce --case work/ci-demo --out build/ci-demo
-      - name: Standalone audit skill
-        run: python skills/heritage-audit/scripts/heritage.py audit --case cases/persepolis --report build/ci-audit.json
+      - name: Download and reproduce the published project and skills
+        run: python scripts/ci_release_smoke.py --tag v0.1.0 --out "${{ runner.temp }}/heritage-release-reader"
+      - name: Preserve the actual reader report and logs
+        if: always()
+        uses: actions/upload-artifact@v7.0.2
+        with:
+          name: release-reader-${{ runner.os }}-py${{ matrix.python }}
+          retention-days: 7
+          if-no-files-found: warn
+          path: |
+            ${{ runner.temp }}/heritage-release-reader/report.json
+            ${{ runner.temp }}/heritage-release-reader/*.log

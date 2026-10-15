@@ -49,4 +49,14 @@ FSRCNN 超分的原始脚本、算法、模型来源、权重哈希、OpenCV 版
 
 查看 `validation/ACCEPTANCE.md` 与相邻 JSON 记录。它们区分干净环境重跑、故障注入、独立技能使用、浏览器显示和未验证的平台。提供 CI 配置不等于远程 CI 已经运行；本机 macOS 验收也不等于 Windows/Linux 已实测。
 
-可选 CI 模板在 `docs/ci/reproduce.yml`，包含 Linux、macOS、Windows 的核心测试、完整案例回放和自包含技能工具。本次 GitHub 登录凭据缺少写入工作流所需的 `workflow` 权限，因此没有注册 Actions，也不声称远程 CI 已运行。有对应权限的维护者可将模板复制到 `.github/workflows/reproduce.yml` 后提交，再查看实际运行结果。发布验收通过下载 GitHub 附件，在干净环境按文档执行；执行证据附在 Release 的 `Heritage_GitHub_Verification.json`。原始离线验收与本次发布版本的关系见 `validation/GITHUB_PUBLICATION_INPUTS.json`。
+持续集成配置在 `.github/workflows/reproduce.yml`，覆盖 Linux / Python 3.9、macOS / Python 3.12 和 Windows / Python 3.12。每个平台先测试当前检出版本，再从公开的 v0.1.0 Release 下载完整项目、两个技能的分享包、输入清单与校验文件。`scripts/ci_release_smoke.py` 检查附件 SHA256、ZIP CRC、每个成员及解压后的文件哈希，在无第三方运行依赖的全新虚拟环境中执行文档命令、Release 的 17 项测试及两个技能的独立运行。生成 HTML 的跨平台比较仅统一 CRLF/LF 换行；下载输入的字节校验保持严格。CI 不调用 AI，也不替代史料和图像内容的专业审查。
+
+运行结果以 [GitHub Actions](https://github.com/jeromezhang4-lang/heritage-reconstruction-workflow/actions/workflows/reproduce.yml) 的具体提交和各平台终态为准；保存配置不等于运行成功。可在 GitHub 的 Actions 页面手动运行，或向 main 推送、提交 pull request 时触发。手工执行同一下载验证：
+
+```bash
+python3 scripts/ci_release_smoke.py --tag v0.1.0 --out work/release-reader
+```
+
+选择新输出目录。默认直接从公开 Release 下载，不需要凭据；`--downloads /path/to/existing-assets` 仅供本地复核已有附件，报告会明确区分缓存输入与实际网络下载。`work/release-reader/report.json` 与逐步日志保留结果，解压目录与测试虚拟环境在退出时删除。
+
+v0.1.0 初次发布时因 OAuth `workflow` 权限不足，CI 曾作为模板保存；原记录保留其历史含义。本轮增加实际工作流和下载验证器，v0.1.0 标签及附件保持原样。原始发布下载验证见 Release 的 `Heritage_GitHub_Verification.json`；发布版本关系见 `validation/GITHUB_PUBLICATION_INPUTS.json`。

@@ -1,0 +1,18 @@
+{
+  "phase": "CI activation",
+  "base_commit": "836cbefad563ebd3f8b4d9b6cf3eab26ca337a43",
+  "release_under_test": "v0.1.0",
+  "changes": [
+    "activate three-platform workflow",
+    "verify public Release project and skill downloads in fresh environments",
+    "document platform newline normalization and actual CI status"
+  ],
+  "initial_permission_boundary": "GitHub CLI OAuth lacks workflow scope; repository Actions enabled=true",
+  "source_snapshot_before_changes": {
+    "path": "baseline/SOURCE_FREEZE_V0.1.0.json",
+    "sha256": "f200c3d7941a18d5d5d1f28e82e07010ad1dda7a63ec1b1a16bd19e5d3056ca0"
+  },
+  "release_tag_and_assets_modified": false,
+  "runtime_case_and_skill_directories_modified": false,
+  "remote_ci_status": "Consult the exact GitHub Actions run; configuration alone is not execution"
+}
