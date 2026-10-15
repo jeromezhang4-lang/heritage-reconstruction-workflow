@@ -1,0 +1,90 @@
+{
+  "status": "PASS",
+  "tag": "v0.1.0",
+  "repository": "jeromezhang4-lang/heritage-reconstruction-workflow",
+  "download_mode": "public_github_release",
+  "platform": "darwin",
+  "python": "3.12.10",
+  "checks": [
+    {
+      "step": "fresh_venv",
+      "exit_code": 0,
+      "elapsed_seconds": 0.097
+    },
+    {
+      "step": "stdlib_only",
+      "exit_code": 0,
+      "elapsed_seconds": 0.042
+    },
+    {
+      "step": "readme_verify",
+      "exit_code": 0,
+      "elapsed_seconds": 0.242
+    },
+    {
+      "step": "readme_reproduce",
+      "exit_code": 0,
+      "elapsed_seconds": 5.387
+    },
+    {
+      "step": "release_unit_tests",
+      "exit_code": 0,
+      "elapsed_seconds": 0.308
+    },
+    {
+      "step": "install_skills",
+      "exit_code": 0,
+      "elapsed_seconds": 0.072
+    },
+    {
+      "step": "heritage-reconstruct_init",
+      "exit_code": 0,
+      "elapsed_seconds": 0.082
+    },
+    {
+      "step": "heritage-reconstruct_reproduce",
+      "exit_code": 0,
+      "elapsed_seconds": 0.075
+    },
+    {
+      "step": "heritage-reconstruct_audit",
+      "exit_code": 0,
+      "elapsed_seconds": 0.388
+    },
+    {
+      "step": "heritage-audit_init",
+      "exit_code": 0,
+      "elapsed_seconds": 0.07
+    },
+    {
+      "step": "heritage-audit_reproduce",
+      "exit_code": 0,
+      "elapsed_seconds": 0.066
+    },
+    {
+      "step": "heritage-audit_audit",
+      "exit_code": 0,
+      "elapsed_seconds": 0.201
+    }
+  ],
+  "historical_accuracy": "UNVERIFIED",
+  "fresh_ai_generation": "NOT_RUN",
+  "global_skill_installation": false,
+  "asset_sha256": {
+    "Heritage_Published_Inputs.json": "abedb8c15cccd8aa7950a3c8c518722dd139ef004d7aced0cc71bec7bf7fce19",
+    "Heritage_Reconstruction_Workflow_v0.1.0.zip": "9c4f06bf2f74edf763de06f49093d80d2ca58ef0e8913c6d46c215e97778571d",
+    "Heritage_Skills_v0.1.0.zip": "737efdbb3604bedf42a3161fb30dd5ffe024e602390bccc4702ed7f8d2c54458"
+  },
+  "release_commit": "836cbefad563ebd3f8b4d9b6cf3eab26ca337a43",
+  "source_members": 323,
+  "skills_members": 43,
+  "release_unit_tests": 17,
+  "model_objects": {
+    "core": 1883,
+    "context": 2530
+  },
+  "gallery_sha256": "12739dab4ac72a6434e957243ec5a766076e3e212d1a27a263db756f1ba48fb2",
+  "gallery_lf_sha256": "12739dab4ac72a6434e957243ec5a766076e3e212d1a27a263db756f1ba48fb2",
+  "comparison_scope": "Release inputs are byte exact; generated text comparison normalizes CRLF to LF",
+  "temporary_environment_removed": true
+}

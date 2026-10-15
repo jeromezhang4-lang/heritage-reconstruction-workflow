@@ -14,5 +14,7 @@
   },
   "release_tag_and_assets_modified": false,
   "runtime_case_and_skill_directories_modified": false,
-  "remote_ci_status": "Consult the exact GitHub Actions run; configuration alone is not execution"
+  "remote_ci_status": "PASS on all three actual jobs",
+  "actual_workflow_commit": "94f18daa113477e5bce0be33af1a7a86bc1650ee",
+  "run_url": "https://github.com/jeromezhang4-lang/heritage-reconstruction-workflow/actions/runs/38719542220"
 }

@@ -40,3 +40,15 @@
 发布前依据当前官方文档，将技能安装示例修正为用户或项目的 `.agents/skills`，并增加仓库克隆、Release 下载、桌面端/CLI 调用方法。原案例、图像、提示词、运行代码和两个技能目录均未修改。另加入保持原文件字节的 `.gitattributes` 与可选核心复现 CI 模板。变更前后哈希见 [GITHUB_PUBLICATION_INPUTS.json](GITHUB_PUBLICATION_INPUTS.json)，原 R3 快照另存于 `baseline/SOURCE_FREEZE_R3.json`，当前发布输入见 `SOURCE_FREEZE.json`。历史报告的未执行状态保留其当时含义；新增远程 CI 以 GitHub Actions 的实际运行结果为准，GitHub 下载回读另附于 Release。
 
 GitHub 首次推送明确返回缺少 `workflow` scope；没有扩大凭据权限，CI 改为 `docs/ci/reproduce.yml` 模板。本次远程 CI 为 NOT_RUN，发布下载复核另附实际证据。
+
+
+## 已完成的跨平台验证
+
+[实际 CI 运行](https://github.com/jeromezhang4-lang/heritage-reconstruction-workflow/actions/runs/38719542220) 在提交 `94f18daa113477e5bce0be33af1a7a86bc1650ee` 上全部通过。三个任务均从公开 Release 实际下载，检查附件及成员哈希，在全新虚拟环境执行复现和两个技能；不是只运行作者电脑上的源码。
+| 平台 | 实际 Python | Release 测试 | 下载与技能复现 |
+|---|---|---|---|
+| macOS | 3.12.10 | 17 项通过，无跳过 | 12 步全部通过 |
+| Linux | 3.9.25 | 17 项通过，无跳过 | 12 步全部通过 |
+| Windows | 3.12.10 | 17 项通过，无跳过 | 12 步全部通过 |
+
+永久报告在 `CI_VERIFICATION.json` 和 `validation/ci/38719542220/`。Windows 生成文本采用 CRLF，HTML 比较只统一换行；输入附件仍逐字节校验。工作流运行代码与后续记录结果的文档提交相同。历史准确性、重新 AI 生图和客户端自动发现不属于此项技术验收。

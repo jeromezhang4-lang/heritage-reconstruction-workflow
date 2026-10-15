@@ -1,0 +1,23 @@
+
+test_cli_runs_from_an_unrelated_cwd_without_pythonpath (test_workflow.WorkflowTests.test_cli_runs_from_an_unrelated_cwd_without_pythonpath) ... ok
+test_degenerate_camera_fails (test_workflow.WorkflowTests.test_degenerate_camera_fails) ... ok
+test_duplicate_source_id_fails (test_workflow.WorkflowTests.test_duplicate_source_id_fails) ... ok
+test_false_dimensions_fail (test_workflow.WorkflowTests.test_false_dimensions_fail) ... ok
+test_false_native_4k_fails (test_workflow.WorkflowTests.test_false_native_4k_fails) ... ok
+test_gallery_json_cannot_close_its_script (test_workflow.WorkflowTests.test_gallery_json_cannot_close_its_script) ... ok
+test_missing_reference_does_not_create_an_attempt (test_workflow.WorkflowTests.test_missing_reference_does_not_create_an_attempt) ... ok
+test_mutated_image_fails_hash (test_workflow.WorkflowTests.test_mutated_image_fails_hash) ... ok
+test_new_image_requires_current_geometry_and_chronology_reviews (test_workflow.WorkflowTests.test_new_image_requires_current_geometry_and_chronology_reviews) ... ok
+test_offline_demo_build_and_zip (test_workflow.WorkflowTests.test_offline_demo_build_and_zip) ... ok
+test_old_review_cannot_certify_a_changed_evidence_context (test_workflow.WorkflowTests.test_old_review_cannot_certify_a_changed_evidence_context) ... ok
+test_open_review_failure_blocks_and_resolution_preserves_history (test_workflow.WorkflowTests.test_open_review_failure_blocks_and_resolution_preserves_history) ... ok
+test_path_traversal_and_absolute_paths_fail (test_workflow.WorkflowTests.test_path_traversal_and_absolute_paths_fail) ... ok
+test_placeholder_case_is_not_release_ready (test_workflow.WorkflowTests.test_placeholder_case_is_not_release_ready) ... ok
+test_record_generation_preserves_previous_output (test_workflow.WorkflowTests.test_record_generation_preserves_previous_output) ... ok
+test_symlink_escape_fails (test_workflow.WorkflowTests.test_symlink_escape_fails) ... ok
+test_unknown_claim_reference_fails (test_workflow.WorkflowTests.test_unknown_claim_reference_fails) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.181s
+
+OK

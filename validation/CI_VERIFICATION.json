@@ -1,0 +1,335 @@
+{
+  "status": "PASS",
+  "workflow_commit": "94f18daa113477e5bce0be33af1a7a86bc1650ee",
+  "run_id": 38719542220,
+  "run_url": "https://github.com/jeromezhang4-lang/heritage-reconstruction-workflow/actions/runs/38719542220",
+  "jobs": [
+    {
+      "name": "macos-latest / Python 3.12",
+      "conclusion": "success",
+      "url": "https://github.com/jeromezhang4-lang/heritage-reconstruction-workflow/actions/runs/38719542220/job/116370416189"
+    },
+    {
+      "name": "ubuntu-latest / Python 3.9",
+      "conclusion": "success",
+      "url": "https://github.com/jeromezhang4-lang/heritage-reconstruction-workflow/actions/runs/38719542220/job/116370416337"
+    },
+    {
+      "name": "windows-latest / Python 3.12",
+      "conclusion": "success",
+      "url": "https://github.com/jeromezhang4-lang/heritage-reconstruction-workflow/actions/runs/38719542220/job/116370416485"
+    }
+  ],
+  "reports": [
+    {
+      "status": "PASS",
+      "tag": "v0.1.0",
+      "repository": "jeromezhang4-lang/heritage-reconstruction-workflow",
+      "download_mode": "public_github_release",
+      "platform": "linux",
+      "python": "3.9.25",
+      "checks": [
+        {
+          "step": "fresh_venv",
+          "exit_code": 0,
+          "elapsed_seconds": 0.121
+        },
+        {
+          "step": "stdlib_only",
+          "exit_code": 0,
+          "elapsed_seconds": 0.045
+        },
+        {
+          "step": "readme_verify",
+          "exit_code": 0,
+          "elapsed_seconds": 0.29
+        },
+        {
+          "step": "readme_reproduce",
+          "exit_code": 0,
+          "elapsed_seconds": 5.136
+        },
+        {
+          "step": "release_unit_tests",
+          "exit_code": 0,
+          "elapsed_seconds": 0.363
+        },
+        {
+          "step": "install_skills",
+          "exit_code": 0,
+          "elapsed_seconds": 0.067
+        },
+        {
+          "step": "heritage-reconstruct_init",
+          "exit_code": 0,
+          "elapsed_seconds": 0.112
+        },
+        {
+          "step": "heritage-reconstruct_reproduce",
+          "exit_code": 0,
+          "elapsed_seconds": 0.129
+        },
+        {
+          "step": "heritage-reconstruct_audit",
+          "exit_code": 0,
+          "elapsed_seconds": 0.316
+        },
+        {
+          "step": "heritage-audit_init",
+          "exit_code": 0,
+          "elapsed_seconds": 0.112
+        },
+        {
+          "step": "heritage-audit_reproduce",
+          "exit_code": 0,
+          "elapsed_seconds": 0.126
+        },
+        {
+          "step": "heritage-audit_audit",
+          "exit_code": 0,
+          "elapsed_seconds": 0.316
+        }
+      ],
+      "historical_accuracy": "UNVERIFIED",
+      "fresh_ai_generation": "NOT_RUN",
+      "global_skill_installation": false,
+      "asset_sha256": {
+        "Heritage_Published_Inputs.json": "abedb8c15cccd8aa7950a3c8c518722dd139ef004d7aced0cc71bec7bf7fce19",
+        "Heritage_Reconstruction_Workflow_v0.1.0.zip": "9c4f06bf2f74edf763de06f49093d80d2ca58ef0e8913c6d46c215e97778571d",
+        "Heritage_Skills_v0.1.0.zip": "737efdbb3604bedf42a3161fb30dd5ffe024e602390bccc4702ed7f8d2c54458"
+      },
+      "release_commit": "836cbefad563ebd3f8b4d9b6cf3eab26ca337a43",
+      "source_members": 323,
+      "skills_members": 43,
+      "release_unit_tests": 17,
+      "model_objects": {
+        "core": 1883,
+        "context": 2530
+      },
+      "gallery_sha256": "12739dab4ac72a6434e957243ec5a766076e3e212d1a27a263db756f1ba48fb2",
+      "gallery_lf_sha256": "12739dab4ac72a6434e957243ec5a766076e3e212d1a27a263db756f1ba48fb2",
+      "comparison_scope": "Release inputs are byte exact; generated text comparison normalizes CRLF to LF",
+      "temporary_environment_removed": true,
+      "evidence_path": "ci/38719542220/linux/report.json"
+    },
+    {
+      "status": "PASS",
+      "tag": "v0.1.0",
+      "repository": "jeromezhang4-lang/heritage-reconstruction-workflow",
+      "download_mode": "public_github_release",
+      "platform": "win32",
+      "python": "3.12.10",
+      "checks": [
+        {
+          "step": "fresh_venv",
+          "exit_code": 0,
+          "elapsed_seconds": 0.109
+        },
+        {
+          "step": "stdlib_only",
+          "exit_code": 0,
+          "elapsed_seconds": 0.031
+        },
+        {
+          "step": "readme_verify",
+          "exit_code": 0,
+          "elapsed_seconds": 0.453
+        },
+        {
+          "step": "readme_reproduce",
+          "exit_code": 0,
+          "elapsed_seconds": 5.282
+        },
+        {
+          "step": "release_unit_tests",
+          "exit_code": 0,
+          "elapsed_seconds": 0.468
+        },
+        {
+          "step": "install_skills",
+          "exit_code": 0,
+          "elapsed_seconds": 0.063
+        },
+        {
+          "step": "heritage-reconstruct_init",
+          "exit_code": 0,
+          "elapsed_seconds": 0.078
+        },
+        {
+          "step": "heritage-reconstruct_reproduce",
+          "exit_code": 0,
+          "elapsed_seconds": 0.093
+        },
+        {
+          "step": "heritage-reconstruct_audit",
+          "exit_code": 0,
+          "elapsed_seconds": 0.438
+        },
+        {
+          "step": "heritage-audit_init",
+          "exit_code": 0,
+          "elapsed_seconds": 0.078
+        },
+        {
+          "step": "heritage-audit_reproduce",
+          "exit_code": 0,
+          "elapsed_seconds": 0.109
+        },
+        {
+          "step": "heritage-audit_audit",
+          "exit_code": 0,
+          "elapsed_seconds": 0.422
+        }
+      ],
+      "historical_accuracy": "UNVERIFIED",
+      "fresh_ai_generation": "NOT_RUN",
+      "global_skill_installation": false,
+      "asset_sha256": {
+        "Heritage_Published_Inputs.json": "abedb8c15cccd8aa7950a3c8c518722dd139ef004d7aced0cc71bec7bf7fce19",
+        "Heritage_Reconstruction_Workflow_v0.1.0.zip": "9c4f06bf2f74edf763de06f49093d80d2ca58ef0e8913c6d46c215e97778571d",
+        "Heritage_Skills_v0.1.0.zip": "737efdbb3604bedf42a3161fb30dd5ffe024e602390bccc4702ed7f8d2c54458"
+      },
+      "release_commit": "836cbefad563ebd3f8b4d9b6cf3eab26ca337a43",
+      "source_members": 323,
+      "skills_members": 43,
+      "release_unit_tests": 17,
+      "model_objects": {
+        "core": 1883,
+        "context": 2530
+      },
+      "gallery_sha256": "5f30f408a9fefafabf338f3b03da37a50f1a9a363474d113d73161d72fcf9925",
+      "gallery_lf_sha256": "12739dab4ac72a6434e957243ec5a766076e3e212d1a27a263db756f1ba48fb2",
+      "comparison_scope": "Release inputs are byte exact; generated text comparison normalizes CRLF to LF",
+      "temporary_environment_removed": true,
+      "evidence_path": "ci/38719542220/win32/report.json"
+    },
+    {
+      "status": "PASS",
+      "tag": "v0.1.0",
+      "repository": "jeromezhang4-lang/heritage-reconstruction-workflow",
+      "download_mode": "public_github_release",
+      "platform": "darwin",
+      "python": "3.12.10",
+      "checks": [
+        {
+          "step": "fresh_venv",
+          "exit_code": 0,
+          "elapsed_seconds": 0.097
+        },
+        {
+          "step": "stdlib_only",
+          "exit_code": 0,
+          "elapsed_seconds": 0.042
+        },
+        {
+          "step": "readme_verify",
+          "exit_code": 0,
+          "elapsed_seconds": 0.242
+        },
+        {
+          "step": "readme_reproduce",
+          "exit_code": 0,
+          "elapsed_seconds": 5.387
+        },
+        {
+          "step": "release_unit_tests",
+          "exit_code": 0,
+          "elapsed_seconds": 0.308
+        },
+        {
+          "step": "install_skills",
+          "exit_code": 0,
+          "elapsed_seconds": 0.072
+        },
+        {
+          "step": "heritage-reconstruct_init",
+          "exit_code": 0,
+          "elapsed_seconds": 0.082
+        },
+        {
+          "step": "heritage-reconstruct_reproduce",
+          "exit_code": 0,
+          "elapsed_seconds": 0.075
+        },
+        {
+          "step": "heritage-reconstruct_audit",
+          "exit_code": 0,
+          "elapsed_seconds": 0.388
+        },
+        {
+          "step": "heritage-audit_init",
+          "exit_code": 0,
+          "elapsed_seconds": 0.07
+        },
+        {
+          "step": "heritage-audit_reproduce",
+          "exit_code": 0,
+          "elapsed_seconds": 0.066
+        },
+        {
+          "step": "heritage-audit_audit",
+          "exit_code": 0,
+          "elapsed_seconds": 0.201
+        }
+      ],
+      "historical_accuracy": "UNVERIFIED",
+      "fresh_ai_generation": "NOT_RUN",
+      "global_skill_installation": false,
+      "asset_sha256": {
+        "Heritage_Published_Inputs.json": "abedb8c15cccd8aa7950a3c8c518722dd139ef004d7aced0cc71bec7bf7fce19",
+        "Heritage_Reconstruction_Workflow_v0.1.0.zip": "9c4f06bf2f74edf763de06f49093d80d2ca58ef0e8913c6d46c215e97778571d",
+        "Heritage_Skills_v0.1.0.zip": "737efdbb3604bedf42a3161fb30dd5ffe024e602390bccc4702ed7f8d2c54458"
+      },
+      "release_commit": "836cbefad563ebd3f8b4d9b6cf3eab26ca337a43",
+      "source_members": 323,
+      "skills_members": 43,
+      "release_unit_tests": 17,
+      "model_objects": {
+        "core": 1883,
+        "context": 2530
+      },
+      "gallery_sha256": "12739dab4ac72a6434e957243ec5a766076e3e212d1a27a263db756f1ba48fb2",
+      "gallery_lf_sha256": "12739dab4ac72a6434e957243ec5a766076e3e212d1a27a263db756f1ba48fb2",
+      "comparison_scope": "Release inputs are byte exact; generated text comparison normalizes CRLF to LF",
+      "temporary_environment_removed": true,
+      "evidence_path": "ci/38719542220/darwin/report.json"
+    }
+  ],
+  "actual_public_release_downloads": true,
+  "workflow_job_permissions": "contents: read",
+  "historical_accuracy": "UNVERIFIED",
+  "fresh_ai_generation": "NOT_RUN",
+  "permanent_evidence": [
+    {
+      "file": "validation/ci/38719542220/linux/report.json",
+      "sha256": "c719b11e44933173d054a9c9c2fe137eda185e16c715a8f263e659721a823ace",
+      "bytes": 2445
+    },
+    {
+      "file": "validation/ci/38719542220/linux/release_unit_tests.log",
+      "sha256": "c5f770eac43960c92bb16e55d2c4225fb915c8c0b0fc0a3a85337e360010ae0d",
+      "bytes": 1436
+    },
+    {
+      "file": "validation/ci/38719542220/win32/report.json",
+      "sha256": "7736db92a508fb2cb318af0fe03f8f9f2dfd56ce93dc3dfdceaf9faf68d17cab",
+      "bytes": 2537
+    },
+    {
+      "file": "validation/ci/38719542220/win32/release_unit_tests.log",
+      "sha256": "1ac184184c60d8b1d357cece28b2b84374623355e251ca8339de9fc0eecc8e37",
+      "bytes": 2166
+    },
+    {
+      "file": "validation/ci/38719542220/darwin/report.json",
+      "sha256": "44f9a5087b723d2992a75527d4d734697fbbc69dc2f88d2e2fc781819c509406",
+      "bytes": 2447
+    },
+    {
+      "file": "validation/ci/38719542220/darwin/release_unit_tests.log",
+      "sha256": "fa328dc69a48bb072c3e5f091dbf8037bd2148646cd87579bf446883cadc9451",
+      "bytes": 2143
+    }
+  ],
+  "documentation_only_followup": "The follow-up commit records this completed run; executable code and active workflow remain byte-identical to workflow_commit."
+}

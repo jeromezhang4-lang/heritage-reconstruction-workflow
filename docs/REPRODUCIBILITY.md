@@ -60,3 +60,15 @@ python3 scripts/ci_release_smoke.py --tag v0.1.0 --out work/release-reader
 选择新输出目录。默认直接从公开 Release 下载，不需要凭据；`--downloads /path/to/existing-assets` 仅供本地复核已有附件，报告会明确区分缓存输入与实际网络下载。`work/release-reader/report.json` 与逐步日志保留结果，解压目录与测试虚拟环境在退出时删除。
 
 v0.1.0 初次发布时因 OAuth `workflow` 权限不足，CI 曾作为模板保存；原记录保留其历史含义。本轮增加实际工作流和下载验证器，v0.1.0 标签及附件保持原样。原始发布下载验证见 Release 的 `Heritage_GitHub_Verification.json`；发布版本关系见 `validation/GITHUB_PUBLICATION_INPUTS.json`。
+
+
+## 已完成的跨平台验证
+
+[实际 CI 运行](https://github.com/jeromezhang4-lang/heritage-reconstruction-workflow/actions/runs/38719542220) 在提交 `94f18daa113477e5bce0be33af1a7a86bc1650ee` 上全部通过。三个任务均从公开 Release 实际下载，检查附件及成员哈希，在全新虚拟环境执行复现和两个技能；不是只运行作者电脑上的源码。
+| 平台 | 实际 Python | Release 测试 | 下载与技能复现 |
+|---|---|---|---|
+| macOS | 3.12.10 | 17 项通过，无跳过 | 12 步全部通过 |
+| Linux | 3.9.25 | 17 项通过，无跳过 | 12 步全部通过 |
+| Windows | 3.12.10 | 17 项通过，无跳过 | 12 步全部通过 |
+
+永久报告在 `validation/CI_VERIFICATION.json` 和 `validation/ci/38719542220/`。Windows 生成文本采用 CRLF，HTML 比较只统一换行；输入附件仍逐字节校验。工作流运行代码与后续记录结果的文档提交相同。历史准确性、重新 AI 生图和客户端自动发现不属于此项技术验收。
